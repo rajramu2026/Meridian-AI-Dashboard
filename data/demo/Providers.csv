@@ -1,0 +1,71 @@
+provider_id,provider_name,department,credential,primary_facility_id,max_daily_patients,years_at_meridian,credential_expiration
+PRV-500,Dr. Carlos Murphy,Orthopedics,PhD (Psych),FAC-105,18,8.1,2027-12-02
+PRV-501,Dr. Yusuf Rossi,Dermatology,NP,FAC-103,16,10.4,2028-01-15
+PRV-502,Dr. Carlos Nguyen,Behavioral Health,PhD (Psych),FAC-106,17,20.0,2026-12-31
+PRV-503,Dr. Fatima Osei,Women's Health,PA,FAC-118,23,9.6,2027-06-22
+PRV-504,Dr. Priya Adeyemi,Women's Health,DO,FAC-102,21,11.7,2027-06-14
+PRV-505,Dr. Chloe Osei,Physical Therapy,PA,FAC-109,10,2.5,2028-01-08
+PRV-506,Dr. Aisha Reyes,Physical Therapy,PA,FAC-105,19,15.5,2028-06-29
+PRV-507,Dr. Chloe Haddad,Radiology,MD,FAC-102,22,1.6,2027-03-31
+PRV-508,Dr. Arjun Osei,Behavioral Health,NP,FAC-111,20,5.6,2028-07-06
+PRV-509,Dr. Ingrid Ibrahim,Physical Therapy,MD,FAC-102,27,18.7,2027-07-24
+PRV-510,Dr. Maya O'Brien,General Medicine,MD,FAC-109,25,3.3,2027-03-31
+PRV-511,Dr. Kwame Ibrahim,Physical Therapy,NP,FAC-112,18,16.4,2027-08-03
+PRV-512,"Liam Kowalski, NP",Radiology,DO,FAC-119,12,7.9,2027-04-11
+PRV-513,Dr. Omar Murphy,Dermatology,DO,FAC-107,15,4.1,2027-06-14
+PRV-514,Dr. Freya Novak,Oncology,MD,FAC-105,18,17.2,2028-03-09
+PRV-515,Dr. Jack Kim,Women's Health,PA,FAC-117,19,10.4,2028-02-25
+PRV-516,Dr. Grace Silva,General Medicine,DO,FAC-104,25,15.0,2028-03-12
+PRV-517,Dr. Priya Fitzgerald,Dermatology,MD,FAC-115,26,1.4,2028-05-04
+PRV-518,Dr. Sofia Patel,Physical Therapy,DO,FAC-113,14,10.7,2028-03-09
+PRV-519,Dr. Carlos Osei,Behavioral Health,DO,FAC-116,22,3.7,2027-12-03
+PRV-520,Dr. Zoe Nguyen,Physical Therapy,PA,FAC-117,11,8.2,2028-03-21
+PRV-521,Dr. Noah Garcia,Oncology,PA,FAC-112,17,13.4,2028-01-21
+PRV-522,Dr. Omar Ibrahim,Cardiology,DO,FAC-103,24,16.9,2026-08-31
+PRV-523,Dr. Aisha Patel,Radiology,PhD (Psych),FAC-104,17,10.5,2026-10-04
+PRV-524,"Grace Bianchi, NP",Behavioral Health,MD,FAC-102,19,13.6,2028-04-01
+PRV-525,Dr. Marcus Chen,Pediatrics,NP,FAC-119,26,3.3,2027-02-04
+PRV-526,Dr. Aisha Novak,Radiology,PA,FAC-115,21,3.3,2027-01-30
+PRV-527,Dr. Marcus Garcia,Women's Health,NP,FAC-108,20,4.1,2028-02-28
+PRV-528,Dr. Lena Reyes,Women's Health,MD,FAC-106,25,1.2,2027-09-05
+PRV-529,Dr. Ethan Larsen,Behavioral Health,MD,FAC-116,24,21.5,2027-03-07
+PRV-530,Dr. Freya O'Brien,General Medicine,NP,FAC-116,13,19.3,2028-05-27
+PRV-531,Dr. Grace Fitzgerald,Radiology,PhD (Psych),FAC-117,13,10.0,2028-01-15
+PRV-532,Dr. Priya Bianchi,Behavioral Health,DO,FAC-107,25,4.1,2027-12-07
+PRV-533,Dr. Priya Rossi,Oncology,PhD (Psych),FAC-115,24,12.3,2026-12-20
+PRV-534,Dr. Ravi Chen,Radiology,PA,FAC-108,10,6.6,2028-03-17
+PRV-535,Dr. Grace Ibrahim,Pediatrics,NP,FAC-111,10,0.7,2027-05-07
+PRV-536,Dr. Priya Novak,Dermatology,DO,FAC-110,11,3.7,2026-09-11
+PRV-537,Dr. Arjun Bianchi,Pediatrics,MD,FAC-115,19,15.5,2027-06-23
+PRV-538,Dr. Daniel Garcia,Radiology,PA,FAC-106,12,7.6,2027-10-16
+PRV-539,Dr. Fatima Osei,Women's Health,MD,FAC-112,26,21.8,2027-02-12
+PRV-540,Dr. Daniel Adeyemi,Women's Health,DO,FAC-104,10,18.4,2028-06-09
+PRV-541,Dr. Arjun Ibrahim,Cardiology,DO,FAC-119,18,17.1,2028-04-27
+PRV-542,Dr. Maya Kowalski,Physical Therapy,DO,FAC-117,20,19.3,2026-09-11
+PRV-543,"Ravi Garcia, NP",Behavioral Health,PhD (Psych),FAC-104,14,6.5,2026-11-19
+PRV-544,Dr. Omar Rossi,Oncology,MD,FAC-108,26,1.2,2027-12-13
+PRV-545,Dr. Priya Okafor,Pediatrics,NP,FAC-108,11,8.3,2027-06-16
+PRV-546,Dr. Marcus Nguyen,Behavioral Health,NP,FAC-114,13,11.7,2027-09-07
+PRV-547,Dr. Amit Haddad,Physical Therapy,PhD (Psych),FAC-104,15,16.3,2026-12-16
+PRV-548,Dr. Amit Patel,Behavioral Health,PA,FAC-105,13,8.1,2027-05-19
+PRV-549,"Ingrid Kim, NP",Physical Therapy,DO,FAC-104,13,20.3,2028-03-31
+PRV-550,Dr. Aisha Larsen,Women's Health,MD,FAC-110,11,8.4,2027-02-06
+PRV-551,Dr. Chloe Garcia,Behavioral Health,PhD (Psych),FAC-101,18,6.4,2027-08-14
+PRV-552,Dr. Emily Garcia,Pediatrics,PhD (Psych),FAC-114,26,8.7,2027-11-27
+PRV-553,"Arjun O'Brien, NP",Behavioral Health,PA,FAC-110,20,16.7,2026-10-08
+PRV-554,Dr. Hannah Reyes,Physical Therapy,DO,FAC-108,23,20.8,2027-10-25
+PRV-555,Dr. Ingrid Novak,Women's Health,PhD (Psych),FAC-107,15,15.0,2028-01-09
+PRV-556,Dr. Isla Chen,Behavioral Health,PhD (Psych),FAC-106,21,3.7,2028-07-12
+PRV-557,"Aisha Silva, NP",Women's Health,PA,FAC-110,27,9.6,2027-10-18
+PRV-558,Dr. Fatima O'Brien,Dermatology,DO,FAC-109,10,21.8,2028-03-25
+PRV-559,Dr. Marcus Kowalski,Dermatology,DO,FAC-108,21,16.9,2027-01-05
+PRV-560,Dr. Priya Garcia,Orthopedics,PA,FAC-115,15,5.8,2027-10-20
+PRV-561,Dr. Kwame Fitzgerald,Orthopedics,DO,FAC-113,11,19.8,2027-07-17
+PRV-562,Dr. Fatima Rossi,Behavioral Health,NP,FAC-110,18,2.8,2027-12-21
+PRV-563,Dr. Ravi Osei,Dermatology,PhD (Psych),FAC-114,24,14.0,2027-02-12
+PRV-564,Dr. Noah Osei,Women's Health,PhD (Psych),FAC-119,24,3.6,2028-03-31
+PRV-565,Dr. Daniel Garcia,General Medicine,DO,FAC-103,20,6.7,2027-08-22
+PRV-566,Dr. Emily Adeyemi,Dermatology,NP,FAC-104,21,6.1,2028-04-14
+PRV-567,Dr. Maya Chen,Oncology,PA,FAC-104,17,19.7,2028-04-06
+PRV-568,Dr. Carlos Novak,Behavioral Health,NP,FAC-102,11,14.4,2027-04-01
+PRV-569,"Ethan Adeyemi, NP",General Medicine,PA,FAC-102,23,12.2,2027-07-14

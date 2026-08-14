@@ -1,0 +1,801 @@
+patient_id,age,gender,county,distance_to_nearest_facility_km,insurance_type,preferred_communication_channel,has_transportation_barrier_flag,prior_no_shows_last_12mo,avg_appointment_lead_time_days_hist,portal_enrolled
+PT-10000,51,Male,Dublin,14.1,Medical Card (Public/HSE),Phone Call,0,0,53.7,1
+PT-10001,82,Female,Meath,25.3,Medical Card (Public/HSE),Patient Portal,0,1,2.1,1
+PT-10002,5,Other/Unspecified,Wicklow,30.9,Private Health Insurance,Email,0,1,20.2,1
+PT-10003,80,Female,Kildare,14.1,Private Health Insurance,SMS,0,0,22.3,1
+PT-10004,6,Male,Offaly,10.7,Private Health Insurance,Email,0,1,53.3,0
+PT-10005,15,Other/Unspecified,Offaly,12.9,GP Visit Card (Public),Phone Call,0,0,58.1,1
+PT-10006,71,Male,Dublin,6.1,Medical Card (Public/HSE),SMS,0,0,54.0,0
+PT-10007,4,Female,Wicklow,39.1,Medical Card (Public/HSE),Patient Portal,1,0,57.7,0
+PT-10008,9,Other/Unspecified,Meath,4.9,GP Visit Card (Public),Email,0,1,21.5,1
+PT-10009,5,Other/Unspecified,Offaly,2.5,GP Visit Card (Public),Patient Portal,0,0,9.0,1
+PT-10010,47,Female,Dublin,5.4,Medical Card (Public/HSE),Phone Call,1,0,56.9,1
+PT-10011,1,Female,Dublin,42.0,Self-Pay / Out-of-Pocket,Phone Call,0,2,12.9,1
+PT-10012,50,Female,Wicklow,37.5,GP Visit Card (Public),Email,0,0,2.9,0
+PT-10013,76,Female,Meath,36.6,Private Health Insurance,Phone Call,0,1,49.4,1
+PT-10014,28,Female,Meath,20.7,GP Visit Card (Public),Phone Call,0,1,52.3,1
+PT-10015,61,Male,Wicklow,16.0,Medical Card (Public/HSE),Patient Portal,0,1,30.3,1
+PT-10016,44,Female,Louth,4.8,Medical Card (Public/HSE),SMS,0,0,46.5,1
+PT-10017,82,Female,Wicklow,22.3,Medical Card (Public/HSE),Patient Portal,0,1,12.7,1
+PT-10018,76,Male,Offaly,0.9,GP Visit Card (Public),SMS,0,1,2.3,0
+PT-10019,32,Male,Offaly,40.0,Self-Pay / Out-of-Pocket,Email,0,0,40.4,1
+PT-10020,11,Female,Offaly,35.3,Self-Pay / Out-of-Pocket,Email,0,1,29.2,1
+PT-10021,50,Female,Dublin,12.3,Medical Card (Public/HSE),Email,0,0,54.8,1
+PT-10022,47,Male,Wicklow,33.4,Medical Card (Public/HSE),SMS,0,0,44.4,0
+PT-10023,76,Male,Dublin,10.4,Self-Pay / Out-of-Pocket,SMS,0,0,44.1,1
+PT-10024,15,Other/Unspecified,Offaly,31.0,Self-Pay / Out-of-Pocket,Phone Call,0,0,48.5,1
+PT-10025,22,Female,Offaly,6.6,GP Visit Card (Public),Email,1,2,48.5,0
+PT-10026,33,Male,Dublin,19.6,Self-Pay / Out-of-Pocket,Phone Call,0,0,32.4,1
+PT-10027,43,Female,Louth,11.9,GP Visit Card (Public),Phone Call,0,0,16.5,1
+PT-10028,59,Other/Unspecified,Louth,27.2,GP Visit Card (Public),SMS,1,1,27.0,1
+PT-10029,89,Male,Meath,14.7,Medical Card (Public/HSE),Email,1,0,16.9,1
+PT-10030,91,Other/Unspecified,Louth,26.5,Private Health Insurance,Patient Portal,1,1,42.7,0
+PT-10031,65,Female,Louth,11.9,GP Visit Card (Public),Phone Call,0,1,30.1,0
+PT-10032,22,Female,Meath,18.6,Self-Pay / Out-of-Pocket,SMS,1,0,55.6,1
+PT-10033,33,Male,Kildare,16.1,GP Visit Card (Public),SMS,0,1,53.7,1
+PT-10034,81,Other/Unspecified,Louth,36.1,Private Health Insurance,Phone Call,0,0,58.9,1
+PT-10035,52,Female,Offaly,33.8,Private Health Insurance,Email,1,0,13.5,0
+PT-10036,18,Male,Dublin,20.7,GP Visit Card (Public),SMS,1,1,57.0,0
+PT-10037,59,Male,Meath,38.7,GP Visit Card (Public),Patient Portal,0,1,33.5,0
+PT-10038,84,Male,Dublin,11.8,Private Health Insurance,SMS,0,3,54.9,1
+PT-10039,87,Male,Dublin,25.6,GP Visit Card (Public),SMS,0,0,19.2,1
+PT-10040,83,Male,Dublin,34.6,Self-Pay / Out-of-Pocket,Patient Portal,0,0,21.2,1
+PT-10041,34,Male,Meath,9.5,Medical Card (Public/HSE),Phone Call,0,0,8.3,1
+PT-10042,53,Other/Unspecified,Meath,39.3,GP Visit Card (Public),Email,0,0,33.8,0
+PT-10043,19,Other/Unspecified,Meath,17.6,GP Visit Card (Public),Phone Call,1,0,50.9,1
+PT-10044,23,Other/Unspecified,Wicklow,14.8,GP Visit Card (Public),SMS,0,0,38.8,0
+PT-10045,64,Male,Louth,22.1,GP Visit Card (Public),Phone Call,1,2,12.2,1
+PT-10046,45,Other/Unspecified,Kildare,41.4,GP Visit Card (Public),Patient Portal,1,0,31.6,1
+PT-10047,46,Male,Meath,15.7,Private Health Insurance,Phone Call,1,1,47.1,1
+PT-10048,7,Male,Wicklow,10.2,Self-Pay / Out-of-Pocket,SMS,0,0,5.3,1
+PT-10049,8,Female,Kildare,7.3,Self-Pay / Out-of-Pocket,Email,1,1,47.9,1
+PT-10050,10,Male,Wicklow,40.3,GP Visit Card (Public),Email,0,0,1.3,1
+PT-10051,24,Female,Meath,40.4,Medical Card (Public/HSE),Phone Call,0,0,53.6,1
+PT-10052,43,Male,Louth,11.8,GP Visit Card (Public),SMS,1,0,34.2,0
+PT-10053,75,Male,Offaly,5.2,GP Visit Card (Public),Patient Portal,0,1,35.0,1
+PT-10054,46,Female,Wicklow,26.7,Private Health Insurance,Phone Call,0,1,36.2,1
+PT-10055,44,Female,Meath,38.0,GP Visit Card (Public),Patient Portal,1,1,20.3,0
+PT-10056,35,Male,Meath,20.8,Medical Card (Public/HSE),Email,0,1,1.0,0
+PT-10057,29,Other/Unspecified,Wicklow,15.3,Self-Pay / Out-of-Pocket,SMS,0,0,28.6,0
+PT-10058,85,Other/Unspecified,Wicklow,36.3,Self-Pay / Out-of-Pocket,Email,0,1,57.4,1
+PT-10059,56,Female,Kildare,13.9,Medical Card (Public/HSE),Patient Portal,0,0,22.5,1
+PT-10060,57,Female,Kildare,28.3,GP Visit Card (Public),SMS,0,2,0.6,1
+PT-10061,54,Other/Unspecified,Meath,9.9,Self-Pay / Out-of-Pocket,SMS,0,0,55.6,1
+PT-10062,21,Male,Louth,1.8,GP Visit Card (Public),Patient Portal,0,0,14.5,1
+PT-10063,79,Other/Unspecified,Dublin,29.7,Medical Card (Public/HSE),Phone Call,1,1,22.1,1
+PT-10064,17,Male,Offaly,38.2,GP Visit Card (Public),Patient Portal,0,1,39.2,1
+PT-10065,71,Female,Wicklow,1.1,Private Health Insurance,SMS,0,0,54.4,1
+PT-10066,27,Male,Offaly,16.6,Self-Pay / Out-of-Pocket,SMS,0,0,8.1,1
+PT-10067,12,Other/Unspecified,Wicklow,11.8,Private Health Insurance,Email,1,0,54.7,1
+PT-10068,40,Other/Unspecified,Meath,21.8,Self-Pay / Out-of-Pocket,Phone Call,1,0,0.4,1
+PT-10069,10,Female,Meath,27.8,Medical Card (Public/HSE),Email,1,0,15.0,1
+PT-10070,46,Male,Kildare,9.1,GP Visit Card (Public),Patient Portal,0,0,23.6,1
+PT-10071,72,Male,Dublin,12.1,Self-Pay / Out-of-Pocket,Email,0,0,17.5,0
+PT-10072,15,Male,Offaly,29.8,Medical Card (Public/HSE),Email,1,0,57.3,1
+PT-10073,72,Female,Dublin,36.2,GP Visit Card (Public),Patient Portal,0,1,44.0,1
+PT-10074,57,Female,Wicklow,10.7,Self-Pay / Out-of-Pocket,Phone Call,0,0,18.3,1
+PT-10075,48,Female,Meath,8.6,GP Visit Card (Public),Email,1,2,52.3,1
+PT-10076,5,Male,Offaly,3.3,Self-Pay / Out-of-Pocket,Phone Call,0,2,18.8,0
+PT-10077,44,Female,Dublin,21.9,Medical Card (Public/HSE),SMS,0,1,26.1,1
+PT-10078,2,Male,Wicklow,21.5,Medical Card (Public/HSE),Email,1,0,50.3,1
+PT-10079,71,Male,Wicklow,28.9,Medical Card (Public/HSE),SMS,1,0,21.3,1
+PT-10080,73,Male,Louth,38.3,Self-Pay / Out-of-Pocket,Email,0,0,5.0,1
+PT-10081,63,Other/Unspecified,Wicklow,25.3,Medical Card (Public/HSE),Patient Portal,0,1,0.0,0
+PT-10082,62,Female,Wicklow,11.1,Medical Card (Public/HSE),Patient Portal,0,1,57.1,1
+PT-10083,30,Male,Kildare,28.6,Medical Card (Public/HSE),Phone Call,0,0,49.9,1
+PT-10084,67,Male,Louth,36.8,Medical Card (Public/HSE),Phone Call,0,1,9.3,1
+PT-10085,24,Male,Dublin,16.7,Medical Card (Public/HSE),SMS,0,0,24.8,1
+PT-10086,6,Male,Offaly,39.2,Self-Pay / Out-of-Pocket,Patient Portal,0,1,3.3,0
+PT-10087,32,Male,Kildare,34.8,Self-Pay / Out-of-Pocket,Email,0,0,48.4,1
+PT-10088,41,Other/Unspecified,Kildare,36.0,GP Visit Card (Public),Phone Call,0,0,37.2,0
+PT-10089,73,Male,Louth,3.7,Medical Card (Public/HSE),Email,1,2,0.0,1
+PT-10090,81,Female,Wicklow,29.4,Medical Card (Public/HSE),SMS,1,1,24.6,1
+PT-10091,6,Female,Wicklow,24.2,Medical Card (Public/HSE),SMS,0,0,9.7,1
+PT-10092,75,Female,Dublin,37.0,Self-Pay / Out-of-Pocket,Patient Portal,1,0,11.2,1
+PT-10093,38,Female,Kildare,16.4,Self-Pay / Out-of-Pocket,Patient Portal,0,0,7.0,1
+PT-10094,69,Male,Meath,13.2,Private Health Insurance,Phone Call,0,0,25.1,1
+PT-10095,14,Other/Unspecified,Meath,26.7,GP Visit Card (Public),Patient Portal,0,0,20.6,1
+PT-10096,23,Female,Kildare,33.0,GP Visit Card (Public),Phone Call,0,2,24.0,1
+PT-10097,58,Female,Wicklow,16.9,Private Health Insurance,Email,0,0,33.6,1
+PT-10098,84,Other/Unspecified,Wicklow,12.3,Medical Card (Public/HSE),SMS,0,2,47.1,0
+PT-10099,79,Female,Wicklow,6.9,Private Health Insurance,SMS,0,0,20.3,1
+PT-10100,75,Female,Dublin,16.6,GP Visit Card (Public),Email,0,0,33.1,1
+PT-10101,5,Other/Unspecified,Kildare,13.0,Self-Pay / Out-of-Pocket,Phone Call,0,0,8.6,1
+PT-10102,91,Other/Unspecified,Louth,22.8,Private Health Insurance,Email,0,0,37.8,1
+PT-10103,30,Male,Kildare,39.4,Medical Card (Public/HSE),Email,0,1,18.0,1
+PT-10104,49,Other/Unspecified,Offaly,27.8,GP Visit Card (Public),SMS,0,1,14.4,0
+PT-10105,51,Other/Unspecified,Meath,25.0,GP Visit Card (Public),Phone Call,0,0,12.6,1
+PT-10106,91,Female,Wicklow,13.9,Self-Pay / Out-of-Pocket,SMS,1,0,9.3,1
+PT-10107,42,Male,Offaly,22.0,GP Visit Card (Public),SMS,0,0,47.1,0
+PT-10108,74,Other/Unspecified,Meath,37.3,Self-Pay / Out-of-Pocket,Phone Call,0,2,35.8,0
+PT-10109,24,Female,Meath,7.7,Private Health Insurance,Patient Portal,1,1,19.6,1
+PT-10110,54,Male,Offaly,2.3,GP Visit Card (Public),Patient Portal,1,1,45.9,1
+PT-10111,15,Female,Wicklow,2.4,GP Visit Card (Public),Patient Portal,0,1,23.5,1
+PT-10112,53,Male,Louth,30.3,Private Health Insurance,Patient Portal,0,2,34.6,1
+PT-10113,80,Female,Dublin,13.7,GP Visit Card (Public),Patient Portal,0,0,52.4,1
+PT-10114,67,Other/Unspecified,Louth,37.2,GP Visit Card (Public),Email,0,0,13.2,1
+PT-10115,47,Female,Louth,18.5,GP Visit Card (Public),SMS,0,1,28.3,0
+PT-10116,57,Male,Kildare,28.4,Private Health Insurance,Email,0,0,25.9,0
+PT-10117,78,Male,Dublin,24.2,Self-Pay / Out-of-Pocket,SMS,0,1,38.2,1
+PT-10118,64,Other/Unspecified,Wicklow,8.7,GP Visit Card (Public),Patient Portal,0,0,52.9,1
+PT-10119,5,Female,Wicklow,26.2,GP Visit Card (Public),Patient Portal,0,1,5.0,1
+PT-10120,22,Female,Kildare,3.2,GP Visit Card (Public),SMS,0,3,56.0,1
+PT-10121,75,Female,Wicklow,32.2,Self-Pay / Out-of-Pocket,Phone Call,1,2,16.3,1
+PT-10122,5,Other/Unspecified,Kildare,31.1,Self-Pay / Out-of-Pocket,Patient Portal,0,0,41.5,0
+PT-10123,32,Other/Unspecified,Wicklow,1.9,GP Visit Card (Public),SMS,0,0,38.5,0
+PT-10124,77,Male,Kildare,8.7,Self-Pay / Out-of-Pocket,Patient Portal,0,3,59.6,0
+PT-10125,36,Male,Dublin,36.7,Medical Card (Public/HSE),Email,0,0,40.3,0
+PT-10126,27,Male,Dublin,11.3,Self-Pay / Out-of-Pocket,SMS,0,1,25.5,1
+PT-10127,21,Female,Offaly,20.4,Private Health Insurance,SMS,0,1,0.2,0
+PT-10128,86,Other/Unspecified,Kildare,34.8,Medical Card (Public/HSE),SMS,0,0,59.0,1
+PT-10129,47,Female,Wicklow,32.0,Private Health Insurance,Email,0,1,29.7,1
+PT-10130,3,Male,Louth,7.2,Private Health Insurance,Email,0,0,13.8,1
+PT-10131,49,Male,Kildare,13.5,Private Health Insurance,Patient Portal,0,1,14.3,1
+PT-10132,17,Other/Unspecified,Louth,18.5,GP Visit Card (Public),Phone Call,0,1,17.9,1
+PT-10133,36,Female,Kildare,24.1,Self-Pay / Out-of-Pocket,Email,0,1,38.6,1
+PT-10134,44,Male,Kildare,5.4,Private Health Insurance,SMS,0,2,8.5,1
+PT-10135,20,Male,Louth,13.4,Medical Card (Public/HSE),Phone Call,1,1,31.1,1
+PT-10136,45,Male,Wicklow,34.1,Private Health Insurance,Email,0,1,37.6,1
+PT-10137,31,Female,Wicklow,32.8,GP Visit Card (Public),Email,0,1,6.3,1
+PT-10138,24,Other/Unspecified,Meath,28.4,Private Health Insurance,Phone Call,0,0,15.4,1
+PT-10139,22,Female,Kildare,23.1,Private Health Insurance,Patient Portal,1,0,6.0,1
+PT-10140,33,Female,Kildare,25.3,Self-Pay / Out-of-Pocket,Email,0,2,8.3,1
+PT-10141,62,Female,Dublin,34.3,Private Health Insurance,Phone Call,0,0,44.3,1
+PT-10142,75,Other/Unspecified,Kildare,23.2,Self-Pay / Out-of-Pocket,Phone Call,0,0,47.6,1
+PT-10143,54,Male,Louth,23.4,Self-Pay / Out-of-Pocket,Email,0,0,11.2,1
+PT-10144,37,Female,Offaly,32.8,GP Visit Card (Public),Patient Portal,0,1,48.1,1
+PT-10145,86,Other/Unspecified,Kildare,19.1,Private Health Insurance,Patient Portal,0,0,27.5,1
+PT-10146,28,Female,Offaly,11.7,Private Health Insurance,Patient Portal,1,0,18.5,1
+PT-10147,15,Female,Dublin,20.2,Medical Card (Public/HSE),SMS,0,1,39.7,0
+PT-10148,22,Female,Kildare,32.4,GP Visit Card (Public),SMS,0,0,24.1,1
+PT-10149,64,Other/Unspecified,Louth,31.3,GP Visit Card (Public),Email,1,0,12.1,1
+PT-10150,53,Other/Unspecified,Louth,38.7,Self-Pay / Out-of-Pocket,Email,0,0,14.3,1
+PT-10151,25,Male,Offaly,31.3,Medical Card (Public/HSE),Patient Portal,0,0,15.2,0
+PT-10152,60,Male,Offaly,22.6,Self-Pay / Out-of-Pocket,SMS,1,0,28.0,1
+PT-10153,88,Female,Dublin,33.7,Private Health Insurance,Email,0,0,12.1,1
+PT-10154,38,Male,Offaly,37.6,Private Health Insurance,SMS,0,1,30.7,0
+PT-10155,9,Other/Unspecified,Louth,12.7,Private Health Insurance,Phone Call,0,3,11.3,1
+PT-10156,74,Other/Unspecified,Dublin,9.5,GP Visit Card (Public),Phone Call,0,0,44.5,1
+PT-10157,21,Female,Offaly,3.2,Private Health Insurance,Email,1,2,49.4,1
+PT-10158,70,Other/Unspecified,Kildare,12.2,Self-Pay / Out-of-Pocket,Patient Portal,1,1,3.1,1
+PT-10159,71,Female,Wicklow,23.6,GP Visit Card (Public),Phone Call,0,2,20.7,0
+PT-10160,32,Other/Unspecified,Louth,40.7,Medical Card (Public/HSE),Email,0,1,0.3,1
+PT-10161,62,Female,Dublin,1.0,Medical Card (Public/HSE),Email,0,0,44.6,1
+PT-10162,2,Other/Unspecified,Dublin,4.0,Medical Card (Public/HSE),SMS,0,1,53.2,1
+PT-10163,75,Other/Unspecified,Dublin,12.3,Medical Card (Public/HSE),SMS,0,0,31.6,1
+PT-10164,46,Other/Unspecified,Offaly,40.1,Medical Card (Public/HSE),Patient Portal,0,0,24.0,1
+PT-10165,81,Female,Kildare,21.8,Medical Card (Public/HSE),SMS,0,1,16.0,1
+PT-10166,11,Other/Unspecified,Offaly,10.9,Private Health Insurance,Patient Portal,0,2,7.5,1
+PT-10167,4,Female,Offaly,25.2,GP Visit Card (Public),Phone Call,0,2,30.9,1
+PT-10168,55,Male,Meath,41.2,Medical Card (Public/HSE),Phone Call,0,0,34.5,1
+PT-10169,78,Female,Offaly,7.1,Private Health Insurance,Phone Call,1,0,8.7,1
+PT-10170,71,Other/Unspecified,Offaly,5.8,Medical Card (Public/HSE),Patient Portal,0,0,7.7,0
+PT-10171,69,Other/Unspecified,Dublin,18.5,Private Health Insurance,Patient Portal,0,1,5.5,1
+PT-10172,41,Other/Unspecified,Dublin,15.8,Private Health Insurance,Email,1,0,55.0,1
+PT-10173,14,Other/Unspecified,Kildare,41.3,Private Health Insurance,SMS,0,0,32.8,1
+PT-10174,84,Male,Dublin,13.1,Self-Pay / Out-of-Pocket,Email,1,0,18.1,1
+PT-10175,3,Other/Unspecified,Meath,26.8,GP Visit Card (Public),Phone Call,0,1,22.0,1
+PT-10176,27,Male,Kildare,29.3,Medical Card (Public/HSE),SMS,1,0,22.3,1
+PT-10177,21,Other/Unspecified,Meath,35.3,Private Health Insurance,SMS,1,0,45.6,0
+PT-10178,86,Other/Unspecified,Dublin,32.6,Self-Pay / Out-of-Pocket,SMS,0,1,12.5,1
+PT-10179,53,Male,Meath,27.9,Self-Pay / Out-of-Pocket,Email,1,0,30.1,1
+PT-10180,38,Male,Kildare,31.8,Medical Card (Public/HSE),Phone Call,0,1,33.5,1
+PT-10181,29,Male,Offaly,37.5,Private Health Insurance,Email,1,1,26.3,0
+PT-10182,59,Other/Unspecified,Meath,36.0,GP Visit Card (Public),Email,0,0,25.3,0
+PT-10183,34,Other/Unspecified,Offaly,14.4,GP Visit Card (Public),Email,0,1,12.6,1
+PT-10184,32,Other/Unspecified,Louth,40.9,GP Visit Card (Public),Email,0,1,58.9,1
+PT-10185,45,Other/Unspecified,Louth,24.9,Private Health Insurance,Email,0,0,1.0,1
+PT-10186,8,Female,Meath,10.9,Medical Card (Public/HSE),Email,0,0,0.4,1
+PT-10187,12,Male,Kildare,15.9,GP Visit Card (Public),Phone Call,0,0,11.0,0
+PT-10188,11,Male,Kildare,27.5,Medical Card (Public/HSE),SMS,0,1,7.7,1
+PT-10189,1,Male,Wicklow,27.5,Medical Card (Public/HSE),SMS,1,0,47.3,0
+PT-10190,32,Other/Unspecified,Kildare,10.6,Private Health Insurance,Patient Portal,0,2,45.2,1
+PT-10191,27,Male,Louth,5.7,Self-Pay / Out-of-Pocket,SMS,0,1,3.9,0
+PT-10192,5,Other/Unspecified,Louth,16.3,Self-Pay / Out-of-Pocket,Email,0,1,17.3,1
+PT-10193,44,Other/Unspecified,Dublin,41.0,Self-Pay / Out-of-Pocket,Patient Portal,0,1,20.1,1
+PT-10194,23,Other/Unspecified,Offaly,17.9,Medical Card (Public/HSE),Patient Portal,0,0,50.6,0
+PT-10195,83,Other/Unspecified,Offaly,23.4,GP Visit Card (Public),Phone Call,1,2,4.3,0
+PT-10196,66,Male,Dublin,40.8,Self-Pay / Out-of-Pocket,Email,0,1,13.4,1
+PT-10197,40,Male,Wicklow,1.5,Medical Card (Public/HSE),SMS,0,0,54.8,1
+PT-10198,11,Female,Offaly,34.4,GP Visit Card (Public),Phone Call,0,0,25.0,0
+PT-10199,61,Other/Unspecified,Kildare,24.0,Self-Pay / Out-of-Pocket,SMS,0,0,1.3,1
+PT-10200,19,Male,Offaly,21.8,Self-Pay / Out-of-Pocket,Email,0,1,25.7,0
+PT-10201,81,Other/Unspecified,Dublin,3.5,Private Health Insurance,SMS,0,2,6.4,1
+PT-10202,60,Male,Wicklow,11.5,Medical Card (Public/HSE),SMS,0,2,25.4,0
+PT-10203,83,Male,Offaly,12.5,Private Health Insurance,Phone Call,0,0,15.9,1
+PT-10204,73,Male,Offaly,22.3,Self-Pay / Out-of-Pocket,Email,1,0,59.6,0
+PT-10205,64,Female,Kildare,29.4,GP Visit Card (Public),SMS,0,1,2.5,0
+PT-10206,88,Other/Unspecified,Louth,20.5,GP Visit Card (Public),Email,0,1,40.7,0
+PT-10207,41,Male,Meath,29.5,GP Visit Card (Public),Patient Portal,0,1,16.1,1
+PT-10208,4,Male,Offaly,24.5,Self-Pay / Out-of-Pocket,Phone Call,1,0,47.9,1
+PT-10209,75,Male,Dublin,32.6,Private Health Insurance,Phone Call,0,1,35.5,1
+PT-10210,51,Male,Wicklow,36.1,Self-Pay / Out-of-Pocket,Patient Portal,0,1,51.7,1
+PT-10211,71,Female,Meath,5.9,Self-Pay / Out-of-Pocket,SMS,0,1,13.6,1
+PT-10212,44,Female,Louth,34.1,Private Health Insurance,SMS,0,2,18.8,1
+PT-10213,10,Female,Offaly,9.6,Private Health Insurance,Phone Call,0,0,51.6,1
+PT-10214,6,Female,Kildare,29.6,Self-Pay / Out-of-Pocket,Phone Call,0,0,1.5,1
+PT-10215,81,Male,Louth,6.6,GP Visit Card (Public),SMS,0,0,42.1,1
+PT-10216,12,Male,Offaly,38.1,GP Visit Card (Public),SMS,1,1,11.6,1
+PT-10217,56,Other/Unspecified,Dublin,3.5,Private Health Insurance,Patient Portal,0,1,37.3,1
+PT-10218,48,Male,Wicklow,2.7,Medical Card (Public/HSE),Patient Portal,1,1,18.1,1
+PT-10219,7,Other/Unspecified,Wicklow,9.3,GP Visit Card (Public),Patient Portal,0,3,19.3,1
+PT-10220,21,Female,Meath,11.3,Self-Pay / Out-of-Pocket,Patient Portal,0,0,49.7,0
+PT-10221,79,Male,Wicklow,3.7,Self-Pay / Out-of-Pocket,SMS,0,0,44.0,1
+PT-10222,66,Other/Unspecified,Offaly,25.6,Medical Card (Public/HSE),SMS,0,1,3.1,1
+PT-10223,68,Female,Louth,1.4,Self-Pay / Out-of-Pocket,Patient Portal,0,0,12.4,1
+PT-10224,15,Female,Offaly,27.1,Self-Pay / Out-of-Pocket,Email,0,0,57.3,1
+PT-10225,7,Other/Unspecified,Meath,7.3,Private Health Insurance,Patient Portal,0,1,6.9,1
+PT-10226,37,Male,Meath,24.1,Self-Pay / Out-of-Pocket,Phone Call,0,1,32.5,1
+PT-10227,34,Male,Meath,36.8,Self-Pay / Out-of-Pocket,Patient Portal,0,1,39.0,1
+PT-10228,91,Other/Unspecified,Meath,7.8,GP Visit Card (Public),Patient Portal,0,0,54.4,1
+PT-10229,63,Female,Meath,3.0,Private Health Insurance,Email,0,1,49.4,1
+PT-10230,53,Male,Offaly,7.1,Self-Pay / Out-of-Pocket,SMS,1,1,50.6,1
+PT-10231,56,Female,Dublin,7.6,Medical Card (Public/HSE),Email,1,0,50.8,1
+PT-10232,70,Other/Unspecified,Louth,1.6,Self-Pay / Out-of-Pocket,Email,0,0,37.7,1
+PT-10233,37,Female,Offaly,36.6,Self-Pay / Out-of-Pocket,Email,0,0,7.5,1
+PT-10234,35,Female,Wicklow,12.9,Medical Card (Public/HSE),SMS,0,1,0.4,1
+PT-10235,32,Male,Louth,11.4,Private Health Insurance,Phone Call,0,0,9.8,0
+PT-10236,89,Female,Meath,10.9,Medical Card (Public/HSE),Patient Portal,0,0,36.7,0
+PT-10237,87,Other/Unspecified,Louth,3.1,Medical Card (Public/HSE),SMS,1,0,59.3,0
+PT-10238,65,Male,Dublin,10.2,Medical Card (Public/HSE),Patient Portal,0,0,0.4,0
+PT-10239,50,Male,Louth,17.1,Medical Card (Public/HSE),SMS,1,1,16.5,1
+PT-10240,27,Female,Offaly,29.3,Medical Card (Public/HSE),Patient Portal,0,1,9.7,1
+PT-10241,12,Other/Unspecified,Offaly,40.3,Medical Card (Public/HSE),SMS,0,0,51.3,1
+PT-10242,42,Female,Wicklow,34.9,Medical Card (Public/HSE),Phone Call,0,0,25.6,0
+PT-10243,8,Other/Unspecified,Offaly,21.6,GP Visit Card (Public),SMS,0,1,25.7,1
+PT-10244,36,Other/Unspecified,Dublin,1.6,Private Health Insurance,Patient Portal,1,0,51.3,1
+PT-10245,30,Female,Offaly,15.8,Medical Card (Public/HSE),SMS,0,0,42.1,1
+PT-10246,27,Other/Unspecified,Offaly,19.6,Medical Card (Public/HSE),Patient Portal,0,0,25.1,1
+PT-10247,40,Other/Unspecified,Louth,37.2,GP Visit Card (Public),Patient Portal,0,0,2.8,1
+PT-10248,74,Male,Louth,30.1,Self-Pay / Out-of-Pocket,Patient Portal,0,1,25.7,1
+PT-10249,13,Female,Meath,2.8,GP Visit Card (Public),Patient Portal,1,1,37.2,0
+PT-10250,4,Male,Meath,35.3,Private Health Insurance,Phone Call,0,1,5.6,1
+PT-10251,7,Other/Unspecified,Offaly,36.1,Private Health Insurance,SMS,0,0,26.5,1
+PT-10252,43,Other/Unspecified,Wicklow,21.2,GP Visit Card (Public),Patient Portal,1,0,4.8,0
+PT-10253,62,Other/Unspecified,Kildare,18.3,Self-Pay / Out-of-Pocket,Phone Call,0,1,32.0,1
+PT-10254,79,Male,Meath,32.9,Self-Pay / Out-of-Pocket,Email,0,1,48.7,1
+PT-10255,71,Female,Louth,32.6,GP Visit Card (Public),Phone Call,1,0,7.9,1
+PT-10256,1,Other/Unspecified,Dublin,30.7,Self-Pay / Out-of-Pocket,Patient Portal,0,0,55.6,1
+PT-10257,33,Male,Louth,26.8,Medical Card (Public/HSE),Patient Portal,1,1,16.7,1
+PT-10258,14,Male,Louth,37.5,Medical Card (Public/HSE),Patient Portal,1,0,7.6,1
+PT-10259,89,Other/Unspecified,Meath,11.2,Medical Card (Public/HSE),Email,1,1,46.5,1
+PT-10260,57,Other/Unspecified,Meath,8.6,Self-Pay / Out-of-Pocket,Email,0,0,42.3,1
+PT-10261,91,Female,Dublin,28.7,GP Visit Card (Public),Phone Call,0,1,0.6,1
+PT-10262,90,Male,Louth,13.8,GP Visit Card (Public),Email,0,2,40.3,0
+PT-10263,44,Male,Dublin,35.1,Private Health Insurance,Patient Portal,0,1,5.7,1
+PT-10264,63,Male,Louth,6.8,Medical Card (Public/HSE),Phone Call,0,1,16.6,1
+PT-10265,88,Female,Dublin,40.0,GP Visit Card (Public),Patient Portal,0,1,42.2,1
+PT-10266,68,Male,Wicklow,40.4,Medical Card (Public/HSE),Patient Portal,0,2,19.1,1
+PT-10267,38,Female,Meath,23.9,GP Visit Card (Public),Email,1,0,49.4,1
+PT-10268,9,Female,Dublin,0.8,Medical Card (Public/HSE),Phone Call,1,0,22.3,0
+PT-10269,53,Female,Louth,40.1,Self-Pay / Out-of-Pocket,SMS,0,0,18.4,1
+PT-10270,80,Male,Louth,34.8,GP Visit Card (Public),SMS,1,0,5.4,1
+PT-10271,87,Male,Kildare,11.3,Private Health Insurance,Email,0,1,6.7,1
+PT-10272,47,Female,Meath,9.4,Private Health Insurance,SMS,0,0,36.4,1
+PT-10273,57,Male,Louth,18.0,Self-Pay / Out-of-Pocket,SMS,0,0,21.5,1
+PT-10274,61,Male,Dublin,41.0,GP Visit Card (Public),Phone Call,1,0,35.5,1
+PT-10275,56,Male,Meath,23.2,Private Health Insurance,Phone Call,1,0,32.0,1
+PT-10276,49,Male,Wicklow,10.7,Self-Pay / Out-of-Pocket,Email,1,0,24.7,1
+PT-10277,4,Female,Offaly,9.0,Medical Card (Public/HSE),Patient Portal,0,3,39.6,1
+PT-10278,10,Female,Kildare,41.9,Medical Card (Public/HSE),Phone Call,0,0,34.2,0
+PT-10279,47,Female,Wicklow,29.4,Medical Card (Public/HSE),SMS,1,0,21.3,1
+PT-10280,47,Male,Kildare,3.4,Self-Pay / Out-of-Pocket,SMS,0,0,27.6,1
+PT-10281,52,Male,Kildare,35.0,Medical Card (Public/HSE),Email,1,1,43.8,1
+PT-10282,7,Male,Kildare,19.5,Private Health Insurance,Patient Portal,1,0,38.4,1
+PT-10283,29,Female,Dublin,32.5,Private Health Insurance,Phone Call,0,1,2.9,1
+PT-10284,47,Male,Wicklow,4.8,Medical Card (Public/HSE),Phone Call,1,0,12.9,0
+PT-10285,40,Female,Kildare,13.3,Medical Card (Public/HSE),Email,1,1,48.1,1
+PT-10286,73,Female,Meath,13.4,GP Visit Card (Public),Phone Call,1,2,56.2,1
+PT-10287,76,Female,Kildare,30.0,Medical Card (Public/HSE),Patient Portal,0,0,50.9,0
+PT-10288,55,Female,Dublin,26.4,Private Health Insurance,Email,0,0,30.6,0
+PT-10289,23,Other/Unspecified,Meath,23.8,GP Visit Card (Public),Patient Portal,0,0,41.1,1
+PT-10290,82,Female,Meath,41.0,Self-Pay / Out-of-Pocket,SMS,1,0,51.1,1
+PT-10291,13,Male,Louth,9.7,GP Visit Card (Public),Email,0,1,5.3,1
+PT-10292,64,Other/Unspecified,Kildare,19.3,GP Visit Card (Public),SMS,0,0,21.7,0
+PT-10293,29,Male,Kildare,25.5,GP Visit Card (Public),Email,0,2,20.8,1
+PT-10294,12,Female,Dublin,1.1,Medical Card (Public/HSE),Patient Portal,0,1,24.3,1
+PT-10295,83,Male,Meath,28.7,Self-Pay / Out-of-Pocket,SMS,0,0,10.2,0
+PT-10296,15,Male,Kildare,12.4,Private Health Insurance,Email,0,2,34.9,1
+PT-10297,42,Female,Kildare,12.2,Private Health Insurance,SMS,0,1,37.0,0
+PT-10298,89,Other/Unspecified,Dublin,24.0,Medical Card (Public/HSE),Phone Call,0,1,17.4,1
+PT-10299,60,Other/Unspecified,Wicklow,38.9,Medical Card (Public/HSE),Phone Call,0,0,1.5,0
+PT-10300,83,Male,Louth,25.2,Medical Card (Public/HSE),Email,0,2,8.8,1
+PT-10301,80,Female,Kildare,32.2,GP Visit Card (Public),Email,0,1,50.8,1
+PT-10302,89,Male,Louth,11.5,Medical Card (Public/HSE),SMS,0,0,24.5,1
+PT-10303,31,Male,Dublin,24.7,Self-Pay / Out-of-Pocket,Email,1,0,22.6,1
+PT-10304,56,Male,Dublin,16.5,GP Visit Card (Public),SMS,0,0,11.6,1
+PT-10305,30,Male,Wicklow,30.6,Private Health Insurance,SMS,0,0,45.3,1
+PT-10306,15,Male,Kildare,41.5,GP Visit Card (Public),Email,0,0,33.2,0
+PT-10307,54,Other/Unspecified,Wicklow,39.2,GP Visit Card (Public),SMS,1,0,10.4,0
+PT-10308,65,Other/Unspecified,Louth,40.0,Medical Card (Public/HSE),Patient Portal,0,0,18.1,1
+PT-10309,81,Male,Wicklow,0.6,GP Visit Card (Public),Phone Call,1,1,27.1,1
+PT-10310,78,Male,Louth,25.4,Medical Card (Public/HSE),Phone Call,0,1,40.8,1
+PT-10311,61,Female,Wicklow,16.1,Medical Card (Public/HSE),Phone Call,0,0,19.2,1
+PT-10312,2,Female,Meath,4.5,Self-Pay / Out-of-Pocket,Email,0,0,32.6,1
+PT-10313,28,Female,Wicklow,25.1,Self-Pay / Out-of-Pocket,Patient Portal,0,0,38.5,1
+PT-10314,38,Female,Offaly,32.8,Private Health Insurance,Phone Call,0,0,16.4,1
+PT-10315,90,Male,Dublin,7.7,Medical Card (Public/HSE),Patient Portal,0,0,24.2,1
+PT-10316,68,Male,Dublin,31.8,Private Health Insurance,Phone Call,0,1,38.4,1
+PT-10317,11,Female,Louth,36.6,Private Health Insurance,SMS,1,0,28.6,1
+PT-10318,30,Male,Dublin,27.3,GP Visit Card (Public),Phone Call,1,0,59.0,1
+PT-10319,57,Male,Kildare,1.1,Medical Card (Public/HSE),Phone Call,1,2,46.7,1
+PT-10320,23,Other/Unspecified,Wicklow,17.6,GP Visit Card (Public),Phone Call,1,1,29.4,1
+PT-10321,69,Other/Unspecified,Wicklow,29.9,Self-Pay / Out-of-Pocket,Phone Call,0,0,32.7,1
+PT-10322,16,Male,Kildare,17.6,GP Visit Card (Public),Patient Portal,1,0,13.5,1
+PT-10323,85,Male,Kildare,8.0,GP Visit Card (Public),Phone Call,0,0,57.6,0
+PT-10324,14,Male,Meath,5.2,GP Visit Card (Public),Phone Call,0,0,14.4,1
+PT-10325,64,Female,Louth,9.9,Medical Card (Public/HSE),Phone Call,1,0,40.2,1
+PT-10326,12,Other/Unspecified,Wicklow,18.0,Self-Pay / Out-of-Pocket,Phone Call,0,1,18.0,1
+PT-10327,52,Other/Unspecified,Offaly,5.1,GP Visit Card (Public),Patient Portal,0,0,6.0,1
+PT-10328,11,Female,Offaly,19.1,GP Visit Card (Public),Phone Call,0,0,12.9,0
+PT-10329,40,Male,Offaly,8.6,GP Visit Card (Public),Patient Portal,0,0,9.9,1
+PT-10330,86,Male,Louth,15.0,Medical Card (Public/HSE),Patient Portal,1,0,8.1,1
+PT-10331,82,Male,Meath,22.6,Medical Card (Public/HSE),Patient Portal,1,2,27.3,0
+PT-10332,76,Male,Offaly,10.6,Private Health Insurance,Phone Call,0,1,10.0,0
+PT-10333,35,Other/Unspecified,Louth,14.9,Self-Pay / Out-of-Pocket,Phone Call,0,0,40.6,0
+PT-10334,65,Male,Wicklow,37.9,Private Health Insurance,Email,0,2,5.7,1
+PT-10335,63,Male,Louth,16.9,Self-Pay / Out-of-Pocket,Email,0,0,34.8,1
+PT-10336,61,Male,Louth,21.6,GP Visit Card (Public),Phone Call,0,1,34.3,0
+PT-10337,68,Female,Dublin,6.7,Medical Card (Public/HSE),Phone Call,1,0,35.6,1
+PT-10338,1,Other/Unspecified,Meath,33.6,Self-Pay / Out-of-Pocket,Patient Portal,1,0,28.8,0
+PT-10339,78,Male,Dublin,30.0,Private Health Insurance,Patient Portal,0,0,33.3,1
+PT-10340,72,Other/Unspecified,Kildare,15.4,Medical Card (Public/HSE),Patient Portal,0,1,54.9,0
+PT-10341,30,Other/Unspecified,Louth,39.7,GP Visit Card (Public),Email,1,0,26.1,0
+PT-10342,35,Male,Wicklow,14.1,Private Health Insurance,SMS,0,0,30.4,1
+PT-10343,55,Male,Meath,35.3,Medical Card (Public/HSE),Phone Call,0,2,13.9,1
+PT-10344,44,Other/Unspecified,Meath,19.6,Private Health Insurance,Patient Portal,0,0,22.2,1
+PT-10345,49,Other/Unspecified,Kildare,7.7,GP Visit Card (Public),Patient Portal,0,2,49.9,1
+PT-10346,69,Other/Unspecified,Louth,37.8,Medical Card (Public/HSE),Phone Call,0,1,55.9,0
+PT-10347,14,Female,Dublin,39.9,Private Health Insurance,SMS,0,2,18.3,0
+PT-10348,53,Female,Louth,27.3,Medical Card (Public/HSE),SMS,0,0,52.6,1
+PT-10349,56,Male,Louth,26.2,Private Health Insurance,Email,0,1,43.0,0
+PT-10350,27,Other/Unspecified,Dublin,39.0,GP Visit Card (Public),Email,0,0,5.5,1
+PT-10351,18,Female,Dublin,12.2,GP Visit Card (Public),Patient Portal,1,2,28.0,0
+PT-10352,7,Female,Offaly,7.6,Medical Card (Public/HSE),Phone Call,0,1,55.1,1
+PT-10353,80,Male,Meath,35.6,GP Visit Card (Public),SMS,0,0,54.9,1
+PT-10354,25,Other/Unspecified,Dublin,21.8,Private Health Insurance,Email,1,0,58.0,0
+PT-10355,45,Female,Dublin,33.6,GP Visit Card (Public),Patient Portal,0,1,53.6,0
+PT-10356,26,Female,Louth,20.4,GP Visit Card (Public),Email,0,0,23.8,1
+PT-10357,85,Female,Louth,31.5,GP Visit Card (Public),Phone Call,0,1,14.3,0
+PT-10358,22,Male,Wicklow,37.3,Private Health Insurance,Patient Portal,0,0,27.2,1
+PT-10359,46,Other/Unspecified,Wicklow,32.3,GP Visit Card (Public),Patient Portal,0,0,38.1,0
+PT-10360,61,Other/Unspecified,Wicklow,3.5,Medical Card (Public/HSE),Email,0,2,48.3,1
+PT-10361,20,Female,Meath,11.0,Self-Pay / Out-of-Pocket,Email,0,0,39.7,1
+PT-10362,32,Male,Louth,16.1,Private Health Insurance,SMS,0,0,42.5,0
+PT-10363,8,Male,Wicklow,8.1,Medical Card (Public/HSE),SMS,1,0,45.7,1
+PT-10364,51,Other/Unspecified,Kildare,21.4,Self-Pay / Out-of-Pocket,Email,1,0,42.8,1
+PT-10365,50,Male,Kildare,3.0,Self-Pay / Out-of-Pocket,SMS,0,0,22.5,1
+PT-10366,13,Male,Kildare,22.3,GP Visit Card (Public),Email,0,0,19.4,1
+PT-10367,12,Male,Louth,14.1,GP Visit Card (Public),Patient Portal,1,0,18.6,1
+PT-10368,5,Female,Meath,25.7,Private Health Insurance,Email,1,1,39.7,0
+PT-10369,32,Other/Unspecified,Louth,1.2,GP Visit Card (Public),Phone Call,1,0,54.3,1
+PT-10370,86,Female,Wicklow,17.4,GP Visit Card (Public),Phone Call,1,0,34.6,1
+PT-10371,31,Other/Unspecified,Kildare,1.0,Self-Pay / Out-of-Pocket,Email,0,0,37.3,1
+PT-10372,23,Other/Unspecified,Louth,15.4,Medical Card (Public/HSE),Phone Call,1,0,52.0,1
+PT-10373,26,Other/Unspecified,Offaly,41.0,GP Visit Card (Public),Phone Call,0,0,11.0,0
+PT-10374,77,Other/Unspecified,Dublin,2.1,GP Visit Card (Public),Email,0,0,52.6,1
+PT-10375,15,Other/Unspecified,Dublin,33.5,Medical Card (Public/HSE),Phone Call,0,1,34.1,1
+PT-10376,14,Female,Offaly,2.8,Private Health Insurance,SMS,0,1,39.2,1
+PT-10377,56,Female,Offaly,4.1,Self-Pay / Out-of-Pocket,Phone Call,0,0,19.5,0
+PT-10378,8,Male,Offaly,29.2,GP Visit Card (Public),Phone Call,0,0,27.3,1
+PT-10379,48,Male,Offaly,16.1,Private Health Insurance,Patient Portal,0,0,59.4,0
+PT-10380,29,Female,Wicklow,1.2,Private Health Insurance,SMS,0,2,58.8,1
+PT-10381,15,Female,Meath,39.4,GP Visit Card (Public),SMS,1,2,4.6,1
+PT-10382,67,Other/Unspecified,Kildare,31.4,Self-Pay / Out-of-Pocket,Email,0,1,2.4,1
+PT-10383,73,Male,Offaly,6.0,Medical Card (Public/HSE),Phone Call,0,1,40.5,1
+PT-10384,5,Other/Unspecified,Wicklow,35.0,Private Health Insurance,Patient Portal,0,2,16.9,1
+PT-10385,36,Female,Offaly,15.1,Private Health Insurance,SMS,0,0,58.1,1
+PT-10386,13,Other/Unspecified,Dublin,41.6,Medical Card (Public/HSE),Phone Call,0,0,36.4,1
+PT-10387,28,Other/Unspecified,Dublin,2.4,Self-Pay / Out-of-Pocket,Patient Portal,0,0,30.1,1
+PT-10388,64,Other/Unspecified,Dublin,32.9,Private Health Insurance,Patient Portal,1,0,3.9,1
+PT-10389,2,Other/Unspecified,Louth,28.9,Self-Pay / Out-of-Pocket,SMS,0,1,57.1,0
+PT-10390,40,Other/Unspecified,Louth,18.0,GP Visit Card (Public),Patient Portal,0,1,17.5,1
+PT-10391,89,Other/Unspecified,Louth,34.0,Private Health Insurance,Email,0,1,18.4,1
+PT-10392,44,Other/Unspecified,Meath,1.4,GP Visit Card (Public),SMS,0,3,51.2,1
+PT-10393,68,Male,Wicklow,36.6,Medical Card (Public/HSE),Email,0,0,30.9,1
+PT-10394,9,Female,Offaly,36.6,Self-Pay / Out-of-Pocket,Patient Portal,0,0,37.7,1
+PT-10395,7,Female,Louth,5.0,Self-Pay / Out-of-Pocket,Email,0,0,52.9,1
+PT-10396,43,Female,Offaly,34.5,GP Visit Card (Public),Email,0,1,6.9,1
+PT-10397,53,Other/Unspecified,Wicklow,17.7,GP Visit Card (Public),Email,1,0,14.6,0
+PT-10398,11,Female,Dublin,13.7,Private Health Insurance,SMS,0,0,7.2,0
+PT-10399,91,Female,Dublin,29.1,Medical Card (Public/HSE),Phone Call,0,0,24.0,1
+PT-10400,14,Female,Offaly,41.7,Private Health Insurance,Patient Portal,0,1,55.9,1
+PT-10401,54,Male,Wicklow,12.9,Self-Pay / Out-of-Pocket,Phone Call,0,2,30.6,1
+PT-10402,22,Other/Unspecified,Dublin,10.8,Medical Card (Public/HSE),SMS,1,0,12.9,0
+PT-10403,71,Female,Offaly,12.4,Private Health Insurance,Phone Call,0,0,44.8,0
+PT-10404,69,Male,Wicklow,16.4,GP Visit Card (Public),Phone Call,0,1,12.8,1
+PT-10405,66,Female,Offaly,16.7,Private Health Insurance,Phone Call,0,1,16.8,1
+PT-10406,10,Female,Offaly,19.6,Medical Card (Public/HSE),SMS,1,1,5.1,1
+PT-10407,51,Male,Meath,41.7,GP Visit Card (Public),Email,0,1,27.8,1
+PT-10408,45,Other/Unspecified,Louth,12.2,Private Health Insurance,Patient Portal,0,1,0.9,1
+PT-10409,84,Male,Kildare,36.7,Private Health Insurance,Email,0,0,27.6,1
+PT-10410,72,Female,Dublin,37.4,Medical Card (Public/HSE),SMS,1,1,55.8,1
+PT-10411,19,Female,Wicklow,26.7,Self-Pay / Out-of-Pocket,Patient Portal,0,1,7.0,1
+PT-10412,85,Other/Unspecified,Louth,15.1,Medical Card (Public/HSE),Email,0,1,41.3,1
+PT-10413,55,Female,Wicklow,2.9,Self-Pay / Out-of-Pocket,SMS,0,0,48.1,0
+PT-10414,66,Male,Kildare,20.2,GP Visit Card (Public),Phone Call,0,1,33.4,1
+PT-10415,5,Other/Unspecified,Louth,14.6,Self-Pay / Out-of-Pocket,Email,0,0,3.4,1
+PT-10416,75,Other/Unspecified,Dublin,27.2,Self-Pay / Out-of-Pocket,Phone Call,0,0,55.7,0
+PT-10417,80,Female,Offaly,17.9,GP Visit Card (Public),Email,1,1,42.2,1
+PT-10418,11,Female,Wicklow,6.1,Private Health Insurance,Email,1,0,56.1,1
+PT-10419,40,Other/Unspecified,Meath,21.8,Self-Pay / Out-of-Pocket,Patient Portal,0,0,43.6,0
+PT-10420,81,Other/Unspecified,Louth,19.3,Medical Card (Public/HSE),SMS,0,0,30.8,1
+PT-10421,61,Other/Unspecified,Louth,7.7,Self-Pay / Out-of-Pocket,Phone Call,1,1,10.5,1
+PT-10422,29,Male,Meath,9.5,Medical Card (Public/HSE),Email,0,0,53.4,0
+PT-10423,42,Other/Unspecified,Dublin,19.1,GP Visit Card (Public),Phone Call,1,0,34.2,1
+PT-10424,30,Other/Unspecified,Kildare,11.2,Self-Pay / Out-of-Pocket,Patient Portal,0,0,36.7,1
+PT-10425,88,Female,Kildare,5.1,GP Visit Card (Public),SMS,0,2,8.7,1
+PT-10426,75,Other/Unspecified,Dublin,35.5,GP Visit Card (Public),Phone Call,1,0,43.0,1
+PT-10427,50,Other/Unspecified,Wicklow,14.5,GP Visit Card (Public),SMS,0,1,28.8,0
+PT-10428,39,Other/Unspecified,Dublin,31.8,Self-Pay / Out-of-Pocket,Email,0,1,49.1,1
+PT-10429,20,Male,Offaly,1.9,Self-Pay / Out-of-Pocket,Email,0,1,4.3,0
+PT-10430,11,Female,Kildare,22.4,Private Health Insurance,SMS,1,1,31.2,1
+PT-10431,41,Female,Meath,3.7,Medical Card (Public/HSE),SMS,0,0,1.3,0
+PT-10432,54,Male,Dublin,5.2,GP Visit Card (Public),Patient Portal,0,0,53.2,1
+PT-10433,43,Other/Unspecified,Dublin,4.2,Private Health Insurance,Email,0,0,58.1,1
+PT-10434,36,Other/Unspecified,Offaly,4.1,Medical Card (Public/HSE),Phone Call,0,0,9.4,1
+PT-10435,70,Male,Louth,3.7,Private Health Insurance,Patient Portal,0,1,28.0,1
+PT-10436,1,Female,Meath,3.6,Private Health Insurance,SMS,0,1,34.5,1
+PT-10437,48,Male,Meath,40.3,GP Visit Card (Public),Patient Portal,0,0,2.8,0
+PT-10438,89,Female,Dublin,16.4,Self-Pay / Out-of-Pocket,SMS,0,1,22.1,1
+PT-10439,11,Female,Kildare,3.9,Private Health Insurance,Patient Portal,0,0,11.7,1
+PT-10440,55,Other/Unspecified,Offaly,19.8,Private Health Insurance,Patient Portal,0,1,55.6,1
+PT-10441,53,Male,Kildare,15.5,Self-Pay / Out-of-Pocket,Patient Portal,0,1,4.3,1
+PT-10442,65,Female,Kildare,19.8,Self-Pay / Out-of-Pocket,Patient Portal,0,2,29.3,0
+PT-10443,74,Male,Kildare,12.7,Medical Card (Public/HSE),Phone Call,0,1,14.3,1
+PT-10444,65,Male,Kildare,36.6,Medical Card (Public/HSE),Email,0,1,5.9,1
+PT-10445,34,Other/Unspecified,Wicklow,26.9,Private Health Insurance,Patient Portal,1,1,43.6,1
+PT-10446,54,Male,Dublin,21.5,Private Health Insurance,Patient Portal,0,2,7.0,1
+PT-10447,24,Female,Kildare,1.7,Self-Pay / Out-of-Pocket,SMS,0,0,11.7,1
+PT-10448,84,Male,Wicklow,5.0,Private Health Insurance,SMS,0,0,37.4,1
+PT-10449,38,Other/Unspecified,Louth,30.9,GP Visit Card (Public),SMS,0,1,19.2,1
+PT-10450,90,Male,Offaly,36.7,Medical Card (Public/HSE),Phone Call,0,0,24.0,1
+PT-10451,47,Female,Offaly,4.1,Medical Card (Public/HSE),Phone Call,0,0,44.3,1
+PT-10452,20,Other/Unspecified,Offaly,33.2,GP Visit Card (Public),Phone Call,1,1,2.3,1
+PT-10453,41,Female,Offaly,17.4,Private Health Insurance,Phone Call,1,1,31.6,1
+PT-10454,80,Female,Kildare,31.3,Private Health Insurance,Email,0,0,17.7,1
+PT-10455,58,Female,Offaly,17.6,Self-Pay / Out-of-Pocket,Patient Portal,1,0,33.8,0
+PT-10456,88,Other/Unspecified,Meath,34.8,GP Visit Card (Public),SMS,0,1,0.1,1
+PT-10457,4,Other/Unspecified,Meath,3.3,Private Health Insurance,Phone Call,0,0,4.7,1
+PT-10458,6,Other/Unspecified,Dublin,26.5,GP Visit Card (Public),Phone Call,0,0,27.9,0
+PT-10459,28,Male,Offaly,2.1,Self-Pay / Out-of-Pocket,SMS,1,1,55.3,1
+PT-10460,67,Female,Meath,21.1,Private Health Insurance,SMS,0,1,25.2,1
+PT-10461,30,Female,Offaly,31.1,Medical Card (Public/HSE),Email,0,1,31.2,0
+PT-10462,38,Male,Kildare,16.8,Private Health Insurance,SMS,0,0,8.4,1
+PT-10463,81,Other/Unspecified,Dublin,17.5,GP Visit Card (Public),SMS,0,0,18.1,1
+PT-10464,88,Other/Unspecified,Meath,5.6,GP Visit Card (Public),SMS,0,2,18.5,1
+PT-10465,68,Other/Unspecified,Offaly,9.3,Medical Card (Public/HSE),Phone Call,0,2,26.9,1
+PT-10466,24,Male,Meath,40.5,Medical Card (Public/HSE),Patient Portal,1,2,23.9,1
+PT-10467,42,Female,Dublin,11.8,Self-Pay / Out-of-Pocket,SMS,0,1,34.1,1
+PT-10468,51,Male,Louth,22.2,Self-Pay / Out-of-Pocket,Phone Call,1,0,8.3,1
+PT-10469,40,Female,Meath,36.8,Private Health Insurance,SMS,1,0,31.5,1
+PT-10470,58,Female,Dublin,32.4,Medical Card (Public/HSE),Email,0,1,55.2,1
+PT-10471,78,Other/Unspecified,Dublin,29.7,Private Health Insurance,Phone Call,1,0,19.7,1
+PT-10472,5,Other/Unspecified,Offaly,29.1,GP Visit Card (Public),Phone Call,0,0,43.6,1
+PT-10473,1,Other/Unspecified,Wicklow,10.3,Medical Card (Public/HSE),Phone Call,1,0,34.4,1
+PT-10474,60,Male,Louth,6.9,Private Health Insurance,Email,0,0,37.4,1
+PT-10475,82,Other/Unspecified,Wicklow,11.1,Medical Card (Public/HSE),Phone Call,0,0,38.9,1
+PT-10476,38,Male,Dublin,6.5,Medical Card (Public/HSE),Email,0,1,0.3,1
+PT-10477,27,Other/Unspecified,Louth,21.5,GP Visit Card (Public),Email,0,0,12.2,1
+PT-10478,3,Other/Unspecified,Kildare,21.4,GP Visit Card (Public),Email,0,0,16.0,1
+PT-10479,34,Other/Unspecified,Kildare,32.0,Self-Pay / Out-of-Pocket,Patient Portal,0,2,36.1,1
+PT-10480,3,Male,Wicklow,21.1,GP Visit Card (Public),Phone Call,0,0,43.1,1
+PT-10481,25,Other/Unspecified,Offaly,15.0,Medical Card (Public/HSE),SMS,1,0,26.9,1
+PT-10482,74,Female,Kildare,35.4,Self-Pay / Out-of-Pocket,Patient Portal,1,0,47.2,1
+PT-10483,35,Female,Meath,4.6,Medical Card (Public/HSE),Phone Call,1,1,14.8,1
+PT-10484,70,Female,Meath,35.0,GP Visit Card (Public),Phone Call,1,0,19.4,1
+PT-10485,88,Male,Wicklow,7.2,GP Visit Card (Public),Email,1,0,20.0,1
+PT-10486,14,Female,Meath,13.7,Private Health Insurance,SMS,0,1,28.4,1
+PT-10487,40,Male,Kildare,1.3,GP Visit Card (Public),Phone Call,1,2,8.9,1
+PT-10488,21,Other/Unspecified,Dublin,1.8,GP Visit Card (Public),Phone Call,0,0,54.0,0
+PT-10489,8,Female,Wicklow,37.2,GP Visit Card (Public),Phone Call,0,2,23.7,1
+PT-10490,21,Female,Dublin,37.3,GP Visit Card (Public),Phone Call,0,0,5.9,1
+PT-10491,44,Female,Kildare,33.2,Self-Pay / Out-of-Pocket,Patient Portal,0,1,24.6,0
+PT-10492,83,Male,Offaly,25.6,Self-Pay / Out-of-Pocket,Phone Call,0,0,12.7,1
+PT-10493,65,Female,Offaly,21.5,Medical Card (Public/HSE),SMS,0,1,22.8,1
+PT-10494,44,Other/Unspecified,Wicklow,37.1,Medical Card (Public/HSE),SMS,0,0,37.4,1
+PT-10495,24,Female,Dublin,11.4,Medical Card (Public/HSE),Patient Portal,0,0,54.9,0
+PT-10496,26,Female,Kildare,20.1,GP Visit Card (Public),Email,0,0,19.6,1
+PT-10497,88,Male,Dublin,8.3,Private Health Insurance,Email,0,1,14.5,1
+PT-10498,30,Male,Offaly,25.8,GP Visit Card (Public),SMS,0,2,53.7,1
+PT-10499,50,Female,Dublin,5.6,GP Visit Card (Public),SMS,1,0,11.7,1
+PT-10500,49,Male,Dublin,28.7,Private Health Insurance,SMS,1,0,48.1,1
+PT-10501,18,Other/Unspecified,Meath,5.6,Self-Pay / Out-of-Pocket,Phone Call,1,0,53.9,0
+PT-10502,66,Male,Louth,7.4,Self-Pay / Out-of-Pocket,Patient Portal,0,0,57.8,0
+PT-10503,62,Male,Wicklow,1.6,GP Visit Card (Public),SMS,0,0,55.7,1
+PT-10504,58,Other/Unspecified,Louth,25.4,Self-Pay / Out-of-Pocket,Email,0,0,51.9,1
+PT-10505,1,Female,Louth,33.0,Medical Card (Public/HSE),SMS,1,0,12.2,1
+PT-10506,36,Other/Unspecified,Offaly,17.4,Self-Pay / Out-of-Pocket,Phone Call,1,0,27.3,1
+PT-10507,62,Male,Offaly,23.7,Self-Pay / Out-of-Pocket,Phone Call,1,0,9.6,1
+PT-10508,48,Other/Unspecified,Offaly,10.6,Self-Pay / Out-of-Pocket,Phone Call,0,2,59.5,0
+PT-10509,52,Other/Unspecified,Meath,17.7,Private Health Insurance,SMS,0,0,14.3,1
+PT-10510,90,Male,Wicklow,18.0,Private Health Insurance,Patient Portal,0,0,23.9,1
+PT-10511,66,Female,Louth,9.7,Private Health Insurance,Email,0,4,55.1,1
+PT-10512,20,Female,Offaly,22.4,GP Visit Card (Public),Email,1,0,11.0,1
+PT-10513,57,Other/Unspecified,Offaly,15.5,Medical Card (Public/HSE),Phone Call,1,1,26.2,1
+PT-10514,48,Male,Dublin,10.9,Self-Pay / Out-of-Pocket,Email,0,1,13.3,0
+PT-10515,6,Female,Meath,26.5,Private Health Insurance,Phone Call,1,0,38.9,1
+PT-10516,71,Male,Wicklow,2.5,Private Health Insurance,Patient Portal,0,1,29.7,0
+PT-10517,59,Other/Unspecified,Wicklow,41.7,GP Visit Card (Public),Email,0,2,57.4,1
+PT-10518,4,Male,Wicklow,26.6,GP Visit Card (Public),Phone Call,0,1,43.0,0
+PT-10519,18,Male,Dublin,13.2,GP Visit Card (Public),SMS,0,0,27.9,1
+PT-10520,89,Other/Unspecified,Kildare,7.4,Private Health Insurance,Phone Call,0,0,53.4,1
+PT-10521,74,Female,Meath,31.9,Self-Pay / Out-of-Pocket,SMS,1,1,31.9,1
+PT-10522,8,Female,Kildare,6.0,Self-Pay / Out-of-Pocket,Phone Call,0,0,49.1,1
+PT-10523,65,Other/Unspecified,Wicklow,25.4,Self-Pay / Out-of-Pocket,Phone Call,0,1,11.9,1
+PT-10524,79,Male,Wicklow,32.6,Private Health Insurance,Phone Call,0,0,33.6,0
+PT-10525,39,Other/Unspecified,Kildare,20.1,GP Visit Card (Public),Phone Call,0,1,45.4,1
+PT-10526,57,Male,Dublin,24.9,Medical Card (Public/HSE),Patient Portal,1,0,21.0,0
+PT-10527,19,Other/Unspecified,Wicklow,17.0,Self-Pay / Out-of-Pocket,SMS,0,1,10.6,0
+PT-10528,76,Male,Offaly,24.6,Self-Pay / Out-of-Pocket,Patient Portal,1,0,49.6,1
+PT-10529,89,Female,Wicklow,27.5,Self-Pay / Out-of-Pocket,Patient Portal,0,0,41.9,1
+PT-10530,76,Other/Unspecified,Kildare,29.6,GP Visit Card (Public),Patient Portal,0,1,4.8,1
+PT-10531,6,Other/Unspecified,Meath,33.5,Self-Pay / Out-of-Pocket,Patient Portal,0,2,58.0,1
+PT-10532,71,Female,Dublin,25.5,Medical Card (Public/HSE),SMS,1,2,44.1,1
+PT-10533,10,Female,Louth,2.4,Self-Pay / Out-of-Pocket,SMS,0,1,29.0,1
+PT-10534,51,Male,Dublin,3.4,Self-Pay / Out-of-Pocket,Email,1,0,22.1,1
+PT-10535,47,Other/Unspecified,Kildare,37.2,Private Health Insurance,Phone Call,0,2,33.0,1
+PT-10536,45,Female,Louth,6.8,Private Health Insurance,Phone Call,0,2,5.5,1
+PT-10537,31,Male,Meath,22.1,Private Health Insurance,Patient Portal,1,0,0.4,1
+PT-10538,75,Male,Meath,23.1,GP Visit Card (Public),Patient Portal,1,1,20.8,1
+PT-10539,9,Male,Kildare,36.5,GP Visit Card (Public),SMS,0,1,13.3,1
+PT-10540,68,Male,Offaly,30.2,Self-Pay / Out-of-Pocket,Email,0,1,16.3,1
+PT-10541,51,Female,Wicklow,21.0,Medical Card (Public/HSE),Phone Call,0,1,49.9,1
+PT-10542,71,Male,Louth,18.9,Private Health Insurance,SMS,0,0,8.0,1
+PT-10543,52,Male,Meath,32.2,GP Visit Card (Public),Email,1,0,23.5,0
+PT-10544,24,Other/Unspecified,Wicklow,13.6,GP Visit Card (Public),Email,0,0,51.2,1
+PT-10545,76,Male,Offaly,23.1,Medical Card (Public/HSE),SMS,0,1,51.9,1
+PT-10546,51,Other/Unspecified,Wicklow,15.0,GP Visit Card (Public),SMS,0,1,57.5,0
+PT-10547,72,Female,Offaly,22.5,Private Health Insurance,Email,0,0,51.0,1
+PT-10548,83,Other/Unspecified,Kildare,12.8,Medical Card (Public/HSE),Patient Portal,0,0,19.4,1
+PT-10549,22,Female,Dublin,20.4,Self-Pay / Out-of-Pocket,Email,0,1,5.2,0
+PT-10550,22,Other/Unspecified,Wicklow,41.8,GP Visit Card (Public),SMS,0,1,46.8,1
+PT-10551,27,Female,Wicklow,36.8,Private Health Insurance,Email,0,1,33.8,1
+PT-10552,34,Male,Meath,14.4,Private Health Insurance,Email,0,0,12.4,1
+PT-10553,16,Male,Dublin,22.6,Private Health Insurance,Patient Portal,0,0,10.0,1
+PT-10554,7,Female,Offaly,25.0,Medical Card (Public/HSE),Email,1,0,41.7,1
+PT-10555,45,Other/Unspecified,Kildare,40.8,Self-Pay / Out-of-Pocket,Phone Call,1,0,42.8,1
+PT-10556,24,Female,Meath,7.2,Medical Card (Public/HSE),Email,0,0,49.6,1
+PT-10557,45,Male,Meath,21.2,Medical Card (Public/HSE),Patient Portal,0,0,2.8,1
+PT-10558,41,Male,Meath,34.1,Private Health Insurance,SMS,0,0,10.4,1
+PT-10559,78,Male,Meath,26.2,GP Visit Card (Public),Phone Call,0,1,55.3,1
+PT-10560,56,Female,Meath,28.8,GP Visit Card (Public),Email,0,0,6.1,1
+PT-10561,54,Female,Meath,28.0,Private Health Insurance,Patient Portal,1,0,39.1,1
+PT-10562,44,Male,Offaly,14.2,Private Health Insurance,Email,0,0,42.2,1
+PT-10563,7,Female,Offaly,33.3,Self-Pay / Out-of-Pocket,SMS,0,0,29.0,1
+PT-10564,9,Other/Unspecified,Wicklow,5.7,Self-Pay / Out-of-Pocket,SMS,0,1,31.3,1
+PT-10565,69,Other/Unspecified,Louth,3.7,Medical Card (Public/HSE),Patient Portal,0,0,52.2,0
+PT-10566,83,Other/Unspecified,Meath,21.8,Medical Card (Public/HSE),Phone Call,0,0,44.8,1
+PT-10567,16,Female,Offaly,26.7,Medical Card (Public/HSE),Phone Call,0,1,57.6,0
+PT-10568,81,Male,Kildare,29.4,Private Health Insurance,SMS,0,1,45.2,1
+PT-10569,42,Female,Kildare,30.1,Self-Pay / Out-of-Pocket,Phone Call,0,0,38.6,1
+PT-10570,24,Male,Kildare,26.0,GP Visit Card (Public),SMS,0,1,49.7,1
+PT-10571,66,Female,Meath,35.7,Self-Pay / Out-of-Pocket,Email,0,3,34.0,1
+PT-10572,3,Other/Unspecified,Louth,26.4,GP Visit Card (Public),SMS,0,0,8.8,1
+PT-10573,12,Female,Wicklow,8.8,GP Visit Card (Public),Email,0,0,55.2,1
+PT-10574,19,Female,Meath,16.0,Medical Card (Public/HSE),Patient Portal,1,0,46.8,1
+PT-10575,52,Male,Louth,28.3,Medical Card (Public/HSE),SMS,0,0,15.4,1
+PT-10576,89,Female,Louth,4.8,Medical Card (Public/HSE),Email,0,1,15.0,1
+PT-10577,27,Female,Dublin,31.1,GP Visit Card (Public),Email,0,1,33.5,1
+PT-10578,53,Female,Wicklow,34.8,GP Visit Card (Public),SMS,0,0,27.9,0
+PT-10579,61,Male,Dublin,39.1,Medical Card (Public/HSE),Email,0,0,40.1,1
+PT-10580,61,Female,Meath,6.2,GP Visit Card (Public),Email,0,1,11.8,1
+PT-10581,77,Other/Unspecified,Meath,16.4,Medical Card (Public/HSE),SMS,1,0,14.0,1
+PT-10582,30,Male,Louth,23.4,Private Health Insurance,SMS,0,1,20.2,1
+PT-10583,13,Other/Unspecified,Dublin,6.0,Private Health Insurance,Patient Portal,0,1,20.8,1
+PT-10584,14,Other/Unspecified,Kildare,3.7,Self-Pay / Out-of-Pocket,Patient Portal,0,0,47.1,1
+PT-10585,91,Other/Unspecified,Meath,1.4,Medical Card (Public/HSE),Patient Portal,0,1,25.1,0
+PT-10586,24,Male,Offaly,13.6,Private Health Insurance,SMS,0,1,35.6,1
+PT-10587,32,Female,Kildare,17.1,GP Visit Card (Public),Patient Portal,0,1,33.2,0
+PT-10588,16,Other/Unspecified,Offaly,37.6,Medical Card (Public/HSE),Patient Portal,1,0,60.0,1
+PT-10589,88,Male,Wicklow,13.7,Medical Card (Public/HSE),Email,0,1,7.5,0
+PT-10590,72,Male,Dublin,14.1,Private Health Insurance,Patient Portal,0,0,51.3,1
+PT-10591,42,Male,Wicklow,12.6,Self-Pay / Out-of-Pocket,Phone Call,1,1,27.6,1
+PT-10592,23,Male,Louth,16.8,GP Visit Card (Public),SMS,0,0,45.3,0
+PT-10593,30,Male,Louth,30.7,Medical Card (Public/HSE),Phone Call,0,0,47.8,1
+PT-10594,15,Male,Kildare,2.5,Self-Pay / Out-of-Pocket,Patient Portal,0,0,36.8,1
+PT-10595,83,Female,Offaly,26.2,Medical Card (Public/HSE),Patient Portal,0,1,24.1,0
+PT-10596,82,Male,Meath,15.8,GP Visit Card (Public),Phone Call,0,1,27.3,1
+PT-10597,83,Male,Louth,5.0,Self-Pay / Out-of-Pocket,Phone Call,1,1,0.3,1
+PT-10598,82,Other/Unspecified,Louth,4.3,GP Visit Card (Public),Email,1,0,12.0,1
+PT-10599,41,Female,Kildare,39.3,Medical Card (Public/HSE),Email,1,1,32.3,1
+PT-10600,82,Other/Unspecified,Meath,14.7,Medical Card (Public/HSE),Patient Portal,0,1,32.2,1
+PT-10601,31,Other/Unspecified,Wicklow,34.6,Medical Card (Public/HSE),Phone Call,1,0,32.8,1
+PT-10602,70,Male,Meath,22.8,Private Health Insurance,Patient Portal,0,0,57.8,0
+PT-10603,33,Male,Meath,9.1,Medical Card (Public/HSE),SMS,0,0,41.6,0
+PT-10604,79,Male,Meath,10.6,GP Visit Card (Public),Patient Portal,0,0,30.1,1
+PT-10605,32,Male,Kildare,39.7,Medical Card (Public/HSE),Phone Call,0,0,38.0,1
+PT-10606,43,Other/Unspecified,Louth,27.5,Medical Card (Public/HSE),Patient Portal,0,1,50.9,1
+PT-10607,46,Other/Unspecified,Kildare,1.7,Private Health Insurance,SMS,1,2,5.7,0
+PT-10608,57,Other/Unspecified,Dublin,27.6,Self-Pay / Out-of-Pocket,Patient Portal,0,1,12.5,1
+PT-10609,57,Male,Kildare,16.3,Self-Pay / Out-of-Pocket,SMS,0,1,26.7,1
+PT-10610,18,Female,Louth,14.8,Medical Card (Public/HSE),Email,0,0,51.5,1
+PT-10611,79,Other/Unspecified,Meath,27.5,Medical Card (Public/HSE),Phone Call,1,0,31.5,1
+PT-10612,37,Other/Unspecified,Kildare,28.8,Private Health Insurance,Phone Call,1,2,18.8,1
+PT-10613,2,Other/Unspecified,Meath,13.7,Self-Pay / Out-of-Pocket,Patient Portal,0,1,45.4,1
+PT-10614,77,Male,Wicklow,3.0,Private Health Insurance,Patient Portal,1,1,26.1,1
+PT-10615,85,Female,Kildare,39.9,Self-Pay / Out-of-Pocket,Patient Portal,0,0,18.8,1
+PT-10616,41,Female,Kildare,11.8,Private Health Insurance,Patient Portal,1,0,2.4,1
+PT-10617,55,Male,Wicklow,28.5,Private Health Insurance,Patient Portal,0,1,57.2,1
+PT-10618,70,Male,Wicklow,40.9,Medical Card (Public/HSE),SMS,0,1,51.4,1
+PT-10619,35,Other/Unspecified,Meath,8.9,Private Health Insurance,Email,0,1,32.0,1
+PT-10620,33,Other/Unspecified,Offaly,24.2,Self-Pay / Out-of-Pocket,SMS,0,0,5.5,1
+PT-10621,53,Other/Unspecified,Kildare,21.8,Medical Card (Public/HSE),Patient Portal,1,1,40.2,1
+PT-10622,79,Male,Wicklow,8.7,Self-Pay / Out-of-Pocket,Phone Call,0,2,36.7,1
+PT-10623,77,Other/Unspecified,Kildare,15.3,Self-Pay / Out-of-Pocket,Phone Call,0,1,1.0,1
+PT-10624,86,Male,Offaly,9.1,Medical Card (Public/HSE),Patient Portal,0,2,21.2,1
+PT-10625,87,Other/Unspecified,Offaly,29.0,GP Visit Card (Public),Patient Portal,1,2,40.0,1
+PT-10626,30,Other/Unspecified,Offaly,18.5,Private Health Insurance,Email,0,1,15.0,1
+PT-10627,15,Other/Unspecified,Kildare,17.7,Medical Card (Public/HSE),Phone Call,0,1,11.6,0
+PT-10628,56,Male,Kildare,27.1,Self-Pay / Out-of-Pocket,Phone Call,0,1,16.0,1
+PT-10629,23,Other/Unspecified,Kildare,0.8,GP Visit Card (Public),Phone Call,0,0,36.2,1
+PT-10630,49,Other/Unspecified,Louth,12.8,Medical Card (Public/HSE),Phone Call,0,1,12.3,1
+PT-10631,91,Female,Meath,17.2,GP Visit Card (Public),SMS,1,0,3.9,1
+PT-10632,22,Male,Meath,16.3,Medical Card (Public/HSE),Patient Portal,0,1,20.0,1
+PT-10633,12,Other/Unspecified,Wicklow,31.8,Medical Card (Public/HSE),Patient Portal,0,0,54.0,1
+PT-10634,23,Other/Unspecified,Meath,37.1,Private Health Insurance,Email,0,0,11.3,1
+PT-10635,83,Male,Louth,3.1,Medical Card (Public/HSE),Email,0,1,56.4,1
+PT-10636,90,Other/Unspecified,Meath,31.8,Self-Pay / Out-of-Pocket,Phone Call,0,1,28.9,1
+PT-10637,30,Other/Unspecified,Dublin,14.1,Medical Card (Public/HSE),Patient Portal,1,2,28.6,0
+PT-10638,90,Female,Offaly,3.5,Medical Card (Public/HSE),Phone Call,0,1,56.6,1
+PT-10639,48,Female,Offaly,38.1,Self-Pay / Out-of-Pocket,Email,1,0,20.0,0
+PT-10640,23,Other/Unspecified,Offaly,32.8,Self-Pay / Out-of-Pocket,Email,0,0,47.3,1
+PT-10641,64,Female,Wicklow,30.1,GP Visit Card (Public),Phone Call,0,1,16.8,1
+PT-10642,74,Other/Unspecified,Louth,23.9,Medical Card (Public/HSE),Patient Portal,0,0,34.6,1
+PT-10643,17,Male,Kildare,24.0,Private Health Insurance,SMS,0,0,43.3,1
+PT-10644,69,Male,Kildare,0.6,Self-Pay / Out-of-Pocket,SMS,0,0,48.1,1
+PT-10645,31,Other/Unspecified,Kildare,14.6,Private Health Insurance,Phone Call,0,2,2.7,1
+PT-10646,34,Female,Offaly,32.3,GP Visit Card (Public),Phone Call,1,0,34.8,1
+PT-10647,73,Other/Unspecified,Wicklow,12.7,Medical Card (Public/HSE),Phone Call,0,3,0.1,1
+PT-10648,74,Male,Wicklow,20.8,Self-Pay / Out-of-Pocket,SMS,0,1,46.8,1
+PT-10649,82,Male,Kildare,25.3,Medical Card (Public/HSE),Phone Call,1,3,59.1,1
+PT-10650,90,Male,Meath,26.6,Medical Card (Public/HSE),Email,0,2,30.7,0
+PT-10651,67,Other/Unspecified,Offaly,41.0,Self-Pay / Out-of-Pocket,Email,1,1,0.2,1
+PT-10652,23,Female,Dublin,23.4,Medical Card (Public/HSE),Email,1,3,44.2,1
+PT-10653,26,Female,Dublin,1.5,Self-Pay / Out-of-Pocket,SMS,0,2,53.3,1
+PT-10654,90,Male,Meath,24.1,Self-Pay / Out-of-Pocket,Patient Portal,0,0,25.0,1
+PT-10655,2,Female,Kildare,12.4,Private Health Insurance,Patient Portal,0,0,34.7,1
+PT-10656,63,Other/Unspecified,Kildare,33.6,GP Visit Card (Public),Patient Portal,1,2,39.4,0
+PT-10657,82,Female,Louth,31.8,Medical Card (Public/HSE),Patient Portal,0,0,45.5,0
+PT-10658,86,Other/Unspecified,Offaly,28.7,GP Visit Card (Public),Patient Portal,1,0,40.2,1
+PT-10659,6,Female,Wicklow,30.0,Self-Pay / Out-of-Pocket,SMS,0,1,11.4,1
+PT-10660,14,Female,Wicklow,14.1,GP Visit Card (Public),SMS,0,0,44.2,1
+PT-10661,6,Female,Dublin,28.0,Medical Card (Public/HSE),Patient Portal,0,0,6.3,0
+PT-10662,61,Female,Kildare,6.7,Medical Card (Public/HSE),Patient Portal,0,0,46.7,1
+PT-10663,49,Female,Wicklow,19.5,Medical Card (Public/HSE),Patient Portal,0,1,54.5,1
+PT-10664,59,Female,Kildare,2.7,GP Visit Card (Public),Phone Call,0,1,52.1,0
+PT-10665,59,Female,Dublin,17.4,Medical Card (Public/HSE),SMS,0,1,29.7,1
+PT-10666,19,Other/Unspecified,Louth,15.3,Private Health Insurance,Patient Portal,1,2,6.9,1
+PT-10667,1,Other/Unspecified,Offaly,1.1,GP Visit Card (Public),SMS,0,1,42.9,0
+PT-10668,53,Female,Dublin,1.7,GP Visit Card (Public),Patient Portal,0,1,14.7,1
+PT-10669,2,Other/Unspecified,Louth,7.8,Private Health Insurance,SMS,0,1,19.4,1
+PT-10670,33,Female,Dublin,33.1,Private Health Insurance,Phone Call,0,0,13.8,1
+PT-10671,45,Male,Kildare,32.9,Self-Pay / Out-of-Pocket,Phone Call,0,0,6.2,1
+PT-10672,49,Female,Dublin,27.4,Medical Card (Public/HSE),SMS,0,0,46.2,0
+PT-10673,52,Male,Wicklow,30.2,GP Visit Card (Public),SMS,0,1,26.2,1
+PT-10674,66,Other/Unspecified,Offaly,14.6,Medical Card (Public/HSE),Email,1,0,58.9,1
+PT-10675,71,Female,Louth,7.3,Private Health Insurance,Patient Portal,0,0,44.7,1
+PT-10676,74,Male,Meath,12.6,Private Health Insurance,SMS,0,0,54.9,0
+PT-10677,62,Female,Kildare,38.7,Self-Pay / Out-of-Pocket,Email,1,0,8.1,1
+PT-10678,85,Male,Kildare,31.2,Medical Card (Public/HSE),Patient Portal,0,0,29.8,1
+PT-10679,46,Female,Louth,17.1,Private Health Insurance,Phone Call,0,1,27.1,1
+PT-10680,21,Male,Dublin,33.7,GP Visit Card (Public),SMS,0,0,14.7,1
+PT-10681,81,Male,Offaly,7.1,Private Health Insurance,Phone Call,0,0,45.6,1
+PT-10682,79,Male,Kildare,32.6,GP Visit Card (Public),SMS,0,1,44.1,0
+PT-10683,54,Other/Unspecified,Offaly,20.4,Medical Card (Public/HSE),Email,0,0,27.9,1
+PT-10684,79,Female,Offaly,22.7,Private Health Insurance,Patient Portal,0,0,3.3,1
+PT-10685,17,Other/Unspecified,Wicklow,25.2,GP Visit Card (Public),Phone Call,1,1,14.7,1
+PT-10686,18,Male,Meath,13.6,Medical Card (Public/HSE),SMS,0,1,10.4,1
+PT-10687,75,Other/Unspecified,Offaly,30.9,GP Visit Card (Public),SMS,0,0,35.3,0
+PT-10688,34,Male,Dublin,27.8,Medical Card (Public/HSE),SMS,0,1,10.5,1
+PT-10689,36,Male,Dublin,24.3,GP Visit Card (Public),SMS,1,0,25.8,1
+PT-10690,21,Male,Kildare,34.2,Medical Card (Public/HSE),Phone Call,0,1,0.1,0
+PT-10691,91,Male,Offaly,41.2,GP Visit Card (Public),Patient Portal,0,1,13.6,0
+PT-10692,35,Male,Meath,8.3,GP Visit Card (Public),SMS,1,2,19.9,1
+PT-10693,46,Female,Kildare,19.2,Private Health Insurance,Phone Call,0,0,13.7,1
+PT-10694,87,Female,Dublin,15.4,Medical Card (Public/HSE),Email,0,0,11.9,1
+PT-10695,69,Female,Dublin,24.4,GP Visit Card (Public),Patient Portal,0,0,41.3,1
+PT-10696,60,Male,Meath,18.0,Medical Card (Public/HSE),Email,0,0,55.1,1
+PT-10697,83,Male,Dublin,11.0,Private Health Insurance,Email,0,0,22.2,1
+PT-10698,88,Other/Unspecified,Offaly,33.8,GP Visit Card (Public),Email,0,0,37.9,1
+PT-10699,33,Male,Meath,18.6,GP Visit Card (Public),SMS,0,0,41.4,1
+PT-10700,82,Male,Wicklow,14.0,Medical Card (Public/HSE),Email,0,0,39.6,1
+PT-10701,14,Male,Meath,5.8,GP Visit Card (Public),Patient Portal,0,0,51.8,1
+PT-10702,28,Female,Dublin,9.5,Self-Pay / Out-of-Pocket,Phone Call,0,2,15.9,1
+PT-10703,49,Female,Wicklow,15.8,Self-Pay / Out-of-Pocket,Patient Portal,0,1,21.7,1
+PT-10704,29,Male,Louth,34.0,Self-Pay / Out-of-Pocket,SMS,1,1,45.6,1
+PT-10705,76,Male,Wicklow,9.2,GP Visit Card (Public),Email,1,0,53.2,0
+PT-10706,49,Female,Dublin,35.9,GP Visit Card (Public),SMS,0,1,24.4,1
+PT-10707,59,Male,Wicklow,27.9,GP Visit Card (Public),Phone Call,0,0,12.6,1
+PT-10708,32,Other/Unspecified,Kildare,4.0,Self-Pay / Out-of-Pocket,Email,1,0,14.6,1
+PT-10709,71,Female,Wicklow,27.5,Medical Card (Public/HSE),Email,0,0,44.6,1
+PT-10710,60,Female,Dublin,3.7,Medical Card (Public/HSE),Patient Portal,0,1,6.2,0
+PT-10711,48,Male,Offaly,31.6,GP Visit Card (Public),SMS,1,0,34.8,1
+PT-10712,15,Female,Kildare,41.3,Private Health Insurance,Phone Call,0,0,44.3,1
+PT-10713,71,Other/Unspecified,Wicklow,3.4,Self-Pay / Out-of-Pocket,Phone Call,0,1,26.4,1
+PT-10714,66,Other/Unspecified,Offaly,35.0,Medical Card (Public/HSE),Patient Portal,0,1,30.1,1
+PT-10715,83,Male,Offaly,24.7,GP Visit Card (Public),Phone Call,0,0,48.9,0
+PT-10716,31,Male,Offaly,17.8,Medical Card (Public/HSE),Phone Call,0,1,11.0,1
+PT-10717,78,Female,Louth,34.5,Self-Pay / Out-of-Pocket,SMS,1,0,30.3,1
+PT-10718,12,Female,Meath,32.3,Self-Pay / Out-of-Pocket,Email,0,1,18.3,1
+PT-10719,3,Other/Unspecified,Meath,14.2,GP Visit Card (Public),SMS,1,0,14.6,1
+PT-10720,40,Other/Unspecified,Kildare,37.3,Medical Card (Public/HSE),Phone Call,1,1,4.5,1
+PT-10721,10,Female,Wicklow,40.1,Private Health Insurance,Patient Portal,0,0,33.9,1
+PT-10722,34,Female,Wicklow,32.4,GP Visit Card (Public),Phone Call,1,0,1.1,1
+PT-10723,49,Female,Meath,38.6,Medical Card (Public/HSE),Patient Portal,0,3,35.4,1
+PT-10724,76,Male,Offaly,31.8,Medical Card (Public/HSE),Phone Call,0,2,44.2,1
+PT-10725,2,Female,Kildare,36.8,Private Health Insurance,Patient Portal,1,1,23.0,0
+PT-10726,36,Female,Meath,9.9,GP Visit Card (Public),SMS,0,0,58.6,0
+PT-10727,59,Female,Kildare,34.3,GP Visit Card (Public),Phone Call,0,0,56.2,1
+PT-10728,71,Female,Wicklow,9.4,GP Visit Card (Public),SMS,1,1,27.2,0
+PT-10729,76,Male,Louth,39.5,GP Visit Card (Public),Email,0,1,28.9,0
+PT-10730,2,Female,Dublin,17.3,Self-Pay / Out-of-Pocket,SMS,0,0,17.3,1
+PT-10731,89,Female,Meath,7.8,GP Visit Card (Public),Email,1,0,35.8,1
+PT-10732,28,Other/Unspecified,Wicklow,33.9,Private Health Insurance,SMS,1,0,30.4,1
+PT-10733,15,Male,Offaly,34.1,Private Health Insurance,Email,1,2,24.5,1
+PT-10734,7,Other/Unspecified,Meath,35.5,Self-Pay / Out-of-Pocket,Email,0,0,55.3,1
+PT-10735,16,Male,Meath,21.1,Private Health Insurance,SMS,0,0,36.5,0
+PT-10736,66,Female,Offaly,11.0,Private Health Insurance,SMS,1,0,55.6,0
+PT-10737,52,Male,Offaly,6.1,GP Visit Card (Public),Patient Portal,0,0,35.5,1
+PT-10738,37,Male,Dublin,33.3,GP Visit Card (Public),Patient Portal,1,1,51.8,1
+PT-10739,66,Other/Unspecified,Kildare,23.2,Private Health Insurance,Phone Call,1,0,10.1,0
+PT-10740,79,Male,Kildare,28.2,GP Visit Card (Public),Email,0,0,37.9,1
+PT-10741,86,Female,Louth,40.3,GP Visit Card (Public),Patient Portal,1,2,6.7,1
+PT-10742,41,Male,Louth,15.5,Self-Pay / Out-of-Pocket,Phone Call,0,0,50.5,1
+PT-10743,49,Other/Unspecified,Wicklow,23.2,Private Health Insurance,Email,1,0,47.2,1
+PT-10744,55,Other/Unspecified,Offaly,29.8,GP Visit Card (Public),Patient Portal,0,1,55.9,1
+PT-10745,15,Other/Unspecified,Meath,23.9,GP Visit Card (Public),Email,0,0,32.6,1
+PT-10746,32,Male,Offaly,2.3,Private Health Insurance,Email,0,0,26.2,0
+PT-10747,10,Other/Unspecified,Louth,32.5,Medical Card (Public/HSE),Email,0,0,33.3,0
+PT-10748,23,Other/Unspecified,Louth,24.2,Private Health Insurance,SMS,0,1,6.5,1
+PT-10749,34,Female,Dublin,24.8,GP Visit Card (Public),SMS,0,2,31.3,1
+PT-10750,10,Female,Meath,11.9,GP Visit Card (Public),SMS,0,0,6.7,1
+PT-10751,88,Female,Dublin,6.8,GP Visit Card (Public),Email,1,1,45.5,1
+PT-10752,59,Female,Louth,4.2,Private Health Insurance,Phone Call,0,1,18.8,0
+PT-10753,25,Other/Unspecified,Wicklow,8.0,Private Health Insurance,Phone Call,0,0,43.2,1
+PT-10754,89,Male,Kildare,16.0,Private Health Insurance,SMS,0,0,43.2,1
+PT-10755,46,Other/Unspecified,Meath,10.0,GP Visit Card (Public),Phone Call,0,0,14.0,0
+PT-10756,83,Female,Kildare,30.5,Medical Card (Public/HSE),Email,1,1,45.7,0
+PT-10757,44,Male,Offaly,13.3,Medical Card (Public/HSE),Email,0,0,9.6,1
+PT-10758,72,Male,Dublin,23.1,Medical Card (Public/HSE),Email,0,0,23.8,0
+PT-10759,90,Male,Kildare,6.6,Medical Card (Public/HSE),Patient Portal,1,1,50.3,1
+PT-10760,48,Female,Kildare,28.6,GP Visit Card (Public),SMS,1,0,23.7,1
+PT-10761,87,Male,Louth,33.1,Self-Pay / Out-of-Pocket,Phone Call,0,1,17.3,1
+PT-10762,7,Female,Offaly,24.5,Medical Card (Public/HSE),Email,0,0,9.1,1
+PT-10763,74,Other/Unspecified,Offaly,16.1,Self-Pay / Out-of-Pocket,Email,0,1,15.1,1
+PT-10764,21,Male,Offaly,15.3,Private Health Insurance,Email,0,1,0.9,1
+PT-10765,52,Female,Wicklow,22.9,Private Health Insurance,Phone Call,1,0,9.0,1
+PT-10766,91,Other/Unspecified,Offaly,15.2,Private Health Insurance,SMS,0,0,12.2,1
+PT-10767,3,Male,Dublin,25.9,Private Health Insurance,Email,0,0,29.2,1
+PT-10768,34,Other/Unspecified,Kildare,27.4,Self-Pay / Out-of-Pocket,SMS,0,1,14.5,1
+PT-10769,67,Female,Louth,23.8,Private Health Insurance,Patient Portal,0,0,41.5,1
+PT-10770,8,Female,Offaly,0.6,Medical Card (Public/HSE),Patient Portal,1,2,48.9,0
+PT-10771,25,Female,Meath,7.1,GP Visit Card (Public),Patient Portal,0,0,19.8,0
+PT-10772,3,Other/Unspecified,Wicklow,35.2,Private Health Insurance,Patient Portal,0,0,25.6,1
+PT-10773,31,Female,Wicklow,24.4,Medical Card (Public/HSE),Phone Call,0,0,31.2,1
+PT-10774,68,Other/Unspecified,Kildare,7.3,Medical Card (Public/HSE),Patient Portal,0,0,5.8,1
+PT-10775,3,Other/Unspecified,Dublin,39.1,Private Health Insurance,Patient Portal,0,2,30.5,1
+PT-10776,54,Male,Offaly,33.9,Medical Card (Public/HSE),SMS,0,1,58.9,1
+PT-10777,28,Other/Unspecified,Kildare,41.8,Medical Card (Public/HSE),SMS,0,2,31.9,1
+PT-10778,24,Other/Unspecified,Louth,25.6,Self-Pay / Out-of-Pocket,Email,0,1,58.9,1
+PT-10779,67,Male,Wicklow,26.0,Private Health Insurance,Phone Call,0,1,2.1,1
+PT-10780,47,Male,Louth,18.0,Medical Card (Public/HSE),SMS,0,1,21.7,0
+PT-10781,31,Male,Kildare,9.2,GP Visit Card (Public),Phone Call,1,1,43.1,0
+PT-10782,1,Other/Unspecified,Kildare,15.2,GP Visit Card (Public),Email,1,0,2.8,1
+PT-10783,86,Other/Unspecified,Meath,41.8,GP Visit Card (Public),SMS,0,1,58.1,0
+PT-10784,81,Other/Unspecified,Kildare,33.3,Private Health Insurance,Phone Call,0,0,46.6,1
+PT-10785,25,Other/Unspecified,Kildare,12.9,Self-Pay / Out-of-Pocket,SMS,0,0,39.0,1
+PT-10786,42,Other/Unspecified,Meath,33.5,Medical Card (Public/HSE),Phone Call,0,0,31.1,1
+PT-10787,16,Male,Kildare,26.2,Private Health Insurance,Phone Call,0,0,15.0,1
+PT-10788,16,Male,Louth,1.6,Private Health Insurance,Patient Portal,1,0,1.9,1
+PT-10789,82,Female,Kildare,20.5,Medical Card (Public/HSE),Patient Portal,0,0,56.6,1
+PT-10790,34,Other/Unspecified,Kildare,10.8,GP Visit Card (Public),Phone Call,0,0,58.2,1
+PT-10791,51,Male,Wicklow,8.3,Private Health Insurance,Email,0,0,44.9,1
+PT-10792,91,Other/Unspecified,Dublin,35.8,Private Health Insurance,Email,0,2,4.0,1
+PT-10793,38,Other/Unspecified,Offaly,39.9,Medical Card (Public/HSE),Patient Portal,0,0,4.2,0
+PT-10794,16,Male,Offaly,10.7,GP Visit Card (Public),Phone Call,0,1,1.2,1
+PT-10795,90,Female,Dublin,3.0,Medical Card (Public/HSE),Phone Call,0,2,26.7,1
+PT-10796,31,Female,Meath,36.6,Medical Card (Public/HSE),SMS,1,0,3.5,1
+PT-10797,72,Female,Wicklow,1.2,Self-Pay / Out-of-Pocket,Phone Call,1,1,1.5,0
+PT-10798,76,Male,Offaly,33.8,Self-Pay / Out-of-Pocket,Phone Call,0,1,54.9,1
+PT-10799,64,Other/Unspecified,Meath,20.2,Medical Card (Public/HSE),SMS,1,2,51.3,0

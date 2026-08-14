@@ -1,0 +1,21 @@
+facility_id,facility_name,facility_type,county,num_exam_rooms,num_specialty_resources,open_days_per_week
+FAC-100,Meridian Liffey Medical Center (Flagship Hospital),Hospital,Dublin,6,4,5
+FAC-101,Meridian Blanchardstown Outpatient Center,Outpatient Center,Wicklow,19,4,7
+FAC-102,Meridian Swords Family Clinic,Clinic,Dublin,39,3,5
+FAC-103,Meridian Tallaght Specialty Center,Specialty Center,Louth,22,0,5
+FAC-104,Meridian Docklands Health Plaza,Health Plaza,Meath,13,2,7
+FAC-105,Meridian Rathmines Clinic,Clinic,Dublin,28,4,7
+FAC-106,Meridian Sandyford Imaging & Diagnostics,Imaging Center,Kildare,17,0,5
+FAC-107,Meridian Dundrum Behavioral Health,Behavioral Health,Dublin,14,5,6
+FAC-108,Meridian Clondalkin Pediatrics,Clinic,Wicklow,11,2,5
+FAC-109,Meridian Malahide Cardiology,Specialty Center,Kildare,37,0,5
+FAC-110,Meridian Dun Laoghaire Dermatology,Specialty Center,Louth,25,5,6
+FAC-111,Meridian Lucan Women's Health,Specialty Center,Dublin,12,3,7
+FAC-112,Meridian Santry Oncology Center,Specialty Center,Dublin,36,0,5
+FAC-113,Meridian Finglas Urgent Care,Urgent Care,Offaly,22,4,7
+FAC-114,Meridian Stillorgan Orthopedics,Specialty Center,Louth,28,2,5
+FAC-115,Meridian Blackrock General Medicine,Clinic,Louth,11,2,7
+FAC-116,Meridian Howth Clinic,Clinic,Wicklow,17,2,5
+FAC-117,Meridian Clontarf Family Practice,Clinic,Kildare,17,5,5
+FAC-118,Meridian Ballsbridge Physical Therapy,Specialty Center,Louth,31,1,5
+FAC-119,Meridian Cabra Behavioral Health,Behavioral Health,Meath,24,1,6

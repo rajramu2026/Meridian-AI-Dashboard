@@ -1,0 +1,81 @@
+resource_id,facility_id,resource_type,turnaround_minutes,next_maintenance_date,utilization_pct_trailing_12mo,status
+RES-300,FAC-113,Exam Room,11,2026-05-18,98.3,Overbooked (>90%)
+RES-301,FAC-107,Procedure Room,43,2026-12-05,52.8,Underutilized (<60%)
+RES-302,FAC-106,X-Ray Room,44,2026-09-12,58.9,Underutilized (<60%)
+RES-303,FAC-117,X-Ray Room,42,2026-12-27,78.5,Healthy
+RES-304,FAC-103,Exam Room,23,2026-09-07,80.3,Healthy
+RES-305,FAC-114,Lab Station,28,2026-11-03,69.3,Healthy
+RES-306,FAC-100,CT Suite,41,2026-05-12,47.9,Underutilized (<60%)
+RES-307,FAC-113,MRI Suite,40,2026-12-21,49.7,Underutilized (<60%)
+RES-308,FAC-105,Infusion Chair,24,2026-09-30,77.3,Healthy
+RES-309,FAC-116,X-Ray Room,33,2026-08-29,78.9,Healthy
+RES-310,FAC-103,Procedure Room,50,2026-10-20,56.5,Underutilized (<60%)
+RES-311,FAC-119,Exam Room,12,2026-03-17,77.6,Healthy
+RES-312,FAC-107,X-Ray Room,19,2026-09-01,96.9,Overbooked (>90%)
+RES-313,FAC-113,CT Suite,30,2026-04-01,44.6,Underutilized (<60%)
+RES-314,FAC-112,MRI Suite,16,2026-02-23,74.2,Healthy
+RES-315,FAC-113,Procedure Room,13,2026-09-28,72.0,Healthy
+RES-316,FAC-110,Infusion Chair,54,2026-09-19,46.9,Underutilized (<60%)
+RES-317,FAC-110,CT Suite,52,2026-07-18,68.5,Healthy
+RES-318,FAC-115,Exam Room,13,2026-12-06,41.0,Underutilized (<60%)
+RES-319,FAC-104,Lab Station,40,2026-10-01,79.2,Healthy
+RES-320,FAC-117,CT Suite,14,2027-01-12,57.1,Underutilized (<60%)
+RES-321,FAC-105,Exam Room,49,2026-08-11,76.7,Healthy
+RES-322,FAC-117,MRI Suite,32,2027-01-18,80.0,Healthy
+RES-323,FAC-118,X-Ray Room,50,2026-04-01,38.1,Underutilized (<60%)
+RES-324,FAC-101,Exam Room,25,2026-05-19,98.0,Overbooked (>90%)
+RES-325,FAC-106,Exam Room,43,2026-04-18,83.2,Healthy
+RES-326,FAC-116,Procedure Room,20,2026-05-21,96.3,Overbooked (>90%)
+RES-327,FAC-116,Ultrasound Room,51,2026-03-16,63.2,Healthy
+RES-328,FAC-104,Procedure Room,47,2026-03-13,95.4,Overbooked (>90%)
+RES-329,FAC-104,CT Suite,14,2026-09-09,45.2,Underutilized (<60%)
+RES-330,FAC-114,Exam Room,50,2026-04-12,81.9,Healthy
+RES-331,FAC-113,CT Suite,44,2026-07-23,46.0,Underutilized (<60%)
+RES-332,FAC-119,Infusion Chair,33,2026-05-04,48.2,Underutilized (<60%)
+RES-333,FAC-119,Infusion Chair,54,2026-12-09,48.1,Underutilized (<60%)
+RES-334,FAC-107,Lab Station,28,2026-05-03,43.0,Underutilized (<60%)
+RES-335,FAC-106,Ultrasound Room,53,2026-12-04,85.3,Healthy
+RES-336,FAC-101,MRI Suite,20,2026-11-24,51.3,Underutilized (<60%)
+RES-337,FAC-100,X-Ray Room,59,2026-06-09,63.8,Healthy
+RES-338,FAC-105,Procedure Room,58,2026-07-20,58.7,Underutilized (<60%)
+RES-339,FAC-117,Infusion Chair,13,2026-07-23,40.4,Underutilized (<60%)
+RES-340,FAC-107,CT Suite,23,2026-09-25,49.8,Underutilized (<60%)
+RES-341,FAC-107,CT Suite,56,2027-01-06,74.4,Healthy
+RES-342,FAC-106,MRI Suite,31,2026-10-18,94.3,Overbooked (>90%)
+RES-343,FAC-114,Procedure Room,27,2026-09-08,55.6,Underutilized (<60%)
+RES-344,FAC-108,Lab Station,52,2026-10-07,62.2,Healthy
+RES-345,FAC-116,Exam Room,56,2026-05-03,52.6,Underutilized (<60%)
+RES-346,FAC-115,Exam Room,37,2026-06-27,39.7,Underutilized (<60%)
+RES-347,FAC-114,MRI Suite,26,2026-12-03,47.0,Underutilized (<60%)
+RES-348,FAC-102,Lab Station,35,2027-01-11,43.2,Underutilized (<60%)
+RES-349,FAC-104,X-Ray Room,33,2026-07-08,66.1,Healthy
+RES-350,FAC-114,CT Suite,11,2026-12-04,90.1,Overbooked (>90%)
+RES-351,FAC-106,X-Ray Room,31,2026-12-04,78.7,Healthy
+RES-352,FAC-113,Procedure Room,19,2026-03-13,49.6,Underutilized (<60%)
+RES-353,FAC-106,Procedure Room,38,2026-07-17,61.2,Healthy
+RES-354,FAC-105,Lab Station,34,2026-09-21,84.1,Healthy
+RES-355,FAC-111,Lab Station,26,2027-01-02,81.5,Healthy
+RES-356,FAC-109,Infusion Chair,56,2026-08-26,98.8,Overbooked (>90%)
+RES-357,FAC-105,Procedure Room,50,2026-09-22,82.1,Healthy
+RES-358,FAC-114,MRI Suite,17,2026-03-29,49.0,Underutilized (<60%)
+RES-359,FAC-104,Procedure Room,32,2026-02-20,98.4,Overbooked (>90%)
+RES-360,FAC-118,X-Ray Room,32,2026-11-02,66.9,Healthy
+RES-361,FAC-103,Infusion Chair,29,2026-04-01,72.6,Healthy
+RES-362,FAC-105,Lab Station,45,2026-09-02,96.1,Overbooked (>90%)
+RES-363,FAC-115,Ultrasound Room,58,2026-06-08,60.3,Healthy
+RES-364,FAC-118,Ultrasound Room,10,2026-02-18,76.2,Healthy
+RES-365,FAC-115,Infusion Chair,35,2026-12-09,58.6,Underutilized (<60%)
+RES-366,FAC-115,Procedure Room,54,2026-09-17,96.9,Overbooked (>90%)
+RES-367,FAC-115,CT Suite,59,2026-03-31,86.6,Healthy
+RES-368,FAC-116,CT Suite,13,2026-10-05,44.3,Underutilized (<60%)
+RES-369,FAC-107,MRI Suite,21,2026-12-11,67.8,Healthy
+RES-370,FAC-111,Lab Station,57,2026-04-22,52.1,Underutilized (<60%)
+RES-371,FAC-102,Lab Station,31,2026-04-10,47.5,Underutilized (<60%)
+RES-372,FAC-103,X-Ray Room,36,2026-10-26,54.7,Underutilized (<60%)
+RES-373,FAC-113,X-Ray Room,35,2026-10-19,94.7,Overbooked (>90%)
+RES-374,FAC-111,Lab Station,21,2026-11-06,83.0,Healthy
+RES-375,FAC-104,Ultrasound Room,54,2026-12-05,94.5,Overbooked (>90%)
+RES-376,FAC-118,Exam Room,53,2026-09-04,44.1,Underutilized (<60%)
+RES-377,FAC-101,Ultrasound Room,27,2027-01-15,85.0,Healthy
+RES-378,FAC-111,Lab Station,33,2026-05-16,45.5,Underutilized (<60%)
+RES-379,FAC-113,Infusion Chair,25,2026-09-08,93.6,Overbooked (>90%)

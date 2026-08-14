@@ -1,0 +1,601 @@
+waitlist_id,patient_id,department,urgency_level,date_added,days_on_waitlist,preferred_facility_id,status
+WL-6347,PT-10734,Oncology,Urgent,2025-08-12,17,FAC-118,Waiting
+WL-6569,PT-10223,Oncology,Routine,2025-08-13,22,FAC-117,Waiting
+WL-6416,PT-10689,Cardiology,New Patient,2025-08-14,9,FAC-109,Waiting
+WL-6379,PT-10259,Oncology,Follow-up,2025-08-15,26,FAC-109,Waiting
+WL-6283,PT-10261,Women's Health,Routine,2025-08-15,31,FAC-110,Waiting
+WL-6349,PT-10306,Women's Health,Routine,2025-08-15,14,FAC-106,Waiting
+WL-6502,PT-10417,Behavioral Health,Routine,2025-08-15,39,FAC-114,Scheduled
+WL-6139,PT-10434,Dermatology,Follow-up,2025-08-17,43,FAC-107,Waiting
+WL-6355,PT-10363,Orthopedics,Routine,2025-08-17,18,FAC-108,Waiting
+WL-6279,PT-10146,Pediatrics,Follow-up,2025-08-18,23,FAC-107,Waiting
+WL-6225,PT-10603,Pediatrics,Routine,2025-08-18,20,FAC-100,Scheduled
+WL-6511,PT-10352,Women's Health,Routine,2025-08-19,31,FAC-104,Waiting
+WL-6596,PT-10218,Pediatrics,New Patient,2025-08-19,36,FAC-108,Removed
+WL-6432,PT-10790,Cardiology,Urgent,2025-08-20,38,FAC-110,Waiting
+WL-6040,PT-10671,Behavioral Health,Follow-up,2025-08-20,7,FAC-116,Waiting
+WL-6241,PT-10063,Radiology,Urgent,2025-08-20,23,FAC-111,Scheduled
+WL-6409,PT-10215,Physical Therapy,New Patient,2025-08-20,42,FAC-109,Waiting
+WL-6323,PT-10667,Women's Health,Follow-up,2025-08-20,32,FAC-103,Offered Slot
+WL-6004,PT-10144,General Medicine,Routine,2025-08-22,42,FAC-114,Scheduled
+WL-6532,PT-10098,Dermatology,New Patient,2025-08-22,24,FAC-108,Waiting
+WL-6078,PT-10211,Physical Therapy,New Patient,2025-08-23,44,FAC-111,Waiting
+WL-6213,PT-10730,Cardiology,Urgent,2025-08-24,7,FAC-105,Removed
+WL-6110,PT-10502,Radiology,Follow-up,2025-08-24,5,FAC-116,Waiting
+WL-6387,PT-10461,Physical Therapy,New Patient,2025-08-24,27,FAC-103,Waiting
+WL-6058,PT-10575,Physical Therapy,Routine,2025-08-25,41,FAC-118,Scheduled
+WL-6169,PT-10611,Behavioral Health,Urgent,2025-08-25,26,FAC-104,Offered Slot
+WL-6050,PT-10041,Cardiology,Follow-up,2025-08-25,25,FAC-116,Waiting
+WL-6537,PT-10385,Oncology,Follow-up,2025-08-25,32,FAC-105,Waiting
+WL-6418,PT-10735,Cardiology,Follow-up,2025-08-25,9,FAC-111,Removed
+WL-6016,PT-10268,Radiology,Follow-up,2025-08-26,28,FAC-115,Waiting
+WL-6382,PT-10210,General Medicine,New Patient,2025-08-26,1,FAC-117,Scheduled
+WL-6439,PT-10034,Cardiology,Routine,2025-08-26,22,FAC-117,Removed
+WL-6512,PT-10220,Women's Health,Routine,2025-08-27,42,FAC-103,Scheduled
+WL-6471,PT-10445,Women's Health,Routine,2025-08-27,34,FAC-105,Waiting
+WL-6313,PT-10611,Radiology,Routine,2025-08-28,10,FAC-114,Waiting
+WL-6301,PT-10113,Cardiology,Urgent,2025-08-28,31,FAC-106,Waiting
+WL-6281,PT-10118,General Medicine,Routine,2025-08-29,4,FAC-106,Scheduled
+WL-6174,PT-10038,Dermatology,Urgent,2025-08-30,35,FAC-113,Scheduled
+WL-6427,PT-10585,Dermatology,Follow-up,2025-09-01,25,FAC-112,Waiting
+WL-6528,PT-10604,Radiology,Follow-up,2025-09-02,38,FAC-103,Scheduled
+WL-6196,PT-10501,Pediatrics,Urgent,2025-09-03,16,FAC-118,Waiting
+WL-6480,PT-10547,Radiology,Follow-up,2025-09-03,17,FAC-112,Waiting
+WL-6164,PT-10073,Behavioral Health,Urgent,2025-09-06,23,FAC-113,Waiting
+WL-6527,PT-10002,Cardiology,Urgent,2025-09-07,17,FAC-119,Scheduled
+WL-6436,PT-10484,Pediatrics,Urgent,2025-09-08,38,FAC-110,Offered Slot
+WL-6119,PT-10150,Physical Therapy,New Patient,2025-09-10,39,FAC-114,Removed
+WL-6091,PT-10513,Behavioral Health,Follow-up,2025-09-10,41,FAC-117,Offered Slot
+WL-6065,PT-10126,Radiology,Follow-up,2025-09-10,37,FAC-102,Scheduled
+WL-6325,PT-10241,Orthopedics,New Patient,2025-09-10,11,FAC-104,Removed
+WL-6264,PT-10719,Orthopedics,Follow-up,2025-09-11,4,FAC-107,Scheduled
+WL-6598,PT-10665,Women's Health,New Patient,2025-09-12,38,FAC-111,Scheduled
+WL-6064,PT-10737,Women's Health,Routine,2025-09-12,1,FAC-108,Waiting
+WL-6494,PT-10683,Cardiology,Urgent,2025-09-12,19,FAC-115,Waiting
+WL-6033,PT-10605,Women's Health,Urgent,2025-09-13,28,FAC-107,Scheduled
+WL-6362,PT-10289,Oncology,Routine,2025-09-14,19,FAC-110,Scheduled
+WL-6182,PT-10473,Orthopedics,New Patient,2025-09-15,21,FAC-102,Scheduled
+WL-6232,PT-10342,Dermatology,Routine,2025-09-15,40,FAC-115,Scheduled
+WL-6125,PT-10386,Dermatology,Urgent,2025-09-15,8,FAC-110,Scheduled
+WL-6127,PT-10181,Orthopedics,New Patient,2025-09-15,16,FAC-101,Waiting
+WL-6266,PT-10441,Behavioral Health,New Patient,2025-09-16,31,FAC-115,Waiting
+WL-6342,PT-10247,General Medicine,Routine,2025-09-16,39,FAC-114,Offered Slot
+WL-6498,PT-10620,Behavioral Health,New Patient,2025-09-16,30,FAC-119,Offered Slot
+WL-6051,PT-10135,Physical Therapy,New Patient,2025-09-16,43,FAC-107,Removed
+WL-6261,PT-10308,Behavioral Health,Routine,2025-09-16,29,FAC-102,Scheduled
+WL-6589,PT-10696,Radiology,Routine,2025-09-16,34,FAC-112,Scheduled
+WL-6026,PT-10396,General Medicine,Routine,2025-09-17,35,FAC-106,Waiting
+WL-6192,PT-10449,General Medicine,Routine,2025-09-17,42,FAC-101,Scheduled
+WL-6020,PT-10469,Cardiology,Routine,2025-09-18,12,FAC-107,Offered Slot
+WL-6090,PT-10262,Pediatrics,Routine,2025-09-19,33,FAC-100,Removed
+WL-6546,PT-10039,Cardiology,Routine,2025-09-19,17,FAC-107,Offered Slot
+WL-6191,PT-10237,Behavioral Health,New Patient,2025-09-21,31,FAC-116,Scheduled
+WL-6045,PT-10530,Orthopedics,New Patient,2025-09-22,33,FAC-105,Scheduled
+WL-6219,PT-10135,Orthopedics,New Patient,2025-09-24,44,FAC-109,Waiting
+WL-6238,PT-10294,Radiology,New Patient,2025-09-24,26,FAC-104,Waiting
+WL-6068,PT-10390,Physical Therapy,New Patient,2025-09-24,20,FAC-100,Waiting
+WL-6210,PT-10119,Radiology,New Patient,2025-09-25,33,FAC-114,Offered Slot
+WL-6370,PT-10742,Physical Therapy,Follow-up,2025-09-26,33,FAC-117,Waiting
+WL-6010,PT-10022,Orthopedics,Routine,2025-09-26,42,FAC-117,Offered Slot
+WL-6472,PT-10316,Oncology,New Patient,2025-09-26,39,FAC-101,Removed
+WL-6043,PT-10722,Cardiology,Routine,2025-09-27,41,FAC-101,Removed
+WL-6297,PT-10077,Physical Therapy,New Patient,2025-09-27,1,FAC-115,Waiting
+WL-6393,PT-10560,Cardiology,Follow-up,2025-09-27,10,FAC-112,Waiting
+WL-6482,PT-10449,Dermatology,Follow-up,2025-09-28,2,FAC-101,Removed
+WL-6406,PT-10606,Women's Health,Follow-up,2025-09-29,41,FAC-118,Waiting
+WL-6115,PT-10671,Dermatology,New Patient,2025-09-29,14,FAC-116,Waiting
+WL-6001,PT-10781,Radiology,Routine,2025-09-29,28,FAC-103,Waiting
+WL-6250,PT-10150,Physical Therapy,Urgent,2025-09-29,40,FAC-118,Scheduled
+WL-6063,PT-10593,General Medicine,New Patient,2025-10-01,24,FAC-101,Waiting
+WL-6367,PT-10413,Women's Health,New Patient,2025-10-02,28,FAC-108,Waiting
+WL-6597,PT-10782,Radiology,Urgent,2025-10-03,34,FAC-101,Waiting
+WL-6184,PT-10047,Radiology,Urgent,2025-10-03,42,FAC-119,Scheduled
+WL-6431,PT-10344,Oncology,New Patient,2025-10-04,6,FAC-106,Waiting
+WL-6088,PT-10113,Physical Therapy,Urgent,2025-10-04,8,FAC-104,Waiting
+WL-6214,PT-10342,Women's Health,Routine,2025-10-04,39,FAC-112,Waiting
+WL-6046,PT-10434,General Medicine,Routine,2025-10-05,26,FAC-111,Removed
+WL-6374,PT-10327,Physical Therapy,Routine,2025-10-06,30,FAC-113,Waiting
+WL-6284,PT-10486,Pediatrics,Routine,2025-10-06,18,FAC-109,Removed
+WL-6198,PT-10577,Orthopedics,New Patient,2025-10-07,32,FAC-105,Waiting
+WL-6331,PT-10759,Oncology,Follow-up,2025-10-09,1,FAC-109,Scheduled
+WL-6251,PT-10690,Oncology,Routine,2025-10-09,6,FAC-101,Waiting
+WL-6276,PT-10324,Oncology,Urgent,2025-10-10,24,FAC-105,Waiting
+WL-6005,PT-10283,Pediatrics,New Patient,2025-10-10,43,FAC-116,Waiting
+WL-6357,PT-10083,Cardiology,New Patient,2025-10-10,4,FAC-119,Offered Slot
+WL-6186,PT-10343,Dermatology,Routine,2025-10-11,39,FAC-101,Waiting
+WL-6468,PT-10499,Radiology,New Patient,2025-10-12,8,FAC-108,Scheduled
+WL-6084,PT-10289,Dermatology,Routine,2025-10-12,35,FAC-108,Waiting
+WL-6493,PT-10487,Pediatrics,Routine,2025-10-12,30,FAC-112,Waiting
+WL-6269,PT-10319,Women's Health,Routine,2025-10-14,1,FAC-116,Scheduled
+WL-6590,PT-10796,General Medicine,Routine,2025-10-14,1,FAC-116,Waiting
+WL-6364,PT-10778,Physical Therapy,Routine,2025-10-14,33,FAC-107,Removed
+WL-6386,PT-10124,Oncology,Urgent,2025-10-15,44,FAC-112,Waiting
+WL-6328,PT-10636,Physical Therapy,Follow-up,2025-10-15,26,FAC-108,Waiting
+WL-6062,PT-10139,General Medicine,Follow-up,2025-10-16,25,FAC-118,Waiting
+WL-6557,PT-10130,Pediatrics,New Patient,2025-10-16,20,FAC-109,Scheduled
+WL-6145,PT-10683,Radiology,Urgent,2025-10-16,5,FAC-119,Waiting
+WL-6372,PT-10644,Radiology,Follow-up,2025-10-16,42,FAC-105,Offered Slot
+WL-6195,PT-10794,Physical Therapy,Follow-up,2025-10-16,2,FAC-116,Waiting
+WL-6160,PT-10681,Cardiology,New Patient,2025-10-16,13,FAC-107,Waiting
+WL-6117,PT-10529,Women's Health,New Patient,2025-10-18,7,FAC-107,Waiting
+WL-6042,PT-10090,Radiology,Urgent,2025-10-19,44,FAC-115,Scheduled
+WL-6165,PT-10430,Radiology,New Patient,2025-10-19,28,FAC-113,Offered Slot
+WL-6124,PT-10559,Orthopedics,Routine,2025-10-19,33,FAC-103,Waiting
+WL-6368,PT-10443,Dermatology,New Patient,2025-10-20,25,FAC-115,Removed
+WL-6098,PT-10776,Dermatology,Urgent,2025-10-20,31,FAC-112,Offered Slot
+WL-6518,PT-10418,Pediatrics,New Patient,2025-10-21,20,FAC-105,Waiting
+WL-6426,PT-10223,Cardiology,Urgent,2025-10-21,19,FAC-112,Offered Slot
+WL-6551,PT-10426,Pediatrics,Urgent,2025-10-21,11,FAC-112,Offered Slot
+WL-6485,PT-10726,General Medicine,New Patient,2025-10-21,17,FAC-109,Waiting
+WL-6150,PT-10205,Orthopedics,Urgent,2025-10-22,30,FAC-107,Removed
+WL-6180,PT-10734,Physical Therapy,Follow-up,2025-10-22,39,FAC-109,Offered Slot
+WL-6157,PT-10708,Dermatology,New Patient,2025-10-23,39,FAC-114,Waiting
+WL-6230,PT-10490,Oncology,Follow-up,2025-10-25,44,FAC-109,Waiting
+WL-6183,PT-10198,Oncology,Urgent,2025-10-25,3,FAC-110,Waiting
+WL-6586,PT-10168,Physical Therapy,New Patient,2025-10-26,34,FAC-102,Offered Slot
+WL-6082,PT-10233,Orthopedics,Urgent,2025-10-26,40,FAC-103,Waiting
+WL-6218,PT-10278,Women's Health,New Patient,2025-10-26,13,FAC-116,Waiting
+WL-6205,PT-10335,Orthopedics,Follow-up,2025-10-27,39,FAC-101,Waiting
+WL-6116,PT-10355,Radiology,Urgent,2025-10-28,10,FAC-102,Offered Slot
+WL-6245,PT-10641,Pediatrics,Follow-up,2025-10-29,37,FAC-112,Scheduled
+WL-6341,PT-10342,General Medicine,New Patient,2025-10-29,39,FAC-104,Waiting
+WL-6332,PT-10630,General Medicine,Follow-up,2025-10-29,17,FAC-117,Scheduled
+WL-6467,PT-10633,Dermatology,Routine,2025-10-31,7,FAC-100,Waiting
+WL-6548,PT-10651,General Medicine,Urgent,2025-11-01,12,FAC-105,Waiting
+WL-6074,PT-10472,Pediatrics,Routine,2025-11-01,35,FAC-109,Offered Slot
+WL-6259,PT-10340,General Medicine,New Patient,2025-11-01,30,FAC-107,Scheduled
+WL-6473,PT-10641,Oncology,Routine,2025-11-01,33,FAC-111,Waiting
+WL-6404,PT-10398,Orthopedics,Routine,2025-11-02,37,FAC-105,Waiting
+WL-6228,PT-10206,Behavioral Health,Urgent,2025-11-02,34,FAC-116,Removed
+WL-6463,PT-10551,Women's Health,Routine,2025-11-02,22,FAC-119,Scheduled
+WL-6176,PT-10791,Physical Therapy,New Patient,2025-11-03,33,FAC-106,Waiting
+WL-6479,PT-10134,Behavioral Health,Follow-up,2025-11-04,2,FAC-115,Scheduled
+WL-6294,PT-10072,General Medicine,Follow-up,2025-11-05,7,FAC-106,Waiting
+WL-6521,PT-10139,Cardiology,New Patient,2025-11-05,8,FAC-101,Waiting
+WL-6392,PT-10345,General Medicine,New Patient,2025-11-06,7,FAC-110,Scheduled
+WL-6022,PT-10028,Oncology,Urgent,2025-11-06,32,FAC-102,Offered Slot
+WL-6076,PT-10208,Behavioral Health,Routine,2025-11-06,36,FAC-102,Waiting
+WL-6173,PT-10052,Dermatology,New Patient,2025-11-07,13,FAC-113,Offered Slot
+WL-6118,PT-10635,Oncology,Routine,2025-11-07,1,FAC-109,Waiting
+WL-6503,PT-10264,Orthopedics,Follow-up,2025-11-07,26,FAC-105,Waiting
+WL-6440,PT-10458,Oncology,Routine,2025-11-07,24,FAC-117,Scheduled
+WL-6517,PT-10687,Pediatrics,Routine,2025-11-07,30,FAC-118,Offered Slot
+WL-6006,PT-10492,Women's Health,Follow-up,2025-11-08,7,FAC-117,Waiting
+WL-6131,PT-10319,Oncology,Routine,2025-11-10,40,FAC-105,Waiting
+WL-6263,PT-10214,Dermatology,Urgent,2025-11-10,29,FAC-110,Scheduled
+WL-6236,PT-10304,Physical Therapy,Follow-up,2025-11-10,41,FAC-115,Waiting
+WL-6389,PT-10130,Cardiology,Follow-up,2025-11-11,7,FAC-111,Scheduled
+WL-6289,PT-10489,Oncology,Urgent,2025-11-11,1,FAC-109,Scheduled
+WL-6373,PT-10462,General Medicine,Urgent,2025-11-11,27,FAC-103,Scheduled
+WL-6311,PT-10602,Physical Therapy,New Patient,2025-11-13,23,FAC-116,Waiting
+WL-6399,PT-10538,Women's Health,Urgent,2025-11-13,6,FAC-118,Scheduled
+WL-6254,PT-10455,Orthopedics,New Patient,2025-11-13,29,FAC-112,Scheduled
+WL-6104,PT-10591,Orthopedics,Urgent,2025-11-14,23,FAC-110,Offered Slot
+WL-6212,PT-10354,Oncology,Routine,2025-11-15,12,FAC-119,Waiting
+WL-6274,PT-10713,Cardiology,New Patient,2025-11-15,37,FAC-105,Waiting
+WL-6087,PT-10103,General Medicine,Routine,2025-11-15,30,FAC-107,Scheduled
+WL-6193,PT-10418,Dermatology,Follow-up,2025-11-17,13,FAC-109,Waiting
+WL-6337,PT-10388,Orthopedics,Follow-up,2025-11-17,7,FAC-101,Offered Slot
+WL-6258,PT-10599,Behavioral Health,Routine,2025-11-17,31,FAC-119,Removed
+WL-6340,PT-10210,Cardiology,Routine,2025-11-18,29,FAC-106,Waiting
+WL-6315,PT-10303,Radiology,Routine,2025-11-18,10,FAC-118,Waiting
+WL-6552,PT-10057,Cardiology,Routine,2025-11-20,40,FAC-104,Scheduled
+WL-6320,PT-10506,Physical Therapy,Routine,2025-11-21,3,FAC-108,Waiting
+WL-6390,PT-10499,Physical Therapy,Follow-up,2025-11-21,29,FAC-119,Offered Slot
+WL-6563,PT-10206,Dermatology,Follow-up,2025-11-23,3,FAC-107,Waiting
+WL-6089,PT-10418,Behavioral Health,New Patient,2025-11-23,17,FAC-117,Waiting
+WL-6413,PT-10050,General Medicine,Routine,2025-11-23,7,FAC-100,Offered Slot
+WL-6314,PT-10025,Women's Health,New Patient,2025-11-23,24,FAC-100,Offered Slot
+WL-6226,PT-10585,General Medicine,Routine,2025-11-24,21,FAC-119,Scheduled
+WL-6525,PT-10234,Orthopedics,Follow-up,2025-11-24,14,FAC-109,Offered Slot
+WL-6335,PT-10182,Cardiology,Urgent,2025-11-24,43,FAC-109,Scheduled
+WL-6044,PT-10375,Women's Health,New Patient,2025-11-24,35,FAC-111,Removed
+WL-6339,PT-10200,Cardiology,Routine,2025-11-25,27,FAC-110,Offered Slot
+WL-6356,PT-10161,General Medicine,Urgent,2025-11-26,27,FAC-106,Waiting
+WL-6049,PT-10614,Cardiology,Urgent,2025-11-26,15,FAC-107,Removed
+WL-6072,PT-10458,Behavioral Health,New Patient,2025-11-27,18,FAC-119,Waiting
+WL-6567,PT-10529,Radiology,New Patient,2025-11-27,25,FAC-103,Scheduled
+WL-6061,PT-10765,Behavioral Health,Routine,2025-11-27,43,FAC-117,Waiting
+WL-6130,PT-10722,Orthopedics,Routine,2025-11-28,24,FAC-101,Waiting
+WL-6317,PT-10099,Women's Health,Urgent,2025-11-28,32,FAC-102,Waiting
+WL-6288,PT-10461,Cardiology,Routine,2025-11-28,30,FAC-109,Scheduled
+WL-6465,PT-10355,Behavioral Health,Follow-up,2025-11-29,6,FAC-105,Removed
+WL-6424,PT-10442,Cardiology,Routine,2025-11-29,29,FAC-118,Waiting
+WL-6504,PT-10146,Cardiology,New Patient,2025-11-30,43,FAC-102,Waiting
+WL-6501,PT-10250,Pediatrics,Urgent,2025-12-01,14,FAC-116,Waiting
+WL-6361,PT-10381,Dermatology,Routine,2025-12-01,26,FAC-103,Scheduled
+WL-6111,PT-10394,Women's Health,Routine,2025-12-02,41,FAC-105,Waiting
+WL-6444,PT-10782,Physical Therapy,New Patient,2025-12-03,37,FAC-105,Waiting
+WL-6272,PT-10500,General Medicine,Routine,2025-12-03,10,FAC-110,Waiting
+WL-6253,PT-10321,Radiology,New Patient,2025-12-03,2,FAC-101,Waiting
+WL-6308,PT-10449,Radiology,New Patient,2025-12-03,21,FAC-118,Offered Slot
+WL-6155,PT-10745,Dermatology,Urgent,2025-12-03,13,FAC-112,Scheduled
+WL-6466,PT-10380,Physical Therapy,Routine,2025-12-04,27,FAC-119,Waiting
+WL-6420,PT-10128,Orthopedics,New Patient,2025-12-05,12,FAC-108,Scheduled
+WL-6558,PT-10492,Radiology,Routine,2025-12-05,1,FAC-104,Waiting
+WL-6132,PT-10434,Radiology,Routine,2025-12-05,3,FAC-112,Scheduled
+WL-6566,PT-10371,Cardiology,Follow-up,2025-12-06,35,FAC-118,Waiting
+WL-6260,PT-10570,Oncology,Follow-up,2025-12-07,3,FAC-106,Offered Slot
+WL-6163,PT-10571,Orthopedics,Follow-up,2025-12-08,39,FAC-109,Waiting
+WL-6474,PT-10597,Orthopedics,New Patient,2025-12-08,15,FAC-111,Offered Slot
+WL-6221,PT-10141,Women's Health,New Patient,2025-12-09,2,FAC-107,Scheduled
+WL-6194,PT-10599,Oncology,Follow-up,2025-12-09,11,FAC-114,Offered Slot
+WL-6223,PT-10491,Cardiology,New Patient,2025-12-10,30,FAC-112,Scheduled
+WL-6359,PT-10475,Dermatology,Routine,2025-12-12,13,FAC-117,Waiting
+WL-6075,PT-10717,Dermatology,Routine,2025-12-12,41,FAC-107,Waiting
+WL-6070,PT-10724,Oncology,Routine,2025-12-13,44,FAC-110,Scheduled
+WL-6484,PT-10605,Oncology,Follow-up,2025-12-14,28,FAC-114,Waiting
+WL-6216,PT-10402,Cardiology,Follow-up,2025-12-15,24,FAC-100,Removed
+WL-6296,PT-10193,Women's Health,New Patient,2025-12-16,21,FAC-107,Scheduled
+WL-6470,PT-10038,Pediatrics,Urgent,2025-12-16,7,FAC-112,Offered Slot
+WL-6066,PT-10763,Behavioral Health,Routine,2025-12-17,2,FAC-107,Removed
+WL-6443,PT-10392,Oncology,New Patient,2025-12-18,20,FAC-108,Waiting
+WL-6031,PT-10042,General Medicine,Follow-up,2025-12-18,10,FAC-104,Scheduled
+WL-6506,PT-10181,Behavioral Health,New Patient,2025-12-18,10,FAC-110,Offered Slot
+WL-6397,PT-10713,Pediatrics,New Patient,2025-12-21,17,FAC-108,Scheduled
+WL-6507,PT-10444,Physical Therapy,New Patient,2025-12-24,21,FAC-115,Scheduled
+WL-6273,PT-10366,General Medicine,Routine,2025-12-24,22,FAC-116,Waiting
+WL-6587,PT-10367,Pediatrics,New Patient,2025-12-25,30,FAC-100,Removed
+WL-6079,PT-10212,Radiology,Follow-up,2025-12-26,2,FAC-119,Scheduled
+WL-6545,PT-10206,Cardiology,Follow-up,2025-12-26,13,FAC-110,Waiting
+WL-6299,PT-10412,Pediatrics,Urgent,2025-12-28,31,FAC-108,Scheduled
+WL-6400,PT-10707,General Medicine,Urgent,2025-12-29,18,FAC-108,Waiting
+WL-6012,PT-10573,Dermatology,Follow-up,2025-12-29,10,FAC-114,Waiting
+WL-6365,PT-10703,Women's Health,Urgent,2025-12-30,40,FAC-111,Waiting
+WL-6360,PT-10447,Dermatology,Urgent,2026-01-01,14,FAC-116,Waiting
+WL-6363,PT-10452,Women's Health,New Patient,2026-01-01,6,FAC-108,Removed
+WL-6491,PT-10564,Physical Therapy,New Patient,2026-01-02,17,FAC-117,Scheduled
+WL-6429,PT-10565,Cardiology,Follow-up,2026-01-02,22,FAC-100,Offered Slot
+WL-6178,PT-10360,Women's Health,Routine,2026-01-03,8,FAC-116,Waiting
+WL-6175,PT-10178,General Medicine,Urgent,2026-01-03,9,FAC-109,Waiting
+WL-6152,PT-10787,Cardiology,Follow-up,2026-01-04,35,FAC-100,Offered Slot
+WL-6403,PT-10348,Women's Health,New Patient,2026-01-04,21,FAC-100,Scheduled
+WL-6445,PT-10574,General Medicine,Routine,2026-01-06,27,FAC-107,Waiting
+WL-6128,PT-10215,Cardiology,Routine,2026-01-07,17,FAC-108,Waiting
+WL-6305,PT-10677,Radiology,Urgent,2026-01-07,39,FAC-104,Waiting
+WL-6330,PT-10261,General Medicine,Follow-up,2026-01-08,40,FAC-106,Scheduled
+WL-6578,PT-10479,Pediatrics,Urgent,2026-01-09,5,FAC-110,Waiting
+WL-6318,PT-10228,Women's Health,Follow-up,2026-01-09,36,FAC-114,Scheduled
+WL-6599,PT-10540,Oncology,Routine,2026-01-09,4,FAC-118,Scheduled
+WL-6199,PT-10748,Behavioral Health,Follow-up,2026-01-09,40,FAC-119,Waiting
+WL-6055,PT-10798,Dermatology,Urgent,2026-01-09,36,FAC-116,Offered Slot
+WL-6151,PT-10655,Women's Health,New Patient,2026-01-10,43,FAC-119,Waiting
+WL-6034,PT-10268,Behavioral Health,New Patient,2026-01-10,18,FAC-113,Scheduled
+WL-6030,PT-10494,Behavioral Health,New Patient,2026-01-11,19,FAC-118,Waiting
+WL-6114,PT-10589,Pediatrics,Urgent,2026-01-12,10,FAC-106,Offered Slot
+WL-6295,PT-10163,Behavioral Health,Urgent,2026-01-12,33,FAC-110,Waiting
+WL-6377,PT-10730,Cardiology,Urgent,2026-01-14,18,FAC-112,Removed
+WL-6067,PT-10634,Women's Health,Urgent,2026-01-14,19,FAC-100,Scheduled
+WL-6215,PT-10012,Behavioral Health,New Patient,2026-01-14,15,FAC-111,Waiting
+WL-6220,PT-10205,Radiology,Urgent,2026-01-15,20,FAC-118,Waiting
+WL-6383,PT-10084,General Medicine,Urgent,2026-01-17,36,FAC-116,Waiting
+WL-6133,PT-10289,Pediatrics,Follow-up,2026-01-17,12,FAC-101,Waiting
+WL-6530,PT-10217,Women's Health,New Patient,2026-01-19,20,FAC-117,Waiting
+WL-6019,PT-10542,Oncology,Routine,2026-01-19,15,FAC-106,Waiting
+WL-6126,PT-10059,Behavioral Health,Urgent,2026-01-19,8,FAC-119,Scheduled
+WL-6036,PT-10692,Cardiology,Routine,2026-01-20,1,FAC-108,Waiting
+WL-6333,PT-10294,Orthopedics,Urgent,2026-01-20,19,FAC-107,Waiting
+WL-6077,PT-10158,Dermatology,Routine,2026-01-22,25,FAC-112,Offered Slot
+WL-6458,PT-10207,Orthopedics,Urgent,2026-01-22,18,FAC-116,Waiting
+WL-6154,PT-10510,Cardiology,Urgent,2026-01-22,23,FAC-118,Removed
+WL-6041,PT-10094,Cardiology,Urgent,2026-01-23,1,FAC-111,Scheduled
+WL-6002,PT-10176,Cardiology,Urgent,2026-01-23,38,FAC-113,Scheduled
+WL-6522,PT-10281,Pediatrics,Routine,2026-01-24,9,FAC-101,Scheduled
+WL-6582,PT-10303,Women's Health,Follow-up,2026-01-24,35,FAC-106,Waiting
+WL-6136,PT-10028,Women's Health,Follow-up,2026-01-24,10,FAC-109,Offered Slot
+WL-6543,PT-10295,General Medicine,New Patient,2026-01-25,17,FAC-112,Offered Slot
+WL-6408,PT-10157,Dermatology,Urgent,2026-01-26,20,FAC-105,Waiting
+WL-6380,PT-10185,Orthopedics,New Patient,2026-01-26,12,FAC-104,Waiting
+WL-6240,PT-10637,Physical Therapy,Urgent,2026-01-26,39,FAC-116,Waiting
+WL-6206,PT-10346,Orthopedics,Follow-up,2026-01-27,42,FAC-106,Waiting
+WL-6428,PT-10344,Pediatrics,Urgent,2026-01-28,10,FAC-103,Waiting
+WL-6371,PT-10568,Physical Therapy,Follow-up,2026-01-28,30,FAC-119,Waiting
+WL-6520,PT-10512,Oncology,New Patient,2026-01-29,37,FAC-100,Waiting
+WL-6336,PT-10405,Women's Health,New Patient,2026-01-29,22,FAC-107,Offered Slot
+WL-6453,PT-10244,Cardiology,Routine,2026-01-29,43,FAC-115,Offered Slot
+WL-6092,PT-10666,Physical Therapy,New Patient,2026-01-30,29,FAC-109,Scheduled
+WL-6167,PT-10749,Radiology,New Patient,2026-01-30,15,FAC-116,Scheduled
+WL-6123,PT-10195,Behavioral Health,Urgent,2026-01-31,14,FAC-112,Waiting
+WL-6208,PT-10390,Radiology,Urgent,2026-01-31,11,FAC-101,Offered Slot
+WL-6286,PT-10206,General Medicine,Urgent,2026-01-31,22,FAC-108,Scheduled
+WL-6028,PT-10521,Pediatrics,Follow-up,2026-02-02,33,FAC-118,Waiting
+WL-6143,PT-10743,Dermatology,Urgent,2026-02-02,4,FAC-107,Offered Slot
+WL-6035,PT-10056,General Medicine,Urgent,2026-02-02,11,FAC-108,Waiting
+WL-6000,PT-10464,Women's Health,New Patient,2026-02-03,25,FAC-117,Scheduled
+WL-6595,PT-10141,Women's Health,Routine,2026-02-05,3,FAC-111,Scheduled
+WL-6101,PT-10316,Cardiology,Urgent,2026-02-06,37,FAC-104,Waiting
+WL-6354,PT-10791,Cardiology,Urgent,2026-02-06,44,FAC-108,Removed
+WL-6262,PT-10189,Women's Health,Routine,2026-02-06,31,FAC-108,Waiting
+WL-6475,PT-10194,Physical Therapy,Routine,2026-02-06,41,FAC-107,Removed
+WL-6170,PT-10254,General Medicine,Urgent,2026-02-08,35,FAC-108,Waiting
+WL-6083,PT-10417,Behavioral Health,Follow-up,2026-02-08,2,FAC-119,Removed
+WL-6573,PT-10309,Dermatology,Urgent,2026-02-09,2,FAC-107,Scheduled
+WL-6541,PT-10406,Radiology,Follow-up,2026-02-10,35,FAC-119,Scheduled
+WL-6401,PT-10757,Women's Health,New Patient,2026-02-10,1,FAC-117,Waiting
+WL-6171,PT-10699,Oncology,Routine,2026-02-11,43,FAC-117,Offered Slot
+WL-6490,PT-10593,Physical Therapy,Urgent,2026-02-12,3,FAC-102,Waiting
+WL-6575,PT-10017,Dermatology,Routine,2026-02-12,1,FAC-112,Offered Slot
+WL-6388,PT-10376,Cardiology,Routine,2026-02-13,2,FAC-110,Scheduled
+WL-6243,PT-10086,Oncology,Urgent,2026-02-13,3,FAC-118,Waiting
+WL-6201,PT-10080,Cardiology,New Patient,2026-02-14,14,FAC-113,Offered Slot
+WL-6227,PT-10028,Behavioral Health,New Patient,2026-02-15,38,FAC-107,Scheduled
+WL-6097,PT-10188,Pediatrics,Follow-up,2026-02-15,43,FAC-119,Removed
+WL-6376,PT-10049,Physical Therapy,Urgent,2026-02-15,22,FAC-108,Waiting
+WL-6052,PT-10204,Orthopedics,Routine,2026-02-16,2,FAC-115,Offered Slot
+WL-6565,PT-10082,Behavioral Health,Follow-up,2026-02-16,16,FAC-110,Waiting
+WL-6185,PT-10367,Radiology,Urgent,2026-02-17,36,FAC-101,Scheduled
+WL-6478,PT-10344,Radiology,Urgent,2026-02-18,18,FAC-108,Scheduled
+WL-6203,PT-10114,Oncology,New Patient,2026-02-18,9,FAC-106,Waiting
+WL-6526,PT-10797,Dermatology,Urgent,2026-02-18,9,FAC-115,Offered Slot
+WL-6576,PT-10394,Oncology,New Patient,2026-02-18,44,FAC-110,Offered Slot
+WL-6321,PT-10367,Orthopedics,Routine,2026-02-18,11,FAC-108,Scheduled
+WL-6588,PT-10433,Cardiology,Urgent,2026-02-19,9,FAC-118,Waiting
+WL-6071,PT-10799,Behavioral Health,Routine,2026-02-19,10,FAC-113,Removed
+WL-6457,PT-10679,Oncology,Urgent,2026-02-20,44,FAC-106,Waiting
+WL-6581,PT-10472,Physical Therapy,Routine,2026-02-21,31,FAC-111,Offered Slot
+WL-6456,PT-10462,Behavioral Health,Follow-up,2026-02-21,8,FAC-101,Scheduled
+WL-6309,PT-10267,Oncology,Routine,2026-02-22,42,FAC-116,Scheduled
+WL-6290,PT-10507,Cardiology,New Patient,2026-02-24,19,FAC-114,Offered Slot
+WL-6166,PT-10526,Dermatology,Urgent,2026-02-25,6,FAC-101,Scheduled
+WL-6461,PT-10040,Pediatrics,New Patient,2026-02-25,17,FAC-105,Removed
+WL-6291,PT-10118,Women's Health,New Patient,2026-02-25,35,FAC-102,Waiting
+WL-6412,PT-10137,Orthopedics,New Patient,2026-02-25,34,FAC-112,Scheduled
+WL-6235,PT-10233,Orthopedics,New Patient,2026-02-26,21,FAC-113,Waiting
+WL-6038,PT-10167,Oncology,Routine,2026-02-26,19,FAC-100,Removed
+WL-6200,PT-10767,Behavioral Health,New Patient,2026-02-26,23,FAC-100,Waiting
+WL-6489,PT-10253,Oncology,Routine,2026-02-27,11,FAC-110,Removed
+WL-6381,PT-10400,Pediatrics,Follow-up,2026-02-27,14,FAC-100,Scheduled
+WL-6237,PT-10386,General Medicine,Follow-up,2026-02-28,4,FAC-106,Waiting
+WL-6395,PT-10697,Women's Health,Follow-up,2026-02-28,13,FAC-108,Waiting
+WL-6391,PT-10665,Cardiology,Urgent,2026-02-28,26,FAC-117,Offered Slot
+WL-6535,PT-10576,Physical Therapy,Routine,2026-02-28,19,FAC-114,Waiting
+WL-6509,PT-10130,Women's Health,Routine,2026-02-28,28,FAC-100,Waiting
+WL-6344,PT-10720,Oncology,Urgent,2026-03-01,6,FAC-117,Waiting
+WL-6053,PT-10308,Women's Health,New Patient,2026-03-01,39,FAC-106,Removed
+WL-6211,PT-10315,Dermatology,Urgent,2026-03-02,4,FAC-112,Waiting
+WL-6032,PT-10388,Behavioral Health,Routine,2026-03-02,29,FAC-100,Waiting
+WL-6460,PT-10731,General Medicine,Routine,2026-03-02,24,FAC-100,Removed
+WL-6158,PT-10594,Women's Health,Routine,2026-03-03,13,FAC-117,Waiting
+WL-6037,PT-10467,Orthopedics,Routine,2026-03-03,6,FAC-106,Waiting
+WL-6009,PT-10612,Physical Therapy,Routine,2026-03-03,1,FAC-110,Waiting
+WL-6402,PT-10313,Oncology,Follow-up,2026-03-04,19,FAC-119,Scheduled
+WL-6109,PT-10567,General Medicine,Urgent,2026-03-04,14,FAC-112,Waiting
+WL-6285,PT-10212,Behavioral Health,Follow-up,2026-03-05,14,FAC-106,Scheduled
+WL-6488,PT-10603,Orthopedics,Urgent,2026-03-06,29,FAC-111,Waiting
+WL-6197,PT-10669,Women's Health,Follow-up,2026-03-06,32,FAC-108,Scheduled
+WL-6585,PT-10425,Dermatology,Routine,2026-03-07,12,FAC-114,Waiting
+WL-6496,PT-10427,Physical Therapy,New Patient,2026-03-07,19,FAC-118,Removed
+WL-6524,PT-10426,Physical Therapy,Follow-up,2026-03-07,25,FAC-104,Removed
+WL-6027,PT-10723,Dermatology,Urgent,2026-03-08,32,FAC-116,Scheduled
+WL-6179,PT-10234,Women's Health,Follow-up,2026-03-09,22,FAC-105,Waiting
+WL-6159,PT-10310,General Medicine,Routine,2026-03-09,11,FAC-106,Waiting
+WL-6542,PT-10785,Women's Health,Routine,2026-03-10,28,FAC-104,Removed
+WL-6343,PT-10711,Dermatology,Follow-up,2026-03-10,38,FAC-107,Waiting
+WL-6275,PT-10756,Pediatrics,Routine,2026-03-10,26,FAC-106,Scheduled
+WL-6106,PT-10180,Pediatrics,New Patient,2026-03-11,17,FAC-109,Offered Slot
+WL-6094,PT-10059,Oncology,Urgent,2026-03-12,2,FAC-105,Waiting
+WL-6013,PT-10170,Physical Therapy,Routine,2026-03-12,20,FAC-105,Offered Slot
+WL-6168,PT-10657,Radiology,Follow-up,2026-03-12,7,FAC-105,Waiting
+WL-6018,PT-10708,Radiology,New Patient,2026-03-12,43,FAC-112,Waiting
+WL-6378,PT-10232,Radiology,Urgent,2026-03-13,40,FAC-117,Waiting
+WL-6348,PT-10561,Cardiology,Urgent,2026-03-13,7,FAC-115,Waiting
+WL-6345,PT-10031,Dermatology,Follow-up,2026-03-14,14,FAC-109,Waiting
+WL-6462,PT-10442,Orthopedics,New Patient,2026-03-14,7,FAC-111,Offered Slot
+WL-6277,PT-10196,Orthopedics,New Patient,2026-03-15,7,FAC-102,Waiting
+WL-6100,PT-10272,Oncology,Routine,2026-03-15,5,FAC-112,Waiting
+WL-6059,PT-10754,Dermatology,New Patient,2026-03-16,20,FAC-111,Removed
+WL-6441,PT-10337,Women's Health,Follow-up,2026-03-16,42,FAC-107,Waiting
+WL-6327,PT-10208,Physical Therapy,New Patient,2026-03-17,26,FAC-108,Scheduled
+WL-6252,PT-10303,Pediatrics,New Patient,2026-03-17,35,FAC-107,Scheduled
+WL-6571,PT-10089,Orthopedics,Routine,2026-03-17,44,FAC-111,Scheduled
+WL-6369,PT-10252,Oncology,Follow-up,2026-03-17,6,FAC-105,Waiting
+WL-6433,PT-10453,General Medicine,Urgent,2026-03-18,17,FAC-117,Offered Slot
+WL-6539,PT-10301,Behavioral Health,Follow-up,2026-03-18,1,FAC-105,Scheduled
+WL-6555,PT-10487,Oncology,Follow-up,2026-03-19,13,FAC-100,Waiting
+WL-6549,PT-10463,Dermatology,Routine,2026-03-21,41,FAC-113,Offered Slot
+WL-6271,PT-10173,Pediatrics,New Patient,2026-03-21,31,FAC-108,Waiting
+WL-6583,PT-10785,Physical Therapy,Routine,2026-03-22,17,FAC-117,Scheduled
+WL-6547,PT-10798,Orthopedics,Routine,2026-03-22,12,FAC-114,Offered Slot
+WL-6499,PT-10643,General Medicine,New Patient,2026-03-22,6,FAC-110,Waiting
+WL-6366,PT-10194,Dermatology,New Patient,2026-03-23,11,FAC-119,Waiting
+WL-6247,PT-10625,Orthopedics,Routine,2026-03-24,18,FAC-115,Scheduled
+WL-6505,PT-10035,Women's Health,New Patient,2026-03-24,2,FAC-105,Scheduled
+WL-6322,PT-10534,Behavioral Health,Routine,2026-03-25,24,FAC-116,Waiting
+WL-6358,PT-10208,Behavioral Health,Urgent,2026-03-25,29,FAC-115,Scheduled
+WL-6486,PT-10569,Orthopedics,New Patient,2026-03-25,7,FAC-108,Waiting
+WL-6256,PT-10031,General Medicine,New Patient,2026-03-26,26,FAC-119,Scheduled
+WL-6085,PT-10568,Radiology,Routine,2026-03-26,15,FAC-112,Waiting
+WL-6054,PT-10613,Women's Health,Urgent,2026-03-27,8,FAC-103,Waiting
+WL-6351,PT-10145,Oncology,Routine,2026-03-28,8,FAC-113,Removed
+WL-6483,PT-10291,General Medicine,New Patient,2026-03-28,17,FAC-111,Waiting
+WL-6093,PT-10581,Physical Therapy,Urgent,2026-03-29,27,FAC-113,Removed
+WL-6452,PT-10304,Cardiology,Routine,2026-03-30,25,FAC-112,Waiting
+WL-6080,PT-10144,Orthopedics,New Patient,2026-03-30,6,FAC-106,Waiting
+WL-6394,PT-10553,Physical Therapy,New Patient,2026-03-31,7,FAC-115,Waiting
+WL-6421,PT-10407,General Medicine,Routine,2026-04-02,44,FAC-109,Waiting
+WL-6553,PT-10741,Pediatrics,Follow-up,2026-04-03,16,FAC-106,Waiting
+WL-6231,PT-10201,Radiology,Urgent,2026-04-04,42,FAC-116,Waiting
+WL-6149,PT-10288,Women's Health,Urgent,2026-04-04,40,FAC-103,Waiting
+WL-6425,PT-10165,Dermatology,Routine,2026-04-06,23,FAC-119,Offered Slot
+WL-6556,PT-10641,Oncology,Follow-up,2026-04-07,24,FAC-116,Scheduled
+WL-6267,PT-10277,General Medicine,New Patient,2026-04-07,5,FAC-110,Waiting
+WL-6310,PT-10165,Orthopedics,New Patient,2026-04-08,33,FAC-112,Waiting
+WL-6513,PT-10489,General Medicine,Routine,2026-04-09,28,FAC-118,Removed
+WL-6141,PT-10570,Women's Health,Urgent,2026-04-09,22,FAC-116,Waiting
+WL-6161,PT-10233,Radiology,New Patient,2026-04-10,12,FAC-114,Waiting
+WL-6326,PT-10320,General Medicine,Routine,2026-04-11,37,FAC-107,Waiting
+WL-6419,PT-10478,Behavioral Health,Follow-up,2026-04-12,10,FAC-117,Scheduled
+WL-6268,PT-10321,Dermatology,Routine,2026-04-12,22,FAC-100,Scheduled
+WL-6316,PT-10103,General Medicine,Urgent,2026-04-13,3,FAC-108,Waiting
+WL-6060,PT-10619,Cardiology,Routine,2026-04-14,13,FAC-108,Waiting
+WL-6568,PT-10119,Behavioral Health,New Patient,2026-04-15,24,FAC-110,Waiting
+WL-6417,PT-10726,General Medicine,Urgent,2026-04-15,23,FAC-103,Removed
+WL-6529,PT-10453,Orthopedics,Routine,2026-04-16,40,FAC-119,Scheduled
+WL-6492,PT-10279,Oncology,Urgent,2026-04-16,29,FAC-107,Offered Slot
+WL-6144,PT-10572,Orthopedics,Follow-up,2026-04-17,4,FAC-111,Scheduled
+WL-6134,PT-10662,Pediatrics,Follow-up,2026-04-17,31,FAC-106,Offered Slot
+WL-6129,PT-10588,Cardiology,New Patient,2026-04-18,39,FAC-114,Scheduled
+WL-6270,PT-10220,Pediatrics,Urgent,2026-04-19,14,FAC-118,Offered Slot
+WL-6017,PT-10699,Dermatology,New Patient,2026-04-20,1,FAC-107,Offered Slot
+WL-6292,PT-10300,Cardiology,Routine,2026-04-20,42,FAC-109,Scheduled
+WL-6242,PT-10149,Orthopedics,Routine,2026-04-23,8,FAC-106,Waiting
+WL-6011,PT-10793,Women's Health,Routine,2026-04-23,14,FAC-111,Removed
+WL-6398,PT-10439,Pediatrics,New Patient,2026-04-24,3,FAC-114,Waiting
+WL-6265,PT-10048,Pediatrics,Urgent,2026-04-25,26,FAC-113,Waiting
+WL-6459,PT-10576,Oncology,New Patient,2026-04-25,43,FAC-105,Scheduled
+WL-6056,PT-10692,Physical Therapy,Urgent,2026-04-25,10,FAC-102,Waiting
+WL-6257,PT-10726,Behavioral Health,Urgent,2026-04-27,21,FAC-111,Scheduled
+WL-6414,PT-10691,Behavioral Health,Follow-up,2026-04-29,11,FAC-109,Scheduled
+WL-6239,PT-10077,Radiology,New Patient,2026-04-30,40,FAC-102,Scheduled
+WL-6096,PT-10203,Cardiology,Routine,2026-04-30,44,FAC-109,Waiting
+WL-6554,PT-10512,Orthopedics,Routine,2026-04-30,42,FAC-115,Scheduled
+WL-6003,PT-10202,Orthopedics,Follow-up,2026-04-30,5,FAC-118,Scheduled
+WL-6319,PT-10286,General Medicine,Follow-up,2026-04-30,40,FAC-111,Scheduled
+WL-6177,PT-10342,Women's Health,Urgent,2026-05-01,14,FAC-116,Waiting
+WL-6454,PT-10642,Radiology,Routine,2026-05-01,16,FAC-117,Removed
+WL-6423,PT-10296,General Medicine,Routine,2026-05-01,24,FAC-112,Waiting
+WL-6108,PT-10320,General Medicine,Routine,2026-05-02,4,FAC-110,Waiting
+WL-6540,PT-10275,Oncology,Follow-up,2026-05-02,30,FAC-101,Waiting
+WL-6204,PT-10086,Radiology,Urgent,2026-05-02,25,FAC-107,Waiting
+WL-6538,PT-10178,Pediatrics,Follow-up,2026-05-02,9,FAC-104,Waiting
+WL-6122,PT-10051,Dermatology,Urgent,2026-05-04,40,FAC-115,Waiting
+WL-6306,PT-10532,Women's Health,Follow-up,2026-05-05,4,FAC-108,Waiting
+WL-6396,PT-10055,Pediatrics,New Patient,2026-05-05,29,FAC-119,Waiting
+WL-6048,PT-10059,Oncology,Follow-up,2026-05-06,41,FAC-113,Waiting
+WL-6449,PT-10316,Orthopedics,Follow-up,2026-05-09,4,FAC-112,Waiting
+WL-6519,PT-10522,Women's Health,New Patient,2026-05-09,34,FAC-102,Waiting
+WL-6229,PT-10558,General Medicine,Urgent,2026-05-09,15,FAC-117,Scheduled
+WL-6464,PT-10544,Dermatology,Follow-up,2026-05-10,17,FAC-100,Scheduled
+WL-6233,PT-10575,Oncology,New Patient,2026-05-10,34,FAC-106,Waiting
+WL-6112,PT-10577,Cardiology,Routine,2026-05-11,2,FAC-101,Scheduled
+WL-6346,PT-10754,Radiology,Routine,2026-05-11,39,FAC-102,Removed
+WL-6572,PT-10451,Dermatology,Follow-up,2026-05-11,10,FAC-100,Waiting
+WL-6410,PT-10218,Oncology,Urgent,2026-05-12,14,FAC-101,Scheduled
+WL-6516,PT-10616,Dermatology,New Patient,2026-05-13,31,FAC-101,Waiting
+WL-6246,PT-10660,Radiology,Follow-up,2026-05-15,31,FAC-102,Scheduled
+WL-6508,PT-10042,Women's Health,Follow-up,2026-05-16,4,FAC-100,Waiting
+WL-6073,PT-10084,Pediatrics,New Patient,2026-05-17,12,FAC-101,Waiting
+WL-6025,PT-10093,Pediatrics,Urgent,2026-05-19,29,FAC-115,Waiting
+WL-6385,PT-10278,Women's Health,Follow-up,2026-05-19,14,FAC-108,Waiting
+WL-6095,PT-10280,Oncology,Follow-up,2026-05-20,42,FAC-103,Scheduled
+WL-6153,PT-10087,Cardiology,Urgent,2026-05-20,9,FAC-103,Offered Slot
+WL-6244,PT-10015,Physical Therapy,Urgent,2026-05-20,31,FAC-111,Waiting
+WL-6500,PT-10602,Cardiology,Follow-up,2026-05-24,16,FAC-107,Waiting
+WL-6187,PT-10244,Women's Health,New Patient,2026-05-24,11,FAC-104,Waiting
+WL-6302,PT-10186,Radiology,Urgent,2026-05-25,32,FAC-111,Scheduled
+WL-6137,PT-10339,Oncology,New Patient,2026-05-28,19,FAC-108,Waiting
+WL-6455,PT-10075,General Medicine,Follow-up,2026-05-28,34,FAC-104,Scheduled
+WL-6446,PT-10174,Physical Therapy,Follow-up,2026-05-29,8,FAC-118,Waiting
+WL-6450,PT-10310,Orthopedics,Follow-up,2026-05-30,43,FAC-100,Waiting
+WL-6495,PT-10102,Dermatology,Urgent,2026-05-30,36,FAC-109,Waiting
+WL-6442,PT-10095,Orthopedics,Urgent,2026-05-30,7,FAC-112,Scheduled
+WL-6156,PT-10795,Oncology,Follow-up,2026-05-31,33,FAC-113,Waiting
+WL-6312,PT-10784,Cardiology,Urgent,2026-05-31,12,FAC-104,Waiting
+WL-6113,PT-10767,Cardiology,Urgent,2026-05-31,11,FAC-100,Removed
+WL-6577,PT-10258,Women's Health,Urgent,2026-06-01,31,FAC-116,Removed
+WL-6435,PT-10391,Orthopedics,New Patient,2026-06-02,32,FAC-104,Scheduled
+WL-6207,PT-10249,Physical Therapy,Routine,2026-06-03,42,FAC-113,Removed
+WL-6561,PT-10550,Behavioral Health,New Patient,2026-06-03,10,FAC-110,Offered Slot
+WL-6564,PT-10465,Behavioral Health,Urgent,2026-06-03,37,FAC-100,Waiting
+WL-6434,PT-10378,Behavioral Health,Routine,2026-06-03,29,FAC-114,Scheduled
+WL-6584,PT-10454,Women's Health,Routine,2026-06-03,5,FAC-105,Scheduled
+WL-6570,PT-10018,Pediatrics,Urgent,2026-06-04,35,FAC-113,Waiting
+WL-6148,PT-10783,Women's Health,Follow-up,2026-06-05,11,FAC-112,Scheduled
+WL-6350,PT-10748,Physical Therapy,Urgent,2026-06-05,4,FAC-111,Offered Slot
+WL-6147,PT-10024,General Medicine,Follow-up,2026-06-07,7,FAC-100,Scheduled
+WL-6099,PT-10004,Orthopedics,Routine,2026-06-08,39,FAC-110,Scheduled
+WL-6531,PT-10740,Behavioral Health,Follow-up,2026-06-09,39,FAC-116,Removed
+WL-6591,PT-10247,Physical Therapy,Routine,2026-06-09,11,FAC-102,Scheduled
+WL-6476,PT-10214,Radiology,Urgent,2026-06-09,42,FAC-103,Waiting
+WL-6282,PT-10137,General Medicine,Follow-up,2026-06-10,33,FAC-107,Waiting
+WL-6580,PT-10278,General Medicine,New Patient,2026-06-11,38,FAC-103,Offered Slot
+WL-6138,PT-10162,Radiology,New Patient,2026-06-11,11,FAC-116,Waiting
+WL-6579,PT-10767,Physical Therapy,Urgent,2026-06-11,31,FAC-104,Offered Slot
+WL-6550,PT-10548,Physical Therapy,Follow-up,2026-06-12,21,FAC-106,Offered Slot
+WL-6081,PT-10234,General Medicine,Follow-up,2026-06-12,23,FAC-117,Scheduled
+WL-6574,PT-10502,Physical Therapy,New Patient,2026-06-12,44,FAC-118,Waiting
+WL-6023,PT-10057,Cardiology,Follow-up,2026-06-14,42,FAC-105,Removed
+WL-6057,PT-10552,Behavioral Health,New Patient,2026-06-14,34,FAC-117,Scheduled
+WL-6593,PT-10349,Cardiology,Follow-up,2026-06-14,40,FAC-119,Waiting
+WL-6562,PT-10547,General Medicine,Urgent,2026-06-14,30,FAC-118,Scheduled
+WL-6487,PT-10787,Oncology,Urgent,2026-06-14,5,FAC-115,Scheduled
+WL-6202,PT-10690,Pediatrics,Urgent,2026-06-15,21,FAC-102,Offered Slot
+WL-6224,PT-10514,Physical Therapy,Follow-up,2026-06-15,22,FAC-101,Waiting
+WL-6234,PT-10068,Behavioral Health,Urgent,2026-06-15,39,FAC-114,Scheduled
+WL-6217,PT-10662,Dermatology,Routine,2026-06-16,24,FAC-100,Waiting
+WL-6008,PT-10768,General Medicine,Follow-up,2026-06-16,21,FAC-105,Scheduled
+WL-6384,PT-10007,Physical Therapy,Urgent,2026-06-17,41,FAC-116,Scheduled
+WL-6047,PT-10743,Women's Health,Follow-up,2026-06-18,40,FAC-104,Waiting
+WL-6278,PT-10194,Dermatology,Routine,2026-06-18,26,FAC-119,Waiting
+WL-6014,PT-10775,Dermatology,Routine,2026-06-18,11,FAC-109,Scheduled
+WL-6189,PT-10014,Cardiology,Routine,2026-06-19,20,FAC-107,Waiting
+WL-6352,PT-10233,Women's Health,New Patient,2026-06-19,10,FAC-108,Offered Slot
+WL-6293,PT-10706,Dermatology,Routine,2026-06-21,29,FAC-110,Waiting
+WL-6287,PT-10281,Physical Therapy,Urgent,2026-06-21,26,FAC-104,Offered Slot
+WL-6086,PT-10280,Oncology,Routine,2026-06-21,1,FAC-104,Waiting
+WL-6222,PT-10283,Pediatrics,Routine,2026-06-22,38,FAC-110,Offered Slot
+WL-6334,PT-10131,Dermatology,Routine,2026-06-22,25,FAC-111,Waiting
+WL-6069,PT-10425,Orthopedics,Routine,2026-06-22,43,FAC-103,Scheduled
+WL-6188,PT-10211,Orthopedics,Routine,2026-06-22,24,FAC-106,Waiting
+WL-6338,PT-10309,General Medicine,Urgent,2026-06-24,3,FAC-113,Waiting
+WL-6298,PT-10226,Orthopedics,Follow-up,2026-06-24,14,FAC-113,Waiting
+WL-6209,PT-10616,Physical Therapy,New Patient,2026-06-24,9,FAC-106,Scheduled
+WL-6447,PT-10373,Dermatology,Routine,2026-06-26,32,FAC-108,Waiting
+WL-6103,PT-10365,Physical Therapy,Urgent,2026-06-26,36,FAC-103,Removed
+WL-6102,PT-10008,Dermatology,Urgent,2026-06-26,36,FAC-111,Waiting
+WL-6448,PT-10345,Dermatology,Routine,2026-06-27,38,FAC-110,Scheduled
+WL-6510,PT-10342,Pediatrics,New Patient,2026-06-27,38,FAC-108,Offered Slot
+WL-6353,PT-10708,Physical Therapy,Routine,2026-06-29,5,FAC-106,Offered Slot
+WL-6430,PT-10012,General Medicine,New Patient,2026-06-29,42,FAC-115,Scheduled
+WL-6146,PT-10160,Physical Therapy,Follow-up,2026-06-30,43,FAC-101,Offered Slot
+WL-6411,PT-10208,Women's Health,New Patient,2026-07-01,6,FAC-107,Scheduled
+WL-6039,PT-10142,Physical Therapy,Urgent,2026-07-01,12,FAC-119,Offered Slot
+WL-6107,PT-10650,Behavioral Health,Routine,2026-07-02,39,FAC-103,Waiting
+WL-6248,PT-10509,Oncology,New Patient,2026-07-03,4,FAC-119,Waiting
+WL-6422,PT-10354,Pediatrics,Routine,2026-07-03,26,FAC-114,Waiting
+WL-6497,PT-10458,Oncology,Urgent,2026-07-04,10,FAC-117,Scheduled
+WL-6140,PT-10601,Cardiology,Routine,2026-07-04,3,FAC-100,Scheduled
+WL-6300,PT-10013,Behavioral Health,New Patient,2026-07-06,10,FAC-112,Scheduled
+WL-6181,PT-10247,General Medicine,Follow-up,2026-07-07,4,FAC-112,Scheduled
+WL-6142,PT-10338,Behavioral Health,Follow-up,2026-07-07,37,FAC-102,Scheduled
+WL-6438,PT-10547,Pediatrics,Follow-up,2026-07-08,1,FAC-107,Waiting
+WL-6307,PT-10644,Cardiology,Follow-up,2026-07-09,21,FAC-117,Waiting
+WL-6121,PT-10167,Oncology,Routine,2026-07-09,35,FAC-102,Waiting
+WL-6329,PT-10428,Radiology,Routine,2026-07-09,42,FAC-112,Offered Slot
+WL-6172,PT-10421,Orthopedics,Follow-up,2026-07-10,23,FAC-114,Waiting
+WL-6523,PT-10101,General Medicine,Urgent,2026-07-11,11,FAC-111,Waiting
+WL-6469,PT-10596,Dermatology,Routine,2026-07-11,7,FAC-118,Waiting
+WL-6481,PT-10419,General Medicine,Follow-up,2026-07-11,24,FAC-110,Removed
+WL-6559,PT-10179,Cardiology,Follow-up,2026-07-12,32,FAC-109,Scheduled
+WL-6190,PT-10023,General Medicine,Follow-up,2026-07-12,44,FAC-116,Offered Slot
+WL-6120,PT-10358,Pediatrics,Urgent,2026-07-13,37,FAC-117,Waiting
+WL-6560,PT-10364,General Medicine,Follow-up,2026-07-14,1,FAC-115,Offered Slot
+WL-6533,PT-10408,Dermatology,Routine,2026-07-16,22,FAC-104,Scheduled
+WL-6304,PT-10485,Dermatology,Routine,2026-07-16,5,FAC-105,Offered Slot
+WL-6021,PT-10385,Cardiology,Urgent,2026-07-17,13,FAC-117,Scheduled
+WL-6536,PT-10396,Orthopedics,Urgent,2026-07-17,22,FAC-111,Removed
+WL-6534,PT-10690,Radiology,New Patient,2026-07-19,38,FAC-100,Waiting
+WL-6515,PT-10707,Dermatology,Routine,2026-07-19,35,FAC-100,Waiting
+WL-6135,PT-10143,Cardiology,Follow-up,2026-07-20,34,FAC-103,Offered Slot
+WL-6407,PT-10132,Women's Health,Follow-up,2026-07-22,29,FAC-109,Offered Slot
+WL-6415,PT-10132,Behavioral Health,Follow-up,2026-07-22,32,FAC-116,Offered Slot
+WL-6544,PT-10789,Orthopedics,Follow-up,2026-07-22,13,FAC-106,Waiting
+WL-6029,PT-10733,Orthopedics,Routine,2026-07-22,15,FAC-101,Waiting
+WL-6594,PT-10624,Physical Therapy,Urgent,2026-07-22,9,FAC-114,Waiting
+WL-6592,PT-10311,Dermatology,New Patient,2026-07-25,20,FAC-103,Waiting
+WL-6375,PT-10239,General Medicine,Routine,2026-07-25,35,FAC-112,Waiting
+WL-6255,PT-10705,Oncology,Routine,2026-07-27,43,FAC-108,Removed
+WL-6280,PT-10257,Behavioral Health,Follow-up,2026-07-27,11,FAC-102,Waiting
+WL-6303,PT-10331,Women's Health,Routine,2026-07-28,37,FAC-109,Scheduled
+WL-6477,PT-10538,Radiology,Urgent,2026-07-28,29,FAC-102,Waiting
+WL-6437,PT-10424,Physical Therapy,Routine,2026-07-29,34,FAC-100,Scheduled
+WL-6249,PT-10515,Oncology,New Patient,2026-08-01,14,FAC-102,Waiting
+WL-6015,PT-10115,Orthopedics,Routine,2026-08-01,16,FAC-112,Waiting
+WL-6024,PT-10755,Physical Therapy,Routine,2026-08-03,14,FAC-101,Waiting
+WL-6105,PT-10012,Cardiology,Follow-up,2026-08-03,16,FAC-109,Removed
+WL-6007,PT-10166,Cardiology,New Patient,2026-08-04,43,FAC-119,Scheduled
+WL-6514,PT-10536,Oncology,New Patient,2026-08-06,38,FAC-109,Waiting
+WL-6324,PT-10777,Women's Health,New Patient,2026-08-07,2,FAC-118,Offered Slot
+WL-6162,PT-10590,General Medicine,Follow-up,2026-08-09,4,FAC-115,Waiting
+WL-6405,PT-10077,Radiology,Follow-up,2026-08-10,2,FAC-100,Scheduled
+WL-6451,PT-10635,Physical Therapy,Follow-up,2026-08-11,33,FAC-111,Waiting
