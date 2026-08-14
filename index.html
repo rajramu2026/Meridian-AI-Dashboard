@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Meridian Clinic — Staff AI Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/dashboard.css" />
+</head>
+<body>
+
+<!-- ==================================================== Staff Access Gate -->
+<div class="access-gate" id="access-gate">
+  <div class="gate-bg-glow"></div>
+
+  <div class="gate-card" id="gate-card">
+    <div class="gate-lock">🔒</div>
+    <div class="gate-brand">
+      <div class="mark">M</div>
+      <div class="gate-brand-text">Meridian Health Network · Internal Systems</div>
+    </div>
+    <h1>Staff Access Only</h1>
+    <p class="gate-intro">You are about to enter the <b>Meridian Clinic Staff AI Dashboard</b> — an internal operational tool built on live scheduling, capacity, and revenue data across the Meridian network.</p>
+    <div class="gate-legal">
+      <p><b>Confidentiality Notice.</b> This system contains confidential and proprietary Meridian Health Network information, including provider performance metrics, facility-level financials, waitlist detail, and de-identified patient scheduling patterns. Access is restricted to authorized Meridian staff and contracted personnel, for legitimate business purposes only.</p>
+      <p><b>Legal Warning.</b> Unauthorized access, use, copying, or disclosure of this information is strictly prohibited and may result in disciplinary action, termination, and/or civil or criminal liability under Irish and EU data protection law (GDPR) and Meridian's Acceptable Use Policy. All access to this dashboard is logged and may be monitored.</p>
+    </div>
+    <label class="gate-checkbox-row">
+      <input type="checkbox" id="gate-checkbox" />
+      <span>I confirm that I am an authorized Meridian Health Network staff member, and I agree to handle all information accessed here in accordance with the notice above.</span>
+    </label>
+    <div class="gate-actions">
+      <button class="btn gate-decline" id="gate-decline">I am not staff — Exit</button>
+      <button class="btn btn-primary gate-confirm" id="gate-confirm" disabled>Confirm &amp; Enter Dashboard →</button>
+    </div>
+    <div class="gate-footer">Meridian Health Network · Internal Use Only · Regulated by HIQA</div>
+  </div>
+
+  <div class="gate-denied" id="gate-denied" style="display:none;">
+    <div class="gate-lock">🚫</div>
+    <h1>Access Restricted</h1>
+    <p>This dashboard is reserved for authorized Meridian Health Network staff only. If you believe you should have access, please contact your IT / Systems administrator.</p>
+    <button class="btn btn-primary" id="gate-back">← Back</button>
+  </div>
+</div>
+
+<div class="app-shell" id="app-shell">
+
+  <!-- ============================================================ Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <div class="mark">M</div>
+      <div>
+        <div class="txt-name">Meridian Clinic</div>
+        <div class="txt-sub">Staff AI Dashboard</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Right Now</div>
+      <button class="nav-item active" data-tab="action-center"><span class="nav-icon">⚡</span> Action Center <span class="nav-count" id="nav-action-count"></span></button>
+
+      <div class="nav-group-label">Access &amp; Capacity</div>
+      <button class="nav-item" data-tab="overview"><span class="nav-icon">📊</span> Overview</button>
+      <button class="nav-item" data-tab="capacity"><span class="nav-icon">📉</span> No-Show &amp; Capacity</button>
+      <button class="nav-item" data-tab="waitlist"><span class="nav-icon">📋</span> Waitlist</button>
+      <button class="nav-item" data-tab="revenue"><span class="nav-icon">💶</span> Revenue Loss by Site</button>
+
+      <div class="nav-group-label">Network</div>
+      <button class="nav-item" data-tab="locations"><span class="nav-icon">📍</span> Locations</button>
+      <button class="nav-item" data-tab="team"><span class="nav-icon">🩺</span> Our Team</button>
+      <button class="nav-item" data-tab="patients"><span class="nav-icon">🧑‍🤝‍🧑</span> Patient Insights</button>
+
+      <div class="nav-group-label">System</div>
+      <button class="nav-item" data-tab="pipeline"><span class="nav-icon">🤖</span> AI Agent Pipeline</button>
+    </nav>
+    <div class="sidebar-footer">
+      Internal use only · Meridian Health Network<br/>
+      Regulated by HIQA
+    </div>
+  </aside>
+
+  <!-- =============================================================== Main -->
+  <div class="main">
+    <header class="topbar">
+      <div style="display:flex; align-items:center; gap:12px;">
+        <button class="mobile-toggle" id="mobile-toggle">☰</button>
+        <div class="topbar-title">
+          <h1 id="topbar-title">Action Center</h1>
+          <p id="topbar-sub">Prioritized items from all five AI agents, as of the latest connected data</p>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <span class="source-pill demo" id="source-pill"><span class="dot"></span><span id="source-pill-text">Loading…</span></span>
+        <span class="btn" id="reporting-window-pill" style="font-weight:600; color:var(--slate);">—</span>
+        <button class="btn" id="refresh-btn">↻ Refresh Data</button>
+        <button class="btn btn-teal" id="connect-btn">Connect Live Sheet</button>
+      </div>
+    </header>
+
+    <!-- ============================================================ Global filter bar -->
+    <div class="global-filter-bar" id="global-filter-bar">
+      <div class="gfb-field">
+        <span class="gfb-icon">📍</span>
+        <select id="gfb-facility"><option value="all">All Locations</option></select>
+      </div>
+      <div class="gfb-divider"></div>
+      <div class="gfb-field">
+        <span class="gfb-icon">🏥</span>
+        <select id="gfb-department"><option value="all">All Departments</option></select>
+      </div>
+      <div class="gfb-divider"></div>
+      <div class="gfb-field">
+        <span class="gfb-icon">📅</span>
+        <select id="gfb-daterange">
+          <option value="all">Full 12-month window</option>
+          <option value="last6mo">Last 6 months</option>
+          <option value="last90">Last 90 days</option>
+          <option value="last30">Last 30 days</option>
+        </select>
+      </div>
+      <span class="gfb-active-chip" id="gfb-active-chip" style="display:none;"></span>
+      <button class="gfb-reset" id="gfb-reset">Reset filters</button>
+    </div>
+
+    <div class="content">
+
+      <!-- ====================================================== Action Center -->
+      <section class="tab-section active" id="tab-action-center">
+        <div class="hero-banner">
+          <div class="hero-banner-top">
+            <div>
+              <h1>Good to see you, team 👋</h1>
+              <p class="hb-sub">Every item below is generated live from the connected data — nothing is pre-written.</p>
+            </div>
+            <span class="hb-asof" id="hb-asof">As of —</span>
+          </div>
+          <div class="hero-kpi-row" id="hero-kpi-row"><!-- rendered by dashboard.js --></div>
+        </div>
+
+        <div class="action-toolbar">
+          <input type="text" id="action-search" placeholder="Search action items…" />
+          <select id="action-filter-category">
+            <option value="">All Categories</option>
+            <option value="waitlist">Waitlist</option>
+            <option value="resource">Capacity</option>
+            <option value="provider">Team</option>
+            <option value="revenue">Revenue</option>
+            <option value="department">Department</option>
+          </select>
+          <select id="action-filter-priority">
+            <option value="">All Priorities</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+          <label class="toolbar-toggle"><input type="checkbox" id="action-hide-handled" /> Hide handled</label>
+          <span class="count-pill" id="action-count"></span>
+        </div>
+
+        <div class="action-queue" id="action-queue"><!-- rendered by dashboard.js --></div>
+      </section>
+
+      <!-- ========================================================= Overview -->
+      <section class="tab-section" id="tab-overview">
+        <div class="section-title">
+          <div class="st-text">
+            <span class="st-icon">📊</span>
+            <div>
+              <h2>Network Overview</h2>
+              <p>Outpatient access &amp; capacity — Meridian Health Network, full reporting window.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="kpi-grid" id="kpi-grid"><!-- rendered by dashboard.js --></div>
+
+        <div id="overview-ai-panel"><!-- rendered by dashboard.js --></div>
+
+        <div class="dash-grid wide-narrow">
+          <div class="panel">
+            <h3>Monthly No-Show Rate Trend</h3>
+            <p class="panel-sub">Network-wide, 12-month rolling window</p>
+            <div class="chart-wrap hero"><canvas id="chart-monthly-trend"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>Appointment Outcomes</h3>
+            <p class="panel-sub">Operational sample, n = 12,000 appointments</p>
+            <div class="chart-wrap hero"><canvas id="chart-status-donut"></canvas></div>
+          </div>
+        </div>
+
+        <div class="dash-grid">
+          <div class="panel">
+            <h3>No-Show Rate by Department</h3>
+            <p class="panel-sub">Network trend (12-month sum) — sorted highest to lowest</p>
+            <div class="chart-wrap tall"><canvas id="chart-dept-noshow"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>Estimated Revenue Loss by Department</h3>
+            <p class="panel-sub">Modeled from no-shows, EUR, 12-month sum</p>
+            <div class="chart-wrap tall"><canvas id="chart-dept-revenue"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================= Capacity -->
+      <section class="tab-section" id="tab-capacity">
+        <div class="section-title">
+          <div class="st-text">
+            <span class="st-icon">📉</span>
+            <div>
+              <h2>No-Show &amp; Capacity Analytics</h2>
+              <p>Resource utilization, overbooking effectiveness, and risk-model calibration.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="kpi-grid" id="capacity-kpi-grid" style="grid-template-columns:repeat(4,1fr);"></div>
+
+        <div id="capacity-ai-panel"><!-- rendered by dashboard.js --></div>
+
+        <div class="dash-grid">
+          <div class="panel">
+            <h3>Resource Utilization by Type</h3>
+            <p class="panel-sub">Trailing 12 months — colored by status</p>
+            <div class="chart-wrap tall"><canvas id="chart-resource-util"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>No-Show Rate by Predicted Risk Band</h3>
+            <p class="panel-sub">Model calibration check — operational sample</p>
+            <div class="chart-wrap tall"><canvas id="chart-risk-calibration"></canvas></div>
+          </div>
+        </div>
+
+        <div class="filter-bar">
+          <input type="text" id="resource-search" placeholder="Search by resource ID, type, or location…" />
+          <select id="resource-filter-facility"><option value="">All Locations</option></select>
+          <select id="resource-filter-type"><option value="">All Resource Types</option></select>
+          <select id="resource-filter-status"><option value="">All Statuses</option></select>
+          <span class="count-pill" id="resource-count"></span>
+        </div>
+        <div class="table-wrap">
+          <div class="table-scroll">
+            <table class="data-table" id="resource-table">
+              <thead>
+                <tr>
+                  <th data-sort="resource_id">Resource ID</th>
+                  <th data-sort="resource_type">Type</th>
+                  <th data-sort="facility_name">Location</th>
+                  <th data-sort="county">County</th>
+                  <th data-sort="utilization_pct">Utilization</th>
+                  <th data-sort="turnaround_minutes">Turnaround (min)</th>
+                  <th data-sort="status">Status</th>
+                  <th data-sort="next_maintenance_date">Next Maintenance</th>
+                </tr>
+              </thead>
+              <tbody id="resource-tbody"></tbody>
+            </table>
+          </div>
+          <div class="pager" id="resource-pager"></div>
+        </div>
+      </section>
+
+      <!-- ========================================================= Waitlist -->
+      <section class="tab-section" id="tab-waitlist">
+        <div class="section-title">
+          <div class="st-text">
+            <span class="st-icon">📋</span>
+            <div>
+              <h2>Waitlist Management</h2>
+              <p>Active patients awaiting an appointment, and how they move through the queue.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="kpi-grid" id="waitlist-kpi-grid" style="grid-template-columns:repeat(4,1fr);"></div>
+
+        <div id="waitlist-ai-panel"><!-- rendered by dashboard.js --></div>
+
+        <div class="dash-grid thirds">
+          <div class="panel">
+            <h3>Waitlist by Status</h3>
+            <div class="chart-wrap short"><canvas id="chart-waitlist-status"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>Active Waiting by Department</h3>
+            <div class="chart-wrap short"><canvas id="chart-waitlist-dept"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>Active Waiting by Urgency</h3>
+            <div class="chart-wrap short"><canvas id="chart-waitlist-urgency"></canvas></div>
+          </div>
+        </div>
+
+        <div class="filter-bar">
+          <input type="text" id="waitlist-search" placeholder="Search by patient ID or location…" />
+          <select id="waitlist-filter-dept"><option value="">All Departments</option></select>
+          <select id="waitlist-filter-urgency"><option value="">All Urgency Levels</option></select>
+          <select id="waitlist-filter-status"><option value="">All Statuses</option></select>
+          <span class="count-pill" id="waitlist-count"></span>
+        </div>
+        <div class="table-wrap">
+          <div class="table-scroll">
+            <table class="data-table" id="waitlist-table">
+              <thead>
+                <tr>
+                  <th data-sort="waitlist_id">Waitlist ID</th>
+                  <th data-sort="patient_id">Patient ID</th>
+                  <th data-sort="department">Department</th>
+                  <th data-sort="urgency_level">Urgency</th>
+                  <th data-sort="date_added">Date Added</th>
+                  <th data-sort="days_on_waitlist">Days Waiting</th>
+                  <th data-sort="preferred_facility_name">Preferred Location</th>
+                  <th data-sort="status">Status</th>
+                </tr>
+              </thead>
+              <tbody id="waitlist-tbody"></tbody>
+            </table>
+          </div>
+          <div class="pager" id="waitlist-pager"></div>
+        </div>
+      </section>
+
+      <!-- ======================================================== Revenue -->
+      <section class="tab-section" id="tab-revenue">
+        <div class="section-title">
+          <div class="st-text">
+            <span class="st-icon">💶</span>
+            <div>
+              <h2>Month-to-Date Revenue Loss by Site</h2>
+              <p>No-show revenue impact, current calendar month, broken down per Meridian location.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="kpi-grid" id="revenue-kpi-grid" style="grid-template-columns:repeat(4,1fr);"></div>
+
+        <div id="revenue-ai-panel"><!-- rendered by dashboard.js --></div>
+
+        <div class="dash-grid wide-narrow">
+          <div class="panel">
+            <h3>Revenue Loss by Site, Month-to-Date</h3>
+            <p class="panel-sub" id="revenue-chart-sub">Ranked highest to lowest</p>
+            <div class="chart-wrap hero"><canvas id="chart-revenue-site"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>No-Show Rate vs. Revenue Loss</h3>
+            <p class="panel-sub">Each dot is one site — size shows appointment volume this month</p>
+            <div class="chart-wrap hero"><canvas id="chart-revenue-scatter"></canvas></div>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-bottom:22px;">
+          <h3>All Sites, Ranked by MTD Revenue Loss</h3>
+          <p class="panel-sub">Click a site to see it highlighted above</p>
+          <div class="site-card-grid" id="site-card-grid"></div>
+        </div>
+      </section>
+
+      <!-- ========================================================= Locations -->
+      <section class="tab-section" id="tab-locations">
+        <div class="section-title">
+          <div class="st-text">
+            <span class="st-icon">📍</span>
+            <div>
+              <h2>Locations</h2>
+              <p>All Meridian facilities across the Republic of Ireland network.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="locations-ai-panel"><!-- rendered by dashboard.js --></div>
+
+        <div class="ireland-map-card">
+          <h3 style="margin-bottom:2px;">Meridian Facilities Across Ireland</h3>
+          <p class="panel-sub">Marker size = number of facilities in county · Color = sample no-show rate</p>
+          <div class="ireland-map-layout">
+            <div class="ireland-map-svg-wrap" id="ireland-map-svg-wrap"></div>
+            <div>
+              <div class="county-rank-list" id="county-rank-list"></div>
+            </div>
+          </div>
+          <div class="map-legend" id="map-legend"></div>
+        </div>
+
+        <div class="dash-grid">
+          <div class="panel">
+            <h3>Locations by County</h3>
+            <div class="chart-wrap short"><canvas id="chart-locations-county"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>Locations by Facility Type</h3>
+            <div class="chart-wrap short"><canvas id="chart-locations-type"></canvas></div>
+          </div>
+        </div>
+
+        <div class="filter-bar">
+          <input type="text" id="location-search" placeholder="Search by facility name…" />
+          <select id="location-filter-county"><option value="">All Counties</option></select>
+          <select id="location-filter-type"><option value="">All Facility Types</option></select>
+          <span class="count-pill" id="location-count"></span>
+        </div>
+        <div class="card-grid" id="location-grid"></div>
+      </section>
+
+      <!-- ============================================================= Team -->
+      <section class="tab-section" id="tab-team">
+        <div class="section-title">
+          <div class="st-text">
+            <span class="st-icon">🩺</span>
+            <div>
+              <h2>Our Team</h2>
+              <p>All Meridian providers, by department and location — with performance signals from live appointment data.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="team-ai-panel"><!-- rendered by dashboard.js --></div>
+
+        <div class="dash-grid">
+          <div class="panel">
+            <h3>Providers by Department</h3>
+            <div class="chart-wrap short"><canvas id="chart-team-department"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>Average Years at Meridian, by Department</h3>
+            <div class="chart-wrap short"><canvas id="chart-team-tenure"></canvas></div>
+          </div>
+        </div>
+
+        <div class="filter-bar">
+          <input type="text" id="team-search" placeholder="Search by provider name…" />
+          <select id="team-filter-dept"><option value="">All Departments</option></select>
+          <select id="team-filter-county"><option value="">All Counties</option></select>
+          <select id="team-view-toggle">
+            <option value="cards">Card View</option>
+            <option value="table">Table View</option>
+          </select>
+          <span class="count-pill" id="team-count"></span>
+        </div>
+
+        <div class="provider-card-grid" id="team-card-grid"></div>
+
+        <div class="table-wrap" id="team-table-wrap" style="display:none; margin-top:14px;">
+          <div class="table-scroll">
+            <table class="data-table" id="team-table">
+              <thead>
+                <tr>
+                  <th data-sort="provider_name">Provider</th>
+                  <th data-sort="credential_label">Credential</th>
+                  <th data-sort="department">Department</th>
+                  <th data-sort="facility_name">Home Location</th>
+                  <th data-sort="county">County</th>
+                  <th data-sort="appts_sample_total">Appts (Sample)</th>
+                  <th data-sort="no_show_rate_pct">No-Show Rate</th>
+                  <th data-sort="years_at_meridian">Years at Meridian</th>
+                </tr>
+              </thead>
+              <tbody id="team-tbody"></tbody>
+            </table>
+          </div>
+          <div class="pager" id="team-pager"></div>
+        </div>
+      </section>
+
+      <!-- ========================================================== Patients -->
+      <section class="tab-section" id="tab-patients">
+        <div class="section-title">
+          <div class="st-text">
+            <span class="st-icon">🧑‍🤝‍🧑</span>
+            <div>
+              <h2>Patient Insights</h2>
+              <p>Coverage mix, access barriers, and no-show risk signals across our patient population.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="kpi-grid" id="patient-kpi-grid" style="grid-template-columns:repeat(4,1fr);"></div>
+
+        <div id="patients-ai-panel"><!-- rendered by dashboard.js --></div>
+
+        <div class="dash-grid thirds">
+          <div class="panel">
+            <h3>Insurance / Coverage Mix</h3>
+            <div class="chart-wrap short"><canvas id="chart-insurance-mix"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>Preferred Communication Channel</h3>
+            <div class="chart-wrap short"><canvas id="chart-channel-mix"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>Avg. Prior No-Shows by Coverage Type</h3>
+            <div class="chart-wrap short"><canvas id="chart-priornoshow-insurance"></canvas></div>
+          </div>
+        </div>
+
+        <div class="dash-grid">
+          <div class="panel">
+            <h3>Prior No-Shows by Distance to Nearest Facility</h3>
+            <p class="panel-sub">Distance band (km) vs. average prior no-shows (12mo)</p>
+            <div class="chart-wrap tall"><canvas id="chart-distance-noshow"></canvas></div>
+          </div>
+          <div class="panel">
+            <h3>Prior No-Shows by Age Band</h3>
+            <p class="panel-sub">Patient age band vs. average prior no-shows (12mo)</p>
+            <div class="chart-wrap tall"><canvas id="chart-age-noshow"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================== Pipeline -->
+      <section class="tab-section" id="tab-pipeline">
+        <div class="section-title">
+          <div class="st-text">
+            <span class="st-icon">🤖</span>
+            <div>
+              <h2>AI Agent Pipeline</h2>
+              <p>The five-agent system that researches, designs, builds, and maintains this dashboard.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pipeline-flow" id="pipeline-flow"><!-- rendered by dashboard.js --></div>
+
+        <div class="dash-grid">
+          <div class="panel">
+            <h3>Handoff Log</h3>
+            <p class="panel-sub">Most recent pipeline run</p>
+            <div id="handoff-log" style="font-size:13px; color:var(--ink); display:grid; gap:10px;"></div>
+          </div>
+          <div class="panel">
+            <h3>Live Data Connection</h3>
+            <p class="panel-sub">Owned by Rory (Researcher)</p>
+            <div id="pipeline-data-status" style="font-size:13px; color:var(--ink); display:grid; gap:10px;"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer-note">Meridian Clinic Staff AI Dashboard · Internal use only · Data refreshed at page load from the connected source</div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================================================== ORLA — AI Assistant -->
+<button class="orla-fab" id="orla-fab" aria-label="Open ORLA, the Meridian AI assistant">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 2C6.48 2 2 5.94 2 10.75c0 2.55 1.32 4.84 3.4 6.42L4.5 21.5l4.53-2.02c.94.24 1.93.37 2.97.37 5.52 0 10-3.94 10-8.75S17.52 2 12 2z" fill="#fff" opacity="0.16"/>
+    <path d="M12 2C6.48 2 2 5.94 2 10.75c0 2.55 1.32 4.84 3.4 6.42L4.5 21.5l4.53-2.02c.94.24 1.93.37 2.97.37 5.52 0 10-3.94 10-8.75S17.52 2 12 2z" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M5.5 11h2.6l1.3-2.7 1.8 4.7 1.3-3.1 1.05 1.1h3.45" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </svg>
+  <span class="orla-fab-dot"></span>
+</button>
+
+<div class="orla-panel" id="orla-panel" style="display:none;">
+  <div class="orla-header">
+    <div class="orla-avatar">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2C6.48 2 2 5.94 2 10.75c0 2.55 1.32 4.84 3.4 6.42L4.5 21.5l4.53-2.02c.94.24 1.93.37 2.97.37 5.52 0 10-3.94 10-8.75S17.52 2 12 2z" fill="#fff" opacity="0.16"/>
+        <path d="M12 2C6.48 2 2 5.94 2 10.75c0 2.55 1.32 4.84 3.4 6.42L4.5 21.5l4.53-2.02c.94.24 1.93.37 2.97.37 5.52 0 10-3.94 10-8.75S17.52 2 12 2z" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/>
+        <path d="M5.5 11h2.6l1.3-2.7 1.8 4.7 1.3-3.1 1.05 1.1h3.45" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+    </div>
+    <div class="orla-header-text">
+      <div class="orla-name">ORLA <span class="orla-badge" id="orla-mode-badge">Connecting…</span></div>
+      <div class="orla-sub"><span class="dot-live">●</span> Live on <span id="orla-source-label">Demo Snapshot</span></div>
+    </div>
+    <button type="button" class="orla-close" id="orla-close" aria-label="Close ORLA">✕</button>
+  </div>
+
+  <div class="orla-messages" id="orla-messages"></div>
+
+  <div class="orla-suggestions" id="orla-suggestions"></div>
+
+  <form class="orla-input-row" id="orla-form">
+    <input type="text" id="orla-input" placeholder="Ask ORLA about capacity, waitlist, revenue…" autocomplete="off" />
+    <button type="submit" class="orla-send" id="orla-send" aria-label="Send">➤</button>
+  </form>
+  <div class="orla-footer">ORLA answers using Meridian's live connected data. Always verify before acting on critical decisions.</div>
+</div>
+
+<!-- ==================================================== Connect-sheet modal -->
+<div class="modal-overlay" id="connect-modal" style="display:none; position:fixed; inset:0; background:rgba(11,37,64,0.55); z-index:100; align-items:center; justify-content:center;">
+  <div style="background:#fff; border-radius:18px; padding:26px 28px; max-width:460px; width:92%;">
+    <h3 style="font-size:16px; color:var(--navy); margin-bottom:10px;">Connect Live Google Sheet</h3>
+    <p style="font-size:13px; color:var(--slate); margin-bottom:14px;">Paste the link to the live Google Sheet powering this dashboard ("Anyone with the link" viewer access). Tab names must match the configured schema.</p>
+    <input type="text" id="sheet-input" placeholder="https://docs.google.com/spreadsheets/d/…/edit" style="width:100%; padding:10px 12px; border:1px solid var(--border); border-radius:10px; font-size:13px; margin-bottom:14px;" />
+    <p style="font-size:11.5px; color:#8a97a3; margin-bottom:16px;">Leave blank and save to return to the bundled demo snapshot. Stored only in this browser.</p>
+    <div style="display:flex; gap:10px; justify-content:flex-end;">
+      <button class="btn" id="modal-cancel">Cancel</button>
+      <button class="btn btn-teal" id="modal-save">Save &amp; Reload</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/departments.js"></script>
+<script src="js/ireland-map.js"></script>
+<script src="js/csv.js"></script>
+<script src="js/aggregate.js"></script>
+<script src="js/dashboard-data.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/chatbot.js"></script>
+</body>
+</html>
